@@ -1,3 +1,9 @@
 /corpus
 *.zip
-
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+chroma_db/
+*.egg-info/
