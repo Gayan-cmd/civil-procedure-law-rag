@@ -21,7 +21,7 @@ The corpus-build side is fully scripted and reproducible (`build_corpus.py`). Th
 - **Extraction quality auditing, not just extraction.** Every PDF is checked page-by-page (specifically the *middle* page, not just the cover) to catch documents that look born-digital but are actually scans with an OCR'd first page.
 - **Metadata-aware retrieval.** Every chunk carries its source act's number, year, and document type. Retrieval can filter to a specific act, and correctly resolves real citation collisions in the corpus (e.g. two different acts both being "Act No. 11", four decades apart).
 - **Citation-aware generation.** The prompt requires the model to name its source act for every claim, and to say so explicitly rather than invent a section number when the retrieved text doesn't specify one.
-- **Documented limitations, not hidden ones.** The consolidated code text does *not* carry inline amendment markers for anything after 1977 — a structural finding from the extraction audit that directly shaped the retrieval design (act-level documents + semantic search, not section-level marker parsing).
+- **Genuine section-level amendment tracing.** The consolidated code carries 345 inline `[section, Act N of YYYY]` citation markers spanning 1977–2024 — found after the first candidate edition turned out to just append amendment acts rather than merge them, and swapped for one that actually does.
 
 ## Repository structure
 
@@ -30,41 +30,44 @@ The corpus-build side is fully scripted and reproducible (`build_corpus.py`). Th
 ├── Civil_Procedure_Law_Assistant.ipynb   # RAG pipeline (Google Colab)
 ├── build_corpus.py                       # corpus acquisition + extraction pipeline
 ├── build_corpus_batch2.py                # follow-up pass: recovered related statutes
+├── build_corpus_batch3.py                # gap-fill pass: court rules, interpretation ordinance, base edition swap
 ├── scan_annotations.py                   # regex scan for inline amendment annotations
 └── corpus/
     ├── manifest.json                     # metadata + extraction audit, one entry per document
     ├── REPORT.md                         # full extraction audit write-up
     ├── amendment_annotation_scan.json    # raw output of the annotation scan
-    ├── raw/                              # 16 untouched source PDFs
-    └── text/                             # 16 extracted plain-text files
+    ├── raw/                              # 18 untouched source files (17 PDFs + 1 HTML)
+    └── text/                             # 18 extracted plain-text files
 ```
 
 ## The corpus
 
 | | |
 |---|---|
-| Documents attempted | 19 |
-| Successfully downloaded & verified born-digital | 16 |
-| Failed (documented, non-recoverable) | 3 |
-| Total extractable characters | 1,196,523 |
-| Document types | 1 principal act, 10 amendment acts, 5 related statutes |
+| Documents in corpus | 18 |
+| Failed / absent (documented, non-recoverable) | 3 |
+| Total extractable characters | 1,349,234 |
+| Document types | 1 principal act, 10 amendment acts, 7 related statutes |
 
-**What's included:** the Civil Procedure Code (consolidated), 10 CPC amendment acts spanning 2005–2024, and 5 related statutes (Judicature Act, Evidence Ordinance, Prescription Ordinance, Arbitration Act, Mediation Boards Act).
+**What's included:** the Civil Procedure Code (consolidated to Act 43/2024, section-merged), 10 CPC amendment acts spanning 2005–2024, and 7 related statutes (Judicature Act, Evidence Ordinance, Prescription Ordinance, Arbitration Act, Mediation Boards Act, Supreme Court Rules [incl. Court of Appeal Appellate Procedure Rules], Interpretation Ordinance).
 
 **What's excluded, and why** (all verified, not guessed around):
 - **CommonLII's consolidated edition** — the server returns a genuine Apache-level 403 Forbidden, confirmed in a real browser session, not a bot-detection challenge.
 - **LawNet's consolidated edition** — `lawnet.gov.lk` serves a TLS certificate for an unrelated domain; treated as untrustworthy rather than bypassed.
 - **"Act 50 of 2024"** — turned out to be a labeling error at the source; the real Act No. 50 of 2024 is an unrelated statute (Reciprocal Recognition of Foreign Judgments), not a Civil Procedure Code amendment.
+- **Debt Recovery (Special Provisions) Act** — the only PDF found is a genuine scan (0 characters extracted from a 24.5MB file); the one HTML alternative found is a dead link. Documented as an open gap rather than forced through a bad source.
+
+Amendment-chain completeness was independently verified (Sept 2026): cross-checked against the publisher's own complete legislative history and Sri Lanka's Parliament's official 2025 acts list — no CPC amendments are missing.
 
 Full extraction audit, per-document verdicts, and reasoning: [`corpus/REPORT.md`](corpus/REPORT.md).
 
 ## How it works
 
 ```
-19 legal PDFs
-   │  build_corpus.py  (requests + pypdf, page-level extraction audit)
+21 legal source documents
+   │  build_corpus.py + build_corpus_batch2/3.py  (requests + pypdf, page-level extraction audit)
    ▼
-16 verified born-digital .txt files + manifest.json
+18 verified born-digital .txt files + manifest.json
    │  chunk (RecursiveCharacterTextSplitter, 800 chars / 100 overlap)
    │  attach metadata: doc_type, act_number, year, amends
    ▼
@@ -95,9 +98,10 @@ No local setup, GPU, or paid API key required — everything runs on Colab's fre
 
 ## Known limitations
 
-- **The "consolidated" Civil Procedure Code isn't a true consolidation.** It's the base code followed by each amendment act's full text appended afterward — inline amendment markers only exist for pre-1990 repeals. Answers about "what changed" rely entirely on semantic retrieval surfacing the right amendment act, with no guaranteed section-level cross-reference.
 - **Small model, no fine-tuning.** Qwen2.5-Instruct (0.5B/1.5B) is used as-is. Treat answers as a pointer to the likely source act/section — always verify against the cited text, not as authoritative legal advice.
-- **Corpus coverage gaps.** 3 of 19 target documents are absent for reasons outside this project's control (see above) — this is not a complete restatement of Sri Lankan civil procedure law.
+- **Corpus coverage gaps.** CommonLII's and LawNet's editions remain unreachable (access-restricted / bad TLS cert), and the Debt Recovery (Special Provisions) Act has no usable source yet (scan / dead link) — see `corpus/REPORT.md` for full detail. This is not a complete restatement of Sri Lankan civil procedure law.
+- **No case law.** Statutes and court rules only — judicial interpretation, which routinely resolves real procedural ambiguity in practice, isn't part of this corpus.
+- **The notebook needs re-running against the updated corpus — and its retrieval filter needs a code change, not just new data.** The base CPC edition was swapped for a genuine section-level consolidation, two documents were added, and (after external review) the metadata schema changed: the consolidated code's `act_number`/`year` are now `null` (they used to collide with the real Act 43/2024), and every document now carries `content_role` (`primary_consolidated_text` vs. `amending_instrument`) plus `superseded_by` on the amendment acts, since the consolidated text now contains every amendment merged in and the 10 amendment acts would otherwise surface as confusing duplicates for general queries. The notebook's retrieval filter needs to actually use these fields — see `corpus/REPORT.md` → "Open items" for the exact code change.
 
 ## Tech stack
 
@@ -109,4 +113,4 @@ No local setup, GPU, or paid API key required — everything runs on Colab's fre
 
 ## Data sources
 
-All source documents are publicly available Sri Lankan legal texts, downloaded from [lankalaw.net](https://lankalaw.net), [parliament.lk](https://www.parliament.lk), [srilankalaw.lk](https://www.srilankalaw.lk), and the [Sri Lanka National Arbitration Centre](https://www.slnarbcentre.com). Full source URLs and download provenance for every document are recorded in [`corpus/manifest.json`](corpus/manifest.json).
+All source documents are publicly available Sri Lankan legal texts, downloaded from [lankalaw.net](https://lankalaw.net), [parliament.lk](https://www.parliament.lk), [srilankalaw.lk](https://www.srilankalaw.lk), the [Sri Lanka National Arbitration Centre](https://www.slnarbcentre.com), and the [Supreme Court of Sri Lanka](https://supremecourt.lk). Full source URLs and download provenance for every document are recorded in [`corpus/manifest.json`](corpus/manifest.json).
