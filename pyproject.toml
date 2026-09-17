@@ -5,8 +5,8 @@ description = "Retrieval and generation logic for the Civil Procedure Law Assist
 requires-python = ">=3.12,<3.13"
 dependencies = [
     "langchain>=0.3",
-    "langchain-community>=0.3",
     "langchain-huggingface>=0.1",
+    "langchain-chroma>=1.0",
     "chromadb>=0.5",
     "sentence-transformers>=3.0",
     "transformers>=4.44",
