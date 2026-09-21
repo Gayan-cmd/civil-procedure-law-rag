@@ -11,8 +11,16 @@ import os
 from dataclasses import dataclass, field
 from pathlib import Path
 
+from dotenv import load_dotenv
+
 # src/cpa/config.py -> src/cpa -> src -> repo root
 _REPO_ROOT = Path(__file__).resolve().parents[2]
+
+# Load .env into the process environment once, at import time. override=False
+# (the default) means real environment variables -- e.g. ones a deployment
+# platform sets -- always win over .env; .env only fills in what's missing,
+# which is what makes it safe to use the same code locally and in production.
+load_dotenv(_REPO_ROOT / ".env")
 
 
 def _env_path(name: str, default: Path) -> Path:
@@ -46,7 +54,7 @@ class Settings:
     )
     llm_model: str = field(
         default_factory=lambda: os.environ.get(
-            "CPA_LLM_MODEL", "Qwen/Qwen2.5-0.5B-Instruct"
+            "CPA_LLM_MODEL", "openai/gpt-oss-20b"
         )
     )
 

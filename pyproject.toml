@@ -7,11 +7,13 @@ dependencies = [
     "langchain>=0.3",
     "langchain-huggingface>=0.1",
     "langchain-chroma>=1.0",
+    "langchain-groq>=0.2",
     "chromadb>=0.5",
     "sentence-transformers>=3.0",
     "transformers>=4.44",
     "accelerate>=0.33",
     "huggingface_hub>=0.24",
+    "python-dotenv>=1.0",
 ]
 
 [project.optional-dependencies]
