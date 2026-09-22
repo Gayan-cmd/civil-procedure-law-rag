@@ -35,6 +35,20 @@ def test_load_vectorstore_sees_previously_built_data(
     assert reopened._collection.count() == 1
 
 
+def test_build_vectorstore_replaces_rather_than_appends(
+    tmp_path: Path, fake_embeddings: FakeEmbeddings
+) -> None:
+    settings = Settings(chroma_dir=tmp_path / "chroma")
+    chunks = [Document(page_content="alpha", metadata={"slug": "a"})]
+
+    build_vectorstore(chunks, fake_embeddings, settings)
+    store = build_vectorstore(chunks, fake_embeddings, settings)
+
+    # Re-running ingestion on an unchanged corpus must not double the
+    # chunk count -- that's the whole point of a rebuild-from-scratch job.
+    assert store._collection.count() == 1
+
+
 def test_load_vectorstore_on_empty_dir_starts_empty(
     tmp_path: Path, fake_embeddings: FakeEmbeddings
 ) -> None:

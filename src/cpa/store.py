@@ -23,12 +23,18 @@ def build_vectorstore(
     chunking.
     """
     settings = settings or get_settings()
-    return Chroma.from_documents(
-        documents=chunks,
-        embedding=embeddings,
+    store = Chroma(
         collection_name=COLLECTION_NAME,
+        embedding_function=embeddings,
         persist_directory=str(settings.chroma_dir),
     )
+    # Chroma.from_documents() would just ADD to whatever's already in this
+    # collection -- calling it twice with the same corpus silently doubles
+    # every chunk. reset_collection() clears it first so this function's
+    # docstring promise ("replacing whatever was there") is actually true.
+    store.reset_collection()
+    store.add_documents(chunks)
+    return store
 
 
 def load_vectorstore(
