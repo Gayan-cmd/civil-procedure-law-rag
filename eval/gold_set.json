@@ -1,0 +1,402 @@
+[
+  {
+    "id": "q001",
+    "question": "What must a plaint contain according to the Civil Procedure Code?",
+    "expected_doc": "cpc-consolidated-lankalaw",
+    "expected_section": "40",
+    "category": "basic_lookup",
+    "answerable": true
+  },
+  {
+    "id": "q002",
+    "question": "Must a plaint state facts establishing the jurisdiction of the court in which it is filed?",
+    "expected_doc": "cpc-consolidated-lankalaw",
+    "expected_section": "45",
+    "category": "basic_lookup",
+    "answerable": true
+  },
+  {
+    "id": "q003",
+    "question": "When a defendant is served with summons outside Sri Lanka, by when must the order direct him to file his answer?",
+    "expected_doc": "cpc-consolidated-lankalaw",
+    "expected_section": "70",
+    "category": "basic_lookup",
+    "answerable": true
+  },
+  {
+    "id": "q004",
+    "question": "Can a court communicate an injunction or sequestration order to the parties by electronic or telephone means?",
+    "expected_doc": "cpc-consolidated-lankalaw",
+    "expected_section": "71A",
+    "category": "basic_lookup",
+    "answerable": true
+  },
+  {
+    "id": "q005",
+    "question": "What happens if a defendant admits the plaintiff's claim in a civil action?",
+    "expected_doc": "cpc-consolidated-lankalaw",
+    "expected_section": "72",
+    "category": "basic_lookup",
+    "answerable": true
+  },
+  {
+    "id": "q006",
+    "question": "Must a defendant's answer to a plaint be delivered to the court in writing?",
+    "expected_doc": "cpc-consolidated-lankalaw",
+    "expected_section": "73",
+    "category": "basic_lookup",
+    "answerable": true
+  },
+  {
+    "id": "q007",
+    "question": "What particulars must a defendant's written answer contain under the Civil Procedure Code?",
+    "expected_doc": "cpc-consolidated-lankalaw",
+    "expected_section": "75",
+    "category": "basic_lookup",
+    "answerable": true
+  },
+  {
+    "id": "q008",
+    "question": "How must a defendant dispute the court's jurisdiction over an action?",
+    "expected_doc": "cpc-consolidated-lankalaw",
+    "expected_section": "76",
+    "category": "basic_lookup",
+    "answerable": true
+  },
+  {
+    "id": "q009",
+    "question": "What happens if a defendant's answer is rejected by the court as substantially defective?",
+    "expected_doc": "cpc-consolidated-lankalaw",
+    "expected_section": "77",
+    "category": "basic_lookup",
+    "answerable": true
+  },
+  {
+    "id": "q010",
+    "question": "Must an application for execution of a decree be made in writing?",
+    "expected_doc": "cpc-consolidated-lankalaw",
+    "expected_section": "224",
+    "category": "basic_lookup",
+    "answerable": true
+  },
+  {
+    "id": "q011",
+    "question": "Within how many days must a party present a notice of appeal to the original court after a decree or order is pronounced?",
+    "expected_doc": "cpc-consolidated-lankalaw",
+    "expected_section": "754",
+    "category": "basic_lookup",
+    "answerable": true
+  },
+  {
+    "id": "q012",
+    "question": "On whom does the burden of proof lie in a civil suit or proceeding?",
+    "expected_doc": "evidence-ordinance",
+    "expected_section": "102",
+    "category": "basic_lookup",
+    "answerable": true
+  },
+  {
+    "id": "q013",
+    "question": "May a court presume the existence of a fact based on the common course of natural events and human conduct?",
+    "expected_doc": "evidence-ordinance",
+    "expected_section": "114",
+    "category": "basic_lookup",
+    "answerable": true
+  },
+  {
+    "id": "q014",
+    "question": "Are all persons competent to testify as witnesses under the Evidence Ordinance?",
+    "expected_doc": "evidence-ordinance",
+    "expected_section": "120",
+    "category": "basic_lookup",
+    "answerable": true
+  },
+  {
+    "id": "q015",
+    "question": "Can a Judge or Magistrate be compelled to answer questions about his own conduct in court?",
+    "expected_doc": "evidence-ordinance",
+    "expected_section": "121",
+    "category": "basic_lookup",
+    "answerable": true
+  },
+  {
+    "id": "q016",
+    "question": "What determines whether a particular District Court has territorial jurisdiction over a civil action?",
+    "expected_doc": "judicature-act-1978",
+    "expected_section": "19A",
+    "category": "basic_lookup",
+    "answerable": true
+  },
+  {
+    "id": "q017",
+    "question": "What does the word 'month' mean when used in a Sri Lankan written law, unless otherwise specified?",
+    "expected_doc": "interpretation-ordinance",
+    "expected_section": "2",
+    "category": "basic_lookup",
+    "answerable": true
+  },
+  {
+    "id": "q018",
+    "question": "If the last day of a time limit for doing an act in court falls on a day the court is closed, when is the act considered done in time?",
+    "expected_doc": "interpretation-ordinance",
+    "expected_section": "8",
+    "category": "basic_lookup",
+    "answerable": true
+  },
+  {
+    "id": "q019",
+    "question": "Does the definition of 'person' in the Interpretation Ordinance include a body of persons that is not incorporated?",
+    "expected_doc": "interpretation-ordinance",
+    "expected_section": "2",
+    "category": "basic_lookup",
+    "answerable": true
+  },
+  {
+    "id": "q020",
+    "question": "Under what circumstances may the Court of Appeal treat an application or appeal as 'urgent' for an urgent digital virtual hearing?",
+    "expected_doc": "supreme-court-rules",
+    "expected_section": "Rule 3, Court of Appeal (Electronic Filing and Urgent Digital Virtual Hearings) (Special Provisions) Rules, 2021",
+    "category": "basic_lookup",
+    "answerable": true
+  },
+  {
+    "id": "q021",
+    "question": "What did the Civil Procedure Code (Amendment) Act No. 4 of 2005 change in section 544 of the Civil Procedure Code?",
+    "expected_doc": "cpc-amend-4-2005",
+    "expected_section": "544",
+    "category": "act_citation",
+    "answerable": true
+  },
+  {
+    "id": "q022",
+    "question": "What change did Act No. 5 of 2022 make to section 88 of the Civil Procedure Code?",
+    "expected_doc": "cpc-amend-5-2022",
+    "expected_section": "88",
+    "category": "act_citation",
+    "answerable": true
+  },
+  {
+    "id": "q023",
+    "question": "What new section did Act No. 17 of 2022 insert into the Civil Procedure Code, and what does it deal with?",
+    "expected_doc": "cpc-amend-17-2022",
+    "expected_section": "154A",
+    "category": "act_citation",
+    "answerable": true
+  },
+  {
+    "id": "q024",
+    "question": "What did the Civil Procedure Code (Amendment) Act No. 36 of 2022 repeal from the Civil Procedure Code?",
+    "expected_doc": "cpc-amend-36-2022",
+    "expected_section": "Part IXA (sections 801-833R)",
+    "category": "act_citation",
+    "answerable": true
+  },
+  {
+    "id": "q025",
+    "question": "What new section did Act No. 7 of 2023 insert regarding commissions for medical examinations?",
+    "expected_doc": "cpc-amend-7-2023",
+    "expected_section": "431A",
+    "category": "act_citation",
+    "answerable": true
+  },
+  {
+    "id": "q026",
+    "question": "What change did Act No. 29 of 2023 make to section 18 of the Civil Procedure Code?",
+    "expected_doc": "cpc-amend-29-2023",
+    "expected_section": "18",
+    "category": "act_citation",
+    "answerable": true
+  },
+  {
+    "id": "q027",
+    "question": "How did Act No. 43 of 2024 change the definition of 'electronic' in section 5 of the Civil Procedure Code?",
+    "expected_doc": "cpc-amend-43-2024",
+    "expected_section": "5",
+    "category": "act_citation",
+    "answerable": true
+  },
+  {
+    "id": "q028",
+    "question": "What did Act No. 43 of 2024 do to section 59 of the Civil Procedure Code?",
+    "expected_doc": "cpc-amend-43-2024",
+    "expected_section": "59",
+    "category": "act_citation",
+    "answerable": true
+  },
+  {
+    "id": "q029",
+    "question": "What is the limitation period for bringing an action for loss, injury, or damage?",
+    "expected_doc": "prescription-ordinance",
+    "expected_section": "9",
+    "category": "cross_document",
+    "answerable": true
+  },
+  {
+    "id": "q030",
+    "question": "Within how many years must an action on a written promissory note or bill of exchange be brought?",
+    "expected_doc": "prescription-ordinance",
+    "expected_section": "6",
+    "category": "cross_document",
+    "answerable": true
+  },
+  {
+    "id": "q031",
+    "question": "What period of undisturbed possession of immovable property entitles a defendant to a decree in his favour against the claimant's action?",
+    "expected_doc": "prescription-ordinance",
+    "expected_section": "3",
+    "category": "cross_document",
+    "answerable": true
+  },
+  {
+    "id": "q032",
+    "question": "What duty does a public officer have when a person entitled to inspect a public document demands a copy of it?",
+    "expected_doc": "evidence-ordinance",
+    "expected_section": "76",
+    "category": "cross_document",
+    "answerable": true
+  },
+  {
+    "id": "q033",
+    "question": "Which enactment gives a District Court unlimited original jurisdiction in civil matters within its district?",
+    "expected_doc": "judicature-act-1978",
+    "expected_section": "19",
+    "category": "cross_document",
+    "answerable": true
+  },
+  {
+    "id": "q034",
+    "question": "How does a person apply to have a civil dispute settled through a Mediation Board?",
+    "expected_doc": "mediation-boards-act-1988",
+    "expected_section": "6",
+    "category": "cross_document",
+    "answerable": true
+  },
+  {
+    "id": "q035",
+    "question": "Is an arbitral award made by an arbitral tribunal final and binding on the parties to the arbitration agreement?",
+    "expected_doc": "arbitration-act-1995",
+    "expected_section": "26",
+    "category": "cross_document",
+    "answerable": true
+  },
+  {
+    "id": "q036",
+    "question": "Within how many years must an action for goods sold and delivered, or for work and labour done, be brought?",
+    "expected_doc": "prescription-ordinance",
+    "expected_section": "8",
+    "category": "cross_document",
+    "answerable": true
+  },
+  {
+    "id": "q037",
+    "question": "According to the current Civil Procedure Code, within what time frame after the answer is filed must the court fix a date for the pre-trial conference?",
+    "expected_doc": "cpc-consolidated-lankalaw",
+    "expected_section": "79A",
+    "category": "amendment_aware",
+    "answerable": true
+  },
+  {
+    "id": "q038",
+    "question": "What time frame did the Civil Procedure Code (Amendment) Act No. 8 of 2017 originally set, under the newly inserted section 79A, for fixing the pre-trial conference date?",
+    "expected_doc": "cpc-amend-8-2017",
+    "expected_section": "79A",
+    "category": "amendment_aware",
+    "answerable": true
+  },
+  {
+    "id": "q039",
+    "question": "Under the current Civil Procedure Code, how is 'legal representative' defined for the purposes of section 338?",
+    "expected_doc": "cpc-consolidated-lankalaw",
+    "expected_section": "338",
+    "category": "amendment_aware",
+    "answerable": true
+  },
+  {
+    "id": "q040",
+    "question": "What change did Act No. 11 of 2010 make to the definition of 'legal representative' in section 338 of the Civil Procedure Code?",
+    "expected_doc": "cpc-amend-11-2010",
+    "expected_section": "338",
+    "category": "amendment_aware",
+    "answerable": true
+  },
+  {
+    "id": "q041",
+    "question": "Under the current Civil Procedure Code, who is entitled to obtain a certified copy of a judgment or decree?",
+    "expected_doc": "cpc-consolidated-lankalaw",
+    "expected_section": "205",
+    "category": "amendment_aware",
+    "answerable": true
+  },
+  {
+    "id": "q042",
+    "question": "What change did Act No. 20 of 2023 make to section 205 of the Civil Procedure Code regarding certified copies of judgments?",
+    "expected_doc": "cpc-amend-20-2023",
+    "expected_section": "205",
+    "category": "amendment_aware",
+    "answerable": true
+  },
+  {
+    "id": "q043",
+    "question": "What is the punishment for theft under the Penal Code of Sri Lanka?",
+    "expected_doc": null,
+    "expected_section": null,
+    "category": "unanswerable",
+    "answerable": false
+  },
+  {
+    "id": "q044",
+    "question": "What is the current corporate income tax rate in Sri Lanka?",
+    "expected_doc": null,
+    "expected_section": null,
+    "category": "unanswerable",
+    "answerable": false
+  },
+  {
+    "id": "q045",
+    "question": "How does one register a trademark with the National Intellectual Property Office of Sri Lanka?",
+    "expected_doc": null,
+    "expected_section": null,
+    "category": "unanswerable",
+    "answerable": false
+  },
+  {
+    "id": "q046",
+    "question": "What are the statutory grounds for obtaining a divorce under Sri Lankan law?",
+    "expected_doc": null,
+    "expected_section": null,
+    "category": "unanswerable",
+    "answerable": false
+  },
+  {
+    "id": "q047",
+    "question": "What is the bail procedure for a person arrested under the Code of Criminal Procedure?",
+    "expected_doc": null,
+    "expected_section": null,
+    "category": "unanswerable",
+    "answerable": false
+  },
+  {
+    "id": "q048",
+    "question": "What are the requirements for incorporating a private limited company under the Companies Act?",
+    "expected_doc": null,
+    "expected_section": null,
+    "category": "unanswerable",
+    "answerable": false
+  },
+  {
+    "id": "q049",
+    "question": "What is the minimum wage for private sector employees in Sri Lanka?",
+    "expected_doc": null,
+    "expected_section": null,
+    "category": "unanswerable",
+    "answerable": false
+  },
+  {
+    "id": "q050",
+    "question": "What are the eligibility requirements for obtaining a driving licence in Sri Lanka?",
+    "expected_doc": null,
+    "expected_section": null,
+    "category": "unanswerable",
+    "answerable": false
+  }
+]
