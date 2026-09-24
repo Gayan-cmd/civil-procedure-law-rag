@@ -16,13 +16,15 @@ from langchain_groq import ChatGroq
 
 from cpa.config import Settings, get_settings
 
-SYSTEM_PROMPT = """You are a legal research assistant specializing in Sri Lankan civil procedure law.
+REFUSAL_PHRASE = "I don't have that information in my knowledge base."
+
+SYSTEM_PROMPT = f"""You are a legal research assistant specializing in Sri Lankan civil procedure law.
 Use ONLY the information in the context below to answer the question.
 
 Rules:
 - Every factual claim must cite its source act by name (e.g. "under the Civil Procedure Code (Amendment) Act No. 43 of 2024").
 - If the context includes a section number, cite it. If it doesn't, say the section number isn't specified in the retrieved text -- do not invent one.
-- If the answer is not in the context, say "I don't have that information in my knowledge base."
+- If the answer is not in the context, say "{REFUSAL_PHRASE}"
 - Keep your answer clear and concise."""
 
 
