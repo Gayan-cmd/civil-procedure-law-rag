@@ -1,7 +1,5 @@
 from __future__ import annotations
 
-from pathlib import Path
-
 from langchain_core.documents import Document
 
 from cpa.chunking import chunk_documents
@@ -101,9 +99,9 @@ def test_bm25_search_finds_exact_keyword_match() -> None:
 
 
 def test_hybrid_retrieve_respects_eligibility_and_k(
-    tmp_path: Path, fake_embeddings: FakeEmbeddings
+    fake_embeddings: FakeEmbeddings,
 ) -> None:
-    settings = Settings(chroma_dir=tmp_path / "chroma", retrieval_k=1)
+    settings = Settings(retrieval_k=1)
     chunks = [
         Document(
             page_content="current in-force answer text",

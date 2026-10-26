@@ -4,10 +4,8 @@ from __future__ import annotations
 
 import re
 
-from langchain_core.retrievers import BaseRetriever
-from langchain_core.vectorstores import VectorStore
-
 from cpa.config import Settings, get_settings
+from cpa.store import PgRetriever, PgVectorStore
 
 # Matches both "Act No. 43 of 2024" and the slash form "Act 43/2024".
 _ACT_PATTERN = re.compile(
@@ -32,10 +30,10 @@ def extract_act_reference(question: str) -> tuple[str | None, int | None]:
 
 
 def get_retriever(
-    vectorstore: VectorStore,
+    vectorstore: PgVectorStore,
     question: str,
     settings: Settings | None = None,
-) -> BaseRetriever:
+) -> PgRetriever:
     """Pick the right retriever for a question, applying the duplicate policy.
 
     - Question names a specific act (e.g. "What did Act 43/2024 change?"):
@@ -49,22 +47,26 @@ def get_retriever(
     If an act is named but nothing matches it (e.g. a typo, or an act not
     in the corpus), falls back to the general case rather than returning
     nothing.
+
+    The filter dict below is a plain column-equals-value map -- Postgres's
+    PgVectorStore turns it directly into a SQL WHERE clause (see store.py),
+    no "$and" wrapper needed the way Chroma's filter syntax required.
     """
     settings = settings or get_settings()
     k = settings.retrieval_k
 
     act_number, year = extract_act_reference(question)
     if act_number and year:
-        where_filter = {"$and": [{"act_number": act_number}, {"year": year}]}
         filtered = vectorstore.as_retriever(
-            search_type="similarity",
-            search_kwargs={"k": k, "filter": where_filter},
+            search_kwargs={
+                "k": k,
+                "filter": {"act_number": act_number, "year": year},
+            },
         )
         if filtered.invoke(question):
             return filtered
 
     return vectorstore.as_retriever(
-        search_type="similarity",
         search_kwargs={
             "k": k,
             "filter": {"content_role": "primary_consolidated_text"},

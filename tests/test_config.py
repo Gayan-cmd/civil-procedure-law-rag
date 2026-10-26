@@ -1,5 +1,3 @@
-from pathlib import Path
-
 from cpa.config import get_settings
 
 
@@ -13,7 +11,7 @@ def test_defaults_point_at_repo_corpus() -> None:
 
 def test_env_override(monkeypatch) -> None:
     monkeypatch.setenv("CPA_CHUNK_SIZE", "500")
-    monkeypatch.setenv("CPA_CHROMA_DIR", "/tmp/custom_chroma")
+    monkeypatch.setenv("CPA_DATABASE_URL", "postgresql://x:y@example.test:5432/z")
     settings = get_settings()
     assert settings.chunk_size == 500
-    assert settings.chroma_dir == Path("/tmp/custom_chroma")
+    assert settings.database_url == "postgresql://x:y@example.test:5432/z"

@@ -43,9 +43,6 @@ class Settings:
     corpus_root: Path = field(
         default_factory=lambda: _env_path("CPA_CORPUS_ROOT", _REPO_ROOT)
     )
-    chroma_dir: Path = field(
-        default_factory=lambda: _env_path("CPA_CHROMA_DIR", _REPO_ROOT / "chroma_db")
-    )
     database_url: str = field(
         default_factory=lambda: os.environ.get(
             "CPA_DATABASE_URL",

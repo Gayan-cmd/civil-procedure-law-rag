@@ -12,11 +12,10 @@ from langchain_core.runnables import (
     RunnableParallel,
     RunnablePassthrough,
 )
-from langchain_core.vectorstores import VectorStore
-
 from cpa.config import Settings, get_settings
 from cpa.generation import get_llm, get_prompt
 from cpa.retrieval import get_retriever
+from cpa.store import PgVectorStore
 
 
 class RagResult(TypedDict):
@@ -34,7 +33,7 @@ def format_docs(documents: list[Document]) -> str:
 
 
 def build_chain(
-    vectorstore: VectorStore, settings: Settings | None = None
+    vectorstore: PgVectorStore, settings: Settings | None = None
 ) -> Runnable[str, RagResult]:
     """Build the RAG chain: retrieves once per question, returns both the
     generated answer and the documents it was generated from.
@@ -80,7 +79,7 @@ def build_chain(
 
 
 def ask(
-    vectorstore: VectorStore, question: str, settings: Settings | None = None
+    vectorstore: PgVectorStore, question: str, settings: Settings | None = None
 ) -> RagResult:
     """Convenience wrapper: build the chain and answer one question with it.
 

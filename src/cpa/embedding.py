@@ -11,8 +11,8 @@ def get_embeddings(settings: Settings | None = None) -> HuggingFaceEmbeddings:
     """Build the embedding model used for both ingestion and querying.
 
     Normalizing embeddings to unit length is what makes cosine similarity
-    and dot-product similarity equivalent -- Chroma's default distance
-    metric relies on this.
+    and dot-product similarity equivalent -- pgvector's cosine distance
+    operator (used by store.py's HNSW index) relies on this.
     """
     settings = settings or get_settings()
     return HuggingFaceEmbeddings(

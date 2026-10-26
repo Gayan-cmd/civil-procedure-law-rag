@@ -1,7 +1,5 @@
 from __future__ import annotations
 
-from pathlib import Path
-
 from langchain_core.documents import Document
 
 from cpa.config import Settings
@@ -22,8 +20,7 @@ def test_handles_slash_format() -> None:
     assert extract_act_reference("Act 43/2024") == ("43", 2024)
 
 
-def _sample_vectorstore(tmp_path: Path, fake_embeddings: FakeEmbeddings):
-    settings = Settings(chroma_dir=tmp_path / "chroma")
+def _sample_vectorstore(fake_embeddings: FakeEmbeddings, settings: Settings):
     documents = [
         Document(
             page_content="The consolidated code: an answer must be filed"
@@ -54,10 +51,10 @@ def _sample_vectorstore(tmp_path: Path, fake_embeddings: FakeEmbeddings):
 
 
 def test_act_specific_query_returns_amending_instrument(
-    tmp_path: Path, fake_embeddings: FakeEmbeddings
+    fake_embeddings: FakeEmbeddings,
 ) -> None:
-    vectorstore = _sample_vectorstore(tmp_path, fake_embeddings)
-    settings = Settings(chroma_dir=tmp_path / "chroma", retrieval_k=5)
+    settings = Settings(retrieval_k=5)
+    vectorstore = _sample_vectorstore(fake_embeddings, settings)
 
     retriever = get_retriever(
         vectorstore, "What did Act No. 43 of 2024 change?", settings
@@ -68,10 +65,10 @@ def test_act_specific_query_returns_amending_instrument(
 
 
 def test_general_query_excludes_amending_instrument(
-    tmp_path: Path, fake_embeddings: FakeEmbeddings
+    fake_embeddings: FakeEmbeddings,
 ) -> None:
-    vectorstore = _sample_vectorstore(tmp_path, fake_embeddings)
-    settings = Settings(chroma_dir=tmp_path / "chroma", retrieval_k=5)
+    settings = Settings(retrieval_k=5)
+    vectorstore = _sample_vectorstore(fake_embeddings, settings)
 
     retriever = get_retriever(
         vectorstore, "What is the time limit for filing an answer?", settings
@@ -84,10 +81,10 @@ def test_general_query_excludes_amending_instrument(
 
 
 def test_cited_act_not_in_corpus_falls_back_to_general_default(
-    tmp_path: Path, fake_embeddings: FakeEmbeddings
+    fake_embeddings: FakeEmbeddings,
 ) -> None:
-    vectorstore = _sample_vectorstore(tmp_path, fake_embeddings)
-    settings = Settings(chroma_dir=tmp_path / "chroma", retrieval_k=5)
+    settings = Settings(retrieval_k=5)
+    vectorstore = _sample_vectorstore(fake_embeddings, settings)
 
     # Act 99 of 2099 doesn't exist in this store -- should fall back to the
     # general default rather than returning nothing.

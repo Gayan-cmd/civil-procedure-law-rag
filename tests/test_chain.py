@@ -1,7 +1,5 @@
 from __future__ import annotations
 
-from pathlib import Path
-
 from langchain_core.documents import Document
 from langchain_core.language_models.fake_chat_models import FakeListChatModel
 
@@ -33,8 +31,7 @@ def test_format_docs_handles_missing_title() -> None:
     assert "[Source: Unknown source]" in formatted
 
 
-def _sample_vectorstore(tmp_path: Path, fake_embeddings: FakeEmbeddings):
-    settings = Settings(chroma_dir=tmp_path / "chroma")
+def _sample_vectorstore(fake_embeddings: FakeEmbeddings, settings: Settings):
     documents = [
         Document(
             page_content="An answer must be filed within 21 days.",
@@ -50,10 +47,10 @@ def _sample_vectorstore(tmp_path: Path, fake_embeddings: FakeEmbeddings):
 
 
 def test_chain_retrieves_exactly_once_per_question(
-    tmp_path: Path, fake_embeddings: FakeEmbeddings, monkeypatch
+    fake_embeddings: FakeEmbeddings, monkeypatch
 ) -> None:
-    settings = Settings(chroma_dir=tmp_path / "chroma", retrieval_k=5)
-    vectorstore = _sample_vectorstore(tmp_path, fake_embeddings)
+    settings = Settings(retrieval_k=5)
+    vectorstore = _sample_vectorstore(fake_embeddings, settings)
 
     call_count = 0
     real_get_retriever = chain_module.get_retriever
@@ -80,10 +77,10 @@ def test_chain_retrieves_exactly_once_per_question(
 
 
 def test_ask_returns_answer_and_documents_together(
-    tmp_path: Path, fake_embeddings: FakeEmbeddings, monkeypatch
+    fake_embeddings: FakeEmbeddings, monkeypatch
 ) -> None:
-    settings = Settings(chroma_dir=tmp_path / "chroma", retrieval_k=5)
-    vectorstore = _sample_vectorstore(tmp_path, fake_embeddings)
+    settings = Settings(retrieval_k=5)
+    vectorstore = _sample_vectorstore(fake_embeddings, settings)
 
     monkeypatch.setattr(
         chain_module,

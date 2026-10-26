@@ -12,7 +12,11 @@ from cpa.config import Settings, get_settings
 
 
 def sanitize_metadata(metadata: dict[str, Any]) -> dict[str, Any]:
-    """Replace None values with "" -- Chroma's metadata store rejects None."""
+    """Replace None values with "" for a consistent, always-comparable
+    in-memory metadata shape (retrieval.py's filters compare against these
+    values directly). store.py converts "" back to NULL at the SQL
+    boundary where an absent value belongs.
+    """
     return {key: ("" if value is None else value) for key, value in metadata.items()}
 
 

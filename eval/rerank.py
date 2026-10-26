@@ -17,11 +17,11 @@ from __future__ import annotations
 from collections.abc import Sequence
 from dataclasses import replace
 
-from langchain_chroma import Chroma
 from langchain_core.documents import Document
 from sentence_transformers import CrossEncoder
 
 from cpa.config import Settings, get_settings
+from cpa.store import PgVectorStore
 from eval.hybrid_retrieval import hybrid_retrieve
 
 DEFAULT_MODEL = "cross-encoder/ms-marco-MiniLM-L-6-v2"
@@ -57,7 +57,7 @@ def rerank(
 
 
 def reranked_retrieve(
-    vectorstore: Chroma,
+    vectorstore: PgVectorStore,
     all_chunks: Sequence[Document],
     question: str,
     cross_encoder: CrossEncoder,

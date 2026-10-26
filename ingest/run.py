@@ -37,10 +37,10 @@ def main() -> None:
     print(f"Loading embedding model ({settings.embedding_model})...")
     embeddings = get_embeddings(settings)
 
-    print(f"Building vector store at {settings.chroma_dir}...")
+    print(f"Building vector store at {settings.database_url}...")
     store = build_vectorstore(chunks, embeddings, settings)
 
-    actual = store._collection.count()
+    actual = store.count()
     if actual != len(chunks):
         raise RuntimeError(
             f"Vector count ({actual}) doesn't match chunk count ({len(chunks)}) "

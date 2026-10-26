@@ -19,12 +19,12 @@ import re
 from collections.abc import Sequence
 from dataclasses import replace
 
-from langchain_chroma import Chroma
 from langchain_core.documents import Document
 from rank_bm25 import BM25Okapi
 
 from cpa.config import Settings, get_settings
 from cpa.retrieval import extract_act_reference, get_retriever
+from cpa.store import PgVectorStore
 
 
 def _tokenize(text: str) -> list[str]:
@@ -44,9 +44,10 @@ def _eligible_documents(
     """Mirrors get_retriever's duplicate-avoidance policy (sub-phase 1.5),
     applied to a plain list of Documents.
 
-    BM25 has no native metadata filter to push this into the way Chroma's
-    `where` clause does -- so eligibility is decided here in Python,
-    before scoring, using the exact same two-branch decision:
+    BM25 has no native metadata filter to push this into the way the
+    vector store's SQL WHERE clause does -- so eligibility is decided
+    here in Python, before scoring, using the exact same two-branch
+    decision:
     act-specific questions get that act's chunks; general questions get
     only the current in-force text (content_role == primary_consolidated_text).
     """
@@ -100,7 +101,7 @@ def reciprocal_rank_fusion(
 
 
 def hybrid_retrieve(
-    vectorstore: Chroma,
+    vectorstore: PgVectorStore,
     all_chunks: Sequence[Document],
     question: str,
     settings: Settings | None = None,

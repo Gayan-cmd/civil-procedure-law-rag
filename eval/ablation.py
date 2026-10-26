@@ -38,7 +38,6 @@ import time
 from pathlib import Path
 from typing import Any, Callable
 
-from langchain_chroma import Chroma
 from langchain_core.documents import Document
 
 from cpa.chain import format_docs
@@ -47,7 +46,7 @@ from cpa.config import get_settings
 from cpa.corpus import load_documents
 from cpa.embedding import get_embeddings
 from cpa.generation import get_llm, get_prompt
-from cpa.store import load_vectorstore
+from cpa.store import PgVectorStore, load_vectorstore
 
 from eval.groq_retry import invoke_with_retry
 from eval.hybrid_retrieval import hybrid_retrieve
@@ -59,7 +58,7 @@ RESULTS_PATH = Path(__file__).resolve().parent / "results" / "ablation.json"
 
 
 def naive_dense_retrieve(
-    vectorstore: Chroma, question: str, k: int
+    vectorstore: PgVectorStore, question: str, k: int
 ) -> list[Document]:
     """Row 1: plain similarity search, no Act-number/content_role
     filtering at all.
@@ -71,9 +70,7 @@ def naive_dense_retrieve(
     actually needs. This function exists only to give the ablation
     table an honest "before any of that" starting point.
     """
-    return vectorstore.as_retriever(
-        search_type="similarity", search_kwargs={"k": k}
-    ).invoke(question)
+    return vectorstore.as_retriever(search_kwargs={"k": k}).invoke(question)
 
 
 def evaluate_config(

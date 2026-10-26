@@ -1,7 +1,5 @@
 from __future__ import annotations
 
-from pathlib import Path
-
 from langchain_core.documents import Document
 from langchain_core.language_models.fake_chat_models import FakeListChatModel
 
@@ -18,9 +16,9 @@ from eval.ablation import (
 
 
 def test_naive_dense_retrieve_applies_no_filtering_at_all(
-    tmp_path: Path, fake_embeddings: FakeEmbeddings
+    fake_embeddings: FakeEmbeddings,
 ) -> None:
-    settings = Settings(chroma_dir=tmp_path / "chroma")
+    settings = Settings()
     chunks = [
         Document(
             page_content="current in-force text",
