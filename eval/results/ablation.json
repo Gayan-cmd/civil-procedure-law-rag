@@ -1,0 +1,2932 @@
+[
+  {
+    "name": "Naive dense, k=5",
+    "recall_at_k": 0.7857142857142857,
+    "mrr": 0.6091269841269841,
+    "refusal_accuracy": 1.0,
+    "retrieval_p95": 0.03100000007543713,
+    "per_question": [
+      {
+        "id": "q001",
+        "answerable": true,
+        "expected_doc": "cpc-consolidated-lankalaw",
+        "retrieved_slugs": [
+          "cpc-consolidated-lankalaw",
+          "cpc-amend-29-2023",
+          "cpc-amend-29-2023",
+          "cpc-amend-29-2023",
+          "cpc-consolidated-lankalaw"
+        ],
+        "retrieval_latency": 0.0470000000204891,
+        "answer": null
+      },
+      {
+        "id": "q002",
+        "answerable": true,
+        "expected_doc": "cpc-consolidated-lankalaw",
+        "retrieved_slugs": [
+          "judicature-act-1978",
+          "judicature-act-1978",
+          "judicature-act-1978",
+          "judicature-act-1978",
+          "judicature-act-1978"
+        ],
+        "retrieval_latency": 0.015000000013969839,
+        "answer": null
+      },
+      {
+        "id": "q003",
+        "answerable": true,
+        "expected_doc": "cpc-consolidated-lankalaw",
+        "retrieved_slugs": [
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "arbitration-act-1995",
+          "cpc-consolidated-lankalaw",
+          "cpc-amend-43-2024"
+        ],
+        "retrieval_latency": 0.01600000006146729,
+        "answer": null
+      },
+      {
+        "id": "q004",
+        "answerable": true,
+        "expected_doc": "cpc-consolidated-lankalaw",
+        "retrieved_slugs": [
+          "cpc-consolidated-lankalaw",
+          "supreme-court-rules",
+          "cpc-amend-43-2024",
+          "cpc-amend-43-2024",
+          "cpc-amend-43-2024"
+        ],
+        "retrieval_latency": 0.015999999945051968,
+        "answer": null
+      },
+      {
+        "id": "q005",
+        "answerable": true,
+        "expected_doc": "cpc-consolidated-lankalaw",
+        "retrieved_slugs": [
+          "supreme-court-rules",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "supreme-court-rules",
+          "cpc-consolidated-lankalaw"
+        ],
+        "retrieval_latency": 0.030999999959021807,
+        "answer": null
+      },
+      {
+        "id": "q006",
+        "answerable": true,
+        "expected_doc": "cpc-consolidated-lankalaw",
+        "retrieved_slugs": [
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "evidence-ordinance",
+          "cpc-consolidated-lankalaw"
+        ],
+        "retrieval_latency": 0.015000000013969839,
+        "answer": null
+      },
+      {
+        "id": "q007",
+        "answerable": true,
+        "expected_doc": "cpc-consolidated-lankalaw",
+        "retrieved_slugs": [
+          "cpc-amend-29-2023",
+          "cpc-amend-29-2023",
+          "cpc-amend-8-2017",
+          "cpc-amend-29-2023",
+          "cpc-amend-43-2024"
+        ],
+        "retrieval_latency": 0.01600000006146729,
+        "answer": null
+      },
+      {
+        "id": "q008",
+        "answerable": true,
+        "expected_doc": "cpc-consolidated-lankalaw",
+        "retrieved_slugs": [
+          "judicature-act-1978",
+          "judicature-act-1978",
+          "mediation-boards-act-1988",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw"
+        ],
+        "retrieval_latency": 0.015999999945051968,
+        "answer": null
+      },
+      {
+        "id": "q009",
+        "answerable": true,
+        "expected_doc": "cpc-consolidated-lankalaw",
+        "retrieved_slugs": [
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw"
+        ],
+        "retrieval_latency": 0.0,
+        "answer": null
+      },
+      {
+        "id": "q010",
+        "answerable": true,
+        "expected_doc": "cpc-consolidated-lankalaw",
+        "retrieved_slugs": [
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw"
+        ],
+        "retrieval_latency": 0.03100000007543713,
+        "answer": null
+      },
+      {
+        "id": "q011",
+        "answerable": true,
+        "expected_doc": "cpc-consolidated-lankalaw",
+        "retrieved_slugs": [
+          "supreme-court-rules",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "supreme-court-rules",
+          "supreme-court-rules"
+        ],
+        "retrieval_latency": 0.0,
+        "answer": null
+      },
+      {
+        "id": "q012",
+        "answerable": true,
+        "expected_doc": "evidence-ordinance",
+        "retrieved_slugs": [
+          "evidence-ordinance",
+          "evidence-ordinance",
+          "evidence-ordinance",
+          "cpc-consolidated-lankalaw",
+          "evidence-ordinance"
+        ],
+        "retrieval_latency": 0.015999999945051968,
+        "answer": null
+      },
+      {
+        "id": "q013",
+        "answerable": true,
+        "expected_doc": "evidence-ordinance",
+        "retrieved_slugs": [
+          "evidence-ordinance",
+          "evidence-ordinance",
+          "evidence-ordinance",
+          "cpc-consolidated-lankalaw",
+          "evidence-ordinance"
+        ],
+        "retrieval_latency": 0.015000000013969839,
+        "answer": null
+      },
+      {
+        "id": "q014",
+        "answerable": true,
+        "expected_doc": "evidence-ordinance",
+        "retrieved_slugs": [
+          "cpc-consolidated-lankalaw",
+          "evidence-ordinance",
+          "evidence-ordinance",
+          "cpc-consolidated-lankalaw",
+          "evidence-ordinance"
+        ],
+        "retrieval_latency": 0.015999999945051968,
+        "answer": null
+      },
+      {
+        "id": "q015",
+        "answerable": true,
+        "expected_doc": "evidence-ordinance",
+        "retrieved_slugs": [
+          "evidence-ordinance",
+          "evidence-ordinance",
+          "evidence-ordinance",
+          "evidence-ordinance",
+          "evidence-ordinance"
+        ],
+        "retrieval_latency": 0.015000000013969839,
+        "answer": null
+      },
+      {
+        "id": "q016",
+        "answerable": true,
+        "expected_doc": "judicature-act-1978",
+        "retrieved_slugs": [
+          "judicature-act-1978",
+          "cpc-consolidated-lankalaw",
+          "judicature-act-1978",
+          "judicature-act-1978",
+          "judicature-act-1978"
+        ],
+        "retrieval_latency": 0.01600000006146729,
+        "answer": null
+      },
+      {
+        "id": "q017",
+        "answerable": true,
+        "expected_doc": "interpretation-ordinance",
+        "retrieved_slugs": [
+          "interpretation-ordinance",
+          "interpretation-ordinance",
+          "evidence-ordinance",
+          "cpc-consolidated-lankalaw",
+          "cpc-amend-11-2010"
+        ],
+        "retrieval_latency": 0.015999999945051968,
+        "answer": null
+      },
+      {
+        "id": "q018",
+        "answerable": true,
+        "expected_doc": "interpretation-ordinance",
+        "retrieved_slugs": [
+          "interpretation-ordinance",
+          "interpretation-ordinance",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "judicature-act-1978"
+        ],
+        "retrieval_latency": 0.015000000013969839,
+        "answer": null
+      },
+      {
+        "id": "q019",
+        "answerable": true,
+        "expected_doc": "interpretation-ordinance",
+        "retrieved_slugs": [
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-amend-8-2017",
+          "cpc-consolidated-lankalaw"
+        ],
+        "retrieval_latency": 0.03200000000651926,
+        "answer": null
+      },
+      {
+        "id": "q020",
+        "answerable": true,
+        "expected_doc": "supreme-court-rules",
+        "retrieved_slugs": [
+          "supreme-court-rules",
+          "supreme-court-rules",
+          "supreme-court-rules",
+          "supreme-court-rules",
+          "supreme-court-rules"
+        ],
+        "retrieval_latency": 0.015000000013969839,
+        "answer": null
+      },
+      {
+        "id": "q021",
+        "answerable": true,
+        "expected_doc": "cpc-amend-4-2005",
+        "retrieved_slugs": [
+          "cpc-amend-8-2017",
+          "cpc-amend-8-2017",
+          "mediation-boards-act-1988",
+          "cpc-amend-29-2023",
+          "cpc-amend-29-2023"
+        ],
+        "retrieval_latency": 0.015999999945051968,
+        "answer": null
+      },
+      {
+        "id": "q022",
+        "answerable": true,
+        "expected_doc": "cpc-amend-5-2022",
+        "retrieved_slugs": [
+          "cpc-amend-8-2017",
+          "cpc-amend-8-2017",
+          "cpc-amend-29-2023",
+          "cpc-amend-29-2023",
+          "cpc-amend-29-2023"
+        ],
+        "retrieval_latency": 0.015000000013969839,
+        "answer": null
+      },
+      {
+        "id": "q023",
+        "answerable": true,
+        "expected_doc": "cpc-amend-17-2022",
+        "retrieved_slugs": [
+          "cpc-amend-8-2017",
+          "mediation-boards-act-1988",
+          "cpc-amend-29-2023",
+          "cpc-amend-29-2023",
+          "cpc-amend-8-2017"
+        ],
+        "retrieval_latency": 0.01600000006146729,
+        "answer": null
+      },
+      {
+        "id": "q024",
+        "answerable": true,
+        "expected_doc": "cpc-amend-36-2022",
+        "retrieved_slugs": [
+          "cpc-amend-8-2017",
+          "cpc-amend-8-2017",
+          "cpc-amend-43-2024",
+          "cpc-amend-29-2023",
+          "cpc-amend-29-2023"
+        ],
+        "retrieval_latency": 0.015999999945051968,
+        "answer": null
+      },
+      {
+        "id": "q025",
+        "answerable": true,
+        "expected_doc": "cpc-amend-7-2023",
+        "retrieved_slugs": [
+          "cpc-consolidated-lankalaw",
+          "cpc-amend-7-2023",
+          "cpc-amend-29-2023",
+          "cpc-amend-7-2023",
+          "supreme-court-rules"
+        ],
+        "retrieval_latency": 0.015000000013969839,
+        "answer": null
+      },
+      {
+        "id": "q026",
+        "answerable": true,
+        "expected_doc": "cpc-amend-29-2023",
+        "retrieved_slugs": [
+          "cpc-amend-8-2017",
+          "cpc-amend-29-2023",
+          "cpc-amend-8-2017",
+          "cpc-amend-29-2023",
+          "mediation-boards-act-1988"
+        ],
+        "retrieval_latency": 0.01600000006146729,
+        "answer": null
+      },
+      {
+        "id": "q027",
+        "answerable": true,
+        "expected_doc": "cpc-amend-43-2024",
+        "retrieved_slugs": [
+          "cpc-amend-43-2024",
+          "cpc-consolidated-lankalaw",
+          "cpc-amend-29-2023",
+          "cpc-amend-29-2023",
+          "cpc-amend-29-2023"
+        ],
+        "retrieval_latency": 0.015999999945051968,
+        "answer": null
+      },
+      {
+        "id": "q028",
+        "answerable": true,
+        "expected_doc": "cpc-amend-43-2024",
+        "retrieved_slugs": [
+          "cpc-amend-8-2017",
+          "mediation-boards-act-1988",
+          "cpc-amend-29-2023",
+          "cpc-amend-43-2024",
+          "cpc-amend-8-2017"
+        ],
+        "retrieval_latency": 0.015000000013969839,
+        "answer": null
+      },
+      {
+        "id": "q029",
+        "answerable": true,
+        "expected_doc": "prescription-ordinance",
+        "retrieved_slugs": [
+          "judicature-act-1978",
+          "cpc-consolidated-lankalaw",
+          "prescription-ordinance",
+          "mediation-boards-act-1988",
+          "prescription-ordinance"
+        ],
+        "retrieval_latency": 0.015999999945051968,
+        "answer": null
+      },
+      {
+        "id": "q030",
+        "answerable": true,
+        "expected_doc": "prescription-ordinance",
+        "retrieved_slugs": [
+          "prescription-ordinance",
+          "cpc-consolidated-lankalaw",
+          "cpc-amend-29-2023",
+          "cpc-consolidated-lankalaw",
+          "supreme-court-rules"
+        ],
+        "retrieval_latency": 0.015000000013969839,
+        "answer": null
+      },
+      {
+        "id": "q031",
+        "answerable": true,
+        "expected_doc": "prescription-ordinance",
+        "retrieved_slugs": [
+          "prescription-ordinance",
+          "prescription-ordinance",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "prescription-ordinance"
+        ],
+        "retrieval_latency": 0.01600000006146729,
+        "answer": null
+      },
+      {
+        "id": "q032",
+        "answerable": true,
+        "expected_doc": "evidence-ordinance",
+        "retrieved_slugs": [
+          "evidence-ordinance",
+          "evidence-ordinance",
+          "cpc-amend-8-2017",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw"
+        ],
+        "retrieval_latency": 0.015999999945051968,
+        "answer": null
+      },
+      {
+        "id": "q033",
+        "answerable": true,
+        "expected_doc": "judicature-act-1978",
+        "retrieved_slugs": [
+          "judicature-act-1978",
+          "judicature-act-1978",
+          "judicature-act-1978",
+          "judicature-act-1978",
+          "judicature-act-1978"
+        ],
+        "retrieval_latency": 0.015000000013969839,
+        "answer": null
+      },
+      {
+        "id": "q034",
+        "answerable": true,
+        "expected_doc": "mediation-boards-act-1988",
+        "retrieved_slugs": [
+          "mediation-boards-act-1988",
+          "mediation-boards-act-1988",
+          "mediation-boards-act-1988",
+          "mediation-boards-act-1988",
+          "mediation-boards-act-1988"
+        ],
+        "retrieval_latency": 0.01600000006146729,
+        "answer": null
+      },
+      {
+        "id": "q035",
+        "answerable": true,
+        "expected_doc": "arbitration-act-1995",
+        "retrieved_slugs": [
+          "arbitration-act-1995",
+          "arbitration-act-1995",
+          "arbitration-act-1995",
+          "arbitration-act-1995",
+          "arbitration-act-1995"
+        ],
+        "retrieval_latency": 0.015999999945051968,
+        "answer": null
+      },
+      {
+        "id": "q036",
+        "answerable": true,
+        "expected_doc": "prescription-ordinance",
+        "retrieved_slugs": [
+          "prescription-ordinance",
+          "prescription-ordinance",
+          "judicature-act-1978",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw"
+        ],
+        "retrieval_latency": 0.015000000013969839,
+        "answer": null
+      },
+      {
+        "id": "q037",
+        "answerable": true,
+        "expected_doc": "cpc-consolidated-lankalaw",
+        "retrieved_slugs": [
+          "cpc-amend-29-2023",
+          "cpc-amend-29-2023",
+          "cpc-consolidated-lankalaw",
+          "cpc-amend-29-2023",
+          "cpc-consolidated-lankalaw"
+        ],
+        "retrieval_latency": 0.0,
+        "answer": null
+      },
+      {
+        "id": "q038",
+        "answerable": true,
+        "expected_doc": "cpc-amend-8-2017",
+        "retrieved_slugs": [
+          "cpc-amend-29-2023",
+          "cpc-amend-29-2023",
+          "cpc-amend-8-2017",
+          "cpc-amend-8-2017",
+          "cpc-amend-29-2023"
+        ],
+        "retrieval_latency": 0.030999999959021807,
+        "answer": null
+      },
+      {
+        "id": "q039",
+        "answerable": true,
+        "expected_doc": "cpc-consolidated-lankalaw",
+        "retrieved_slugs": [
+          "cpc-amend-8-2017",
+          "cpc-amend-43-2024",
+          "cpc-amend-11-2010",
+          "cpc-amend-8-2017",
+          "cpc-amend-29-2023"
+        ],
+        "retrieval_latency": 0.01600000006146729,
+        "answer": null
+      },
+      {
+        "id": "q040",
+        "answerable": true,
+        "expected_doc": "cpc-amend-11-2010",
+        "retrieved_slugs": [
+          "cpc-amend-8-2017",
+          "cpc-amend-8-2017",
+          "cpc-amend-8-2017",
+          "cpc-amend-11-2010",
+          "cpc-amend-29-2023"
+        ],
+        "retrieval_latency": 0.015999999945051968,
+        "answer": null
+      },
+      {
+        "id": "q041",
+        "answerable": true,
+        "expected_doc": "cpc-consolidated-lankalaw",
+        "retrieved_slugs": [
+          "cpc-amend-20-2023",
+          "cpc-amend-8-2017",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-amend-20-2023"
+        ],
+        "retrieval_latency": 0.0,
+        "answer": null
+      },
+      {
+        "id": "q042",
+        "answerable": true,
+        "expected_doc": "cpc-amend-20-2023",
+        "retrieved_slugs": [
+          "cpc-consolidated-lankalaw",
+          "cpc-amend-8-2017",
+          "cpc-amend-29-2023",
+          "cpc-amend-29-2023",
+          "cpc-amend-8-2017"
+        ],
+        "retrieval_latency": 0.015000000013969839,
+        "answer": null
+      },
+      {
+        "id": "q043",
+        "answerable": false,
+        "expected_doc": null,
+        "retrieved_slugs": [
+          "judicature-act-1978",
+          "cpc-consolidated-lankalaw",
+          "judicature-act-1978",
+          "judicature-act-1978",
+          "judicature-act-1978"
+        ],
+        "retrieval_latency": 0.01600000006146729,
+        "answer": "I don't have that information in my knowledge base."
+      },
+      {
+        "id": "q044",
+        "answerable": false,
+        "expected_doc": null,
+        "retrieved_slugs": [
+          "judicature-act-1978",
+          "cpc-consolidated-lankalaw",
+          "cpc-amend-29-2023",
+          "cpc-amend-20-2023",
+          "judicature-act-1978"
+        ],
+        "retrieval_latency": 0.0,
+        "answer": "I don't have that information in my knowledge base."
+      },
+      {
+        "id": "q045",
+        "answerable": false,
+        "expected_doc": null,
+        "retrieved_slugs": [
+          "cpc-consolidated-lankalaw",
+          "evidence-ordinance",
+          "evidence-ordinance",
+          "supreme-court-rules",
+          "cpc-amend-4-2005"
+        ],
+        "retrieval_latency": 0.015000000013969839,
+        "answer": "I don't have that information in my knowledge base."
+      },
+      {
+        "id": "q046",
+        "answerable": false,
+        "expected_doc": null,
+        "retrieved_slugs": [
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw"
+        ],
+        "retrieval_latency": 0.015999999945051968,
+        "answer": "I don't have that information in my knowledge base."
+      },
+      {
+        "id": "q047",
+        "answerable": false,
+        "expected_doc": null,
+        "retrieved_slugs": [
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw"
+        ],
+        "retrieval_latency": 0.015999999945051968,
+        "answer": "I don't have that information in my knowledge base."
+      },
+      {
+        "id": "q048",
+        "answerable": false,
+        "expected_doc": null,
+        "retrieved_slugs": [
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-amend-8-2017",
+          "cpc-consolidated-lankalaw"
+        ],
+        "retrieval_latency": 0.030999999959021807,
+        "answer": "I don't have that information in my knowledge base."
+      },
+      {
+        "id": "q049",
+        "answerable": false,
+        "expected_doc": null,
+        "retrieved_slugs": [
+          "cpc-consolidated-lankalaw",
+          "cpc-amend-5-2022",
+          "cpc-amend-17-2022",
+          "cpc-consolidated-lankalaw",
+          "cpc-amend-36-2022"
+        ],
+        "retrieval_latency": 0.015999999945051968,
+        "answer": "I don't have that information in my knowledge base."
+      },
+      {
+        "id": "q050",
+        "answerable": false,
+        "expected_doc": null,
+        "retrieved_slugs": [
+          "cpc-consolidated-lankalaw",
+          "supreme-court-rules",
+          "cpc-consolidated-lankalaw",
+          "supreme-court-rules",
+          "evidence-ordinance"
+        ],
+        "retrieval_latency": 0.01600000006146729,
+        "answer": "I don't have that information in my knowledge base."
+      }
+    ]
+  },
+  {
+    "name": "+ Act-number filtering",
+    "recall_at_k": 0.9761904761904762,
+    "mrr": 0.8948412698412699,
+    "refusal_accuracy": 1.0,
+    "retrieval_p95": 0.09300000000803266,
+    "per_question": [
+      {
+        "id": "q001",
+        "category": "basic_lookup",
+        "answerable": true,
+        "expected_doc": "cpc-consolidated-lankalaw",
+        "retrieved_slugs": [
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw"
+        ],
+        "answer": "**Requisites of a plaint under the Civil Procedure Code (consolidated to Act No.\u202f43 of\u202f2024)**  \n\n- The plaint must be a duly stamped written document, and it must be accompanied by the required summonses (Form\u202fNo.\u202f16 for each defendant) and a precept (Form\u202fNo.\u202f17) as prescribed in the First Schedule.  \n- It must be distinctly written on good and suitable paper and contain the following particulars (Civil Procedure Code, \u00a7\u202f40):  \n  - (a) the name of the court and the date of filing the plaint.  \n- If the cause of action arose beyond the period ordinarily allowed by any law, the plaint must show the ground for exemption from such lapse of time (Civil Procedure Code, \u00a7\u202f44).  \n- The plaint must contain a statement of facts setting out the jurisdiction of the court to try and determine the claim in respect of which the action is brought (Civil Procedure Code, \u00a7\u202f45).  \n- The plaint must be subscribed: by a registered attorney if the plaintiff is represented by one, or by the plaintiff himself with verification by an officer authorized by the court (Civil Procedure Code, \u00a7\u202f46).  \n- If the plaintiff sues upon a document in his possession or power, that document must be produced in court when the plaint is presented (Civil Procedure Code, \u00a7\u202f50).",
+        "retrieval_latency": 0.09300000000803266,
+        "generation_latency": 1.9689999999973224
+      },
+      {
+        "id": "q002",
+        "category": "basic_lookup",
+        "answerable": true,
+        "expected_doc": "cpc-consolidated-lankalaw",
+        "retrieved_slugs": [
+          "judicature-act-1978",
+          "judicature-act-1978",
+          "judicature-act-1978",
+          "judicature-act-1978",
+          "judicature-act-1978"
+        ],
+        "answer": "I don\u2019t have that information in my knowledge base.",
+        "retrieval_latency": 0.04700000000593718,
+        "generation_latency": 0.9379999999946449
+      },
+      {
+        "id": "q003",
+        "category": "basic_lookup",
+        "answerable": true,
+        "expected_doc": "cpc-consolidated-lankalaw",
+        "retrieved_slugs": [
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "arbitration-act-1995",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw"
+        ],
+        "answer": "Under the Civil Procedure Code (consolidated to Act No.\u202f43 of\u202f2024), section\u202f70, an order granting leave to serve summons outside Sri\u202fLanka must direct the defendant to file his answer **on or before the date specified in the summons**. That date must be **no later than six months from the date of the order for service outside Sri\u202fLanka**.",
+        "retrieval_latency": 0.046000000002095476,
+        "generation_latency": 0.8129999999946449
+      },
+      {
+        "id": "q004",
+        "category": "basic_lookup",
+        "answerable": true,
+        "expected_doc": "cpc-consolidated-lankalaw",
+        "retrieved_slugs": [
+          "cpc-consolidated-lankalaw",
+          "supreme-court-rules",
+          "cpc-consolidated-lankalaw",
+          "judicature-act-1978",
+          "supreme-court-rules"
+        ],
+        "answer": "Yes.  \nUnder **Section\u202f71A of the Civil Procedure Code (consolidated to Act No.\u202f43 of 2024, section\u2011merged)**, a court may, in addition to the ordinary service of documents, direct the Registrar to communicate any order of court\u2014including an enjoining order, an injunction, an interim injunction, a sequestration order and an interim order\u2014to the parties concerned by way of electronic or telephone devices.",
+        "retrieval_latency": 0.04700000000593718,
+        "generation_latency": 0.875
+      },
+      {
+        "id": "q005",
+        "category": "basic_lookup",
+        "answerable": true,
+        "expected_doc": "cpc-consolidated-lankalaw",
+        "retrieved_slugs": [
+          "supreme-court-rules",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "supreme-court-rules",
+          "cpc-consolidated-lankalaw"
+        ],
+        "answer": "If a defendant admits the plaintiff\u2019s claim, the court may adjudicate upon the title to the thing claimed.  \nThis is stated in the Civil Procedure Code (consolidated to Act No.\u202f43 of 2024, section\u2011merged) \u2013 lankalaw.net edition, where the court is empowered to \u201cadjudicate upon the title to the thing claimed\u201d when it finds that the admissions of the parties or other evidence enable it to do so. The specific section number is not provided in the retrieved text.",
+        "retrieval_latency": 0.046999999991385266,
+        "generation_latency": 7.578000000008615
+      },
+      {
+        "id": "q006",
+        "category": "basic_lookup",
+        "answerable": true,
+        "expected_doc": "cpc-consolidated-lankalaw",
+        "retrieved_slugs": [
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "evidence-ordinance",
+          "cpc-consolidated-lankalaw"
+        ],
+        "answer": "Yes.  \nUnder the Civil Procedure Code (consolidated to Act No.\u202f43 of\u202f2024) a defendant\u2019s answer to a plaint must be in writing and delivered to the court.  \n- Section\u202f73 states that the defendant (or his registered attorney) must \u201cdeliver to the court a duly stamped written answer.\u201d  \n- Section\u202f75 further requires that every such answer be \u201cdistinctly written upon good and suitable paper, shall be duly stamped, shall be subscribed by the defendant or his duly constituted representative\u2026\u201d  \n\nThus, a written answer is mandatory.",
+        "retrieval_latency": 0.031000000002677552,
+        "generation_latency": 14.312999999994645
+      },
+      {
+        "id": "q007",
+        "category": "basic_lookup",
+        "answerable": true,
+        "expected_doc": "cpc-consolidated-lankalaw",
+        "retrieved_slugs": [
+          "evidence-ordinance",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "mediation-boards-act-1988"
+        ],
+        "answer": "Under the Civil Procedure Code (consolidated to Act No.\u202f43 of\u202f2024, section\u2011merged), a defendant\u2019s written answer must contain the following particulars:\n\n1. **(a)** The name of the court, the case number, and the date the answer is filed.  \n2. **(b)** The name of the plaintiff.  \n3. **(c)** The name, description, and residence of the defendant.  \n4. **(d)** A statement admitting or denying the averments of the plaint, and a plain, concise statement of the facts and law on which the defendant relies for his defence, drawn in numbered paragraphs and referring to the plaint where necessary.  \n5. **(e)** If the defendant raises a reconvention claim, a plain and concise statement of the facts constituting the ground of that claim.  \n\nThese requirements are set out in the Civil Procedure Code (consolidated to Act No.\u202f43 of\u202f2024, section\u2011merged).",
+        "retrieval_latency": 0.046000000002095476,
+        "generation_latency": 9.312999999994645
+      },
+      {
+        "id": "q008",
+        "category": "basic_lookup",
+        "answerable": true,
+        "expected_doc": "cpc-consolidated-lankalaw",
+        "retrieved_slugs": [
+          "judicature-act-1978",
+          "judicature-act-1978",
+          "mediation-boards-act-1988",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw"
+        ],
+        "answer": "Under the Civil Procedure Code (consolidated to Act No.\u202f43 of\u202f2024), a defendant who wishes to challenge the court\u2019s jurisdiction must do so by filing a **separate and distinct plea** that expressly traverses the averment in the plaint concerning jurisdiction.",
+        "retrieval_latency": 0.031000000002677552,
+        "generation_latency": 10.968999999997322
+      },
+      {
+        "id": "q009",
+        "category": "basic_lookup",
+        "answerable": true,
+        "expected_doc": "cpc-consolidated-lankalaw",
+        "retrieved_slugs": [
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw"
+        ],
+        "answer": "Under the Civil Procedure Code (consolidated to Act No.\u202f43 of\u202f2024), if a defendant\u2019s answer is found to be **substantially defective** (e.g., missing particulars, argumentative, prolix, or irrelevant), the court may:\n\n1. **Reject the answer** or return it to the defendant for amendment within a period not exceeding one month from the date of return.  \n2. **Impose costs or other terms** as it deems fit.  \n3. If the answer is rejected or the defendant fails to amend it within the prescribed period, the defendant is **regarded as having failed to file an answer**.  \n4. The court\u2019s order must specify the grounds of rejection, and a copy of the answer must be served on the plaintiff or the plaintiff\u2019s registered attorney.  \n\n(See Civil Procedure Code, section\u202f77 and related provisions.)",
+        "retrieval_latency": 0.062000000005355105,
+        "generation_latency": 10.078999999997905
+      },
+      {
+        "id": "q010",
+        "category": "basic_lookup",
+        "answerable": true,
+        "expected_doc": "cpc-consolidated-lankalaw",
+        "retrieved_slugs": [
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw"
+        ],
+        "answer": "Yes.  \nUnder the Civil Procedure Code (consolidated to Act No.\u202f43 of\u202f2024, section\u2011merged) the application for execution of a decree **must be in writing**, signed by the applicant or his registered attorney, and must contain the specified particulars.",
+        "retrieval_latency": 0.046000000002095476,
+        "generation_latency": 10.093999999997322
+      },
+      {
+        "id": "q011",
+        "category": "basic_lookup",
+        "answerable": true,
+        "expected_doc": "cpc-consolidated-lankalaw",
+        "retrieved_slugs": [
+          "supreme-court-rules",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "supreme-court-rules",
+          "supreme-court-rules"
+        ],
+        "answer": "A party must file the notice of appeal with the original court within **fourteen days** from the date the decree or order was pronounced (exclusive of that day, the day the petition is presented, Sundays, and public holidays).  \n*Source: Civil Procedure Code (consolidated to Act No.\u202f43 of\u202f2024, section\u2011merged).*",
+        "retrieval_latency": 0.04700000000593718,
+        "generation_latency": 11.125
+      },
+      {
+        "id": "q012",
+        "category": "basic_lookup",
+        "answerable": true,
+        "expected_doc": "evidence-ordinance",
+        "retrieved_slugs": [
+          "evidence-ordinance",
+          "evidence-ordinance",
+          "evidence-ordinance",
+          "cpc-consolidated-lankalaw",
+          "evidence-ordinance"
+        ],
+        "answer": "The burden of proof in a civil suit or proceeding lies on the person who would fail if no evidence were given on either side. In other words, it is on the party who asserts the facts that the court must prove. This is set out in the Evidence Ordinance, Chapter\u202f14, section\u202f102, and reiterated in section\u202f101 of the same ordinance.",
+        "retrieval_latency": 0.046999999991385266,
+        "generation_latency": 12.01600000000326
+      },
+      {
+        "id": "q013",
+        "category": "basic_lookup",
+        "answerable": true,
+        "expected_doc": "evidence-ordinance",
+        "retrieved_slugs": [
+          "evidence-ordinance",
+          "evidence-ordinance",
+          "evidence-ordinance",
+          "cpc-consolidated-lankalaw",
+          "evidence-ordinance"
+        ],
+        "answer": "Yes.  \nUnder the Evidence Ordinance, Chapter\u202f14 (consolidated to 2024), section\u202f114, a court may presume the existence of any fact that it thinks likely to have happened, taking into account the common course of natural events, human conduct, and public and private business as they relate to the case.",
+        "retrieval_latency": 0.062000000005355105,
+        "generation_latency": 8.968999999997322
+      },
+      {
+        "id": "q014",
+        "category": "basic_lookup",
+        "answerable": true,
+        "expected_doc": "evidence-ordinance",
+        "retrieved_slugs": [
+          "cpc-consolidated-lankalaw",
+          "evidence-ordinance",
+          "evidence-ordinance",
+          "cpc-consolidated-lankalaw",
+          "evidence-ordinance"
+        ],
+        "answer": "No.  \nUnder the Evidence Ordinance (Chapter\u202f14) the rule is that **all persons are competent to testify unless the Court determines that they are prevented from understanding the questions or from giving rational answers**.  The Court may find a person incompetent because of tender years, extreme old age, disease (of body or mind), unsoundness of mind, or any other similar cause.  \n\n*Citation:* Evidence Ordinance, Chapter\u202f14 \u2013 \u201cAll persons shall be competent to testify unless the Court considers that they are prevented from understanding the questions put to them, or from giving rational answers to those questions, by tender years, extreme old age, disease, whether of body or mind, or any other cause of the same kind.\u201d (Section\u202f118\u2011119).",
+        "retrieval_latency": 0.046999999991385266,
+        "generation_latency": 8.343000000008033
+      },
+      {
+        "id": "q015",
+        "category": "basic_lookup",
+        "answerable": true,
+        "expected_doc": "evidence-ordinance",
+        "retrieved_slugs": [
+          "evidence-ordinance",
+          "evidence-ordinance",
+          "evidence-ordinance",
+          "evidence-ordinance",
+          "evidence-ordinance"
+        ],
+        "answer": "Under the Evidence Ordinance (Chapter\u202f14), Section\u202f121 states that **no judge or magistrate may be compelled to answer questions about his own conduct in court, except upon a special order of a judge of a superior court**. The section also allows examination on other matters that occurred in the judge\u2019s presence while acting.",
+        "retrieval_latency": 0.0629999999946449,
+        "generation_latency": 15.031000000002678
+      },
+      {
+        "id": "q016",
+        "category": "basic_lookup",
+        "answerable": true,
+        "expected_doc": "judicature-act-1978",
+        "retrieved_slugs": [
+          "judicature-act-1978",
+          "cpc-consolidated-lankalaw",
+          "judicature-act-1978",
+          "judicature-act-1978",
+          "judicature-act-1978"
+        ],
+        "answer": "The territorial jurisdiction of a District Court over a civil action is determined by the **local limits of that court\u2019s jurisdiction**.  \nUnder the Civil Procedure Code (consolidated to Act No.\u202f43 of\u202f2024, section\u2011merged) it is stated that:\n\n* \u201cWhen it is alleged to be uncertain within the local limits of the jurisdiction of which of two or more courts any immovable property is situated, any one of those courts may, if satisfied that there is ground for the alleged uncertainty, record a statement to that effect, and thereupon proceed to entertain and dispose of any action relating to that property; and its decree in the action shall have the same effect as if the property were situated within the local limits of its jurisdiction: Provided that the action is one with respect to which the court is competent as regards the nature and value of the action to exercise jurisdiction.\u201d (Civil Procedure Code, section\u2011merged)\n\nThus, a District Court has territorial jurisdiction over a civil action when:\n\n1. **The action is within the local limits of that court\u2019s jurisdiction** (i.e., the parties, the property, or the place where the dispute arose lies within the district served by the court).  \n2. **The court is competent in respect of the nature and value of the action** (the action falls within the court\u2019s substantive jurisdiction).\n\nIf the location of the immovable property is uncertain, any court within the relevant districts may record a statement of uncertainty and proceed, but the decree will be treated as if the property were within that court\u2019s local limits.",
+        "retrieval_latency": 0.04700000000593718,
+        "generation_latency": 12.015999999988708
+      },
+      {
+        "id": "q017",
+        "category": "basic_lookup",
+        "answerable": true,
+        "expected_doc": "interpretation-ordinance",
+        "retrieved_slugs": [
+          "interpretation-ordinance",
+          "interpretation-ordinance",
+          "evidence-ordinance",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw"
+        ],
+        "answer": "Under the Interpretation Ordinance, the term \u201cmonth\u201d means a calendar month, unless words are added indicating that lunar months are intended. (Interpretation Ordinance)",
+        "retrieval_latency": 0.062000000005355105,
+        "generation_latency": 14.093999999997322
+      },
+      {
+        "id": "q018",
+        "category": "basic_lookup",
+        "answerable": true,
+        "expected_doc": "interpretation-ordinance",
+        "retrieved_slugs": [
+          "interpretation-ordinance",
+          "interpretation-ordinance",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "judicature-act-1978"
+        ],
+        "answer": "Under the Interpretation Ordinance, if the last day of a prescribed time for doing an act in court falls on a day when the court is closed, the act is deemed to be done in due time **if it is performed on the next day thereafter on which the court is open** (Interpretation Ordinance, \u00a7\u202f8(1)).",
+        "retrieval_latency": 0.062000000005355105,
+        "generation_latency": 9.89100000000326
+      },
+      {
+        "id": "q019",
+        "category": "basic_lookup",
+        "answerable": true,
+        "expected_doc": "interpretation-ordinance",
+        "retrieved_slugs": [
+          "interpretation-ordinance",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw"
+        ],
+        "answer": "I don't have that information in my knowledge base.",
+        "retrieval_latency": 0.0629999999946449,
+        "generation_latency": 10.014999999999418
+      },
+      {
+        "id": "q020",
+        "category": "basic_lookup",
+        "answerable": true,
+        "expected_doc": "supreme-court-rules",
+        "retrieved_slugs": [
+          "supreme-court-rules",
+          "supreme-court-rules",
+          "supreme-court-rules",
+          "supreme-court-rules",
+          "supreme-court-rules"
+        ],
+        "answer": "Under the Supreme Court Rules (incorporating amendments up to\u202f2022) and the Court of Appeal (Appellate Procedure) Rules\u202f1990, an application or appeal may be treated as **\u201curgent\u201d** for a digital virtual hearing when:\n\n1. **A judge of the Court of Appeal, designated by the President of the Court of Appeal,** determines that the matter is urgent **(Rule\u202f3).**  \n2. The judge must consider that the **inability to hold conventional physical hearings** is due to any reason that is **prejudicial to national security, public safety, or the order and security within the precincts of the Court of Appeal.**  \n3. The judge must also weigh the **need to ensure the smooth and uninterrupted administration of justice** in such circumstances.\n\nIf these conditions are met, the judge may deem the application or appeal urgent and order an urgent digital virtual hearing.",
+        "retrieval_latency": 0.04700000000593718,
+        "generation_latency": 11.343999999997322
+      },
+      {
+        "id": "q021",
+        "category": "act_citation",
+        "answerable": true,
+        "expected_doc": "cpc-amend-4-2005",
+        "retrieved_slugs": [
+          "cpc-amend-4-2005",
+          "cpc-amend-4-2005",
+          "cpc-amend-4-2005",
+          "cpc-amend-4-2005",
+          "cpc-amend-4-2005"
+        ],
+        "answer": "The Civil Procedure Code (Amendment) Act No.\u202f4 of 2005 amended subsection\u202f(1) of section\u202f544 of the Civil Procedure Code.  \nUnder the amendment, the wording in paragraph\u202f(e) of that subsection was substituted, and a new paragraph\u202f(f) was inserted. Paragraph\u202f(f) deals with \u201cany instrument relating to any monetary interest (other than a bearer instrument or a negotiable instrument) issued by a company or other body of persons established in terms of any law for the time being in force.\u201d  The amendment also added definitions for \u201cinstrument\u201d and \u201cbearer instrument\u201d at the end of the subsection.  \n\n*Source: Civil Procedure Code (Amendment) Act No.\u202f4 of 2005.*",
+        "retrieval_latency": 0.125,
+        "generation_latency": 11.296999999991385
+      },
+      {
+        "id": "q022",
+        "category": "act_citation",
+        "answerable": true,
+        "expected_doc": "cpc-amend-5-2022",
+        "retrieved_slugs": [
+          "cpc-amend-5-2022",
+          "cpc-amend-5-2022",
+          "cpc-amend-5-2022",
+          "cpc-amend-5-2022"
+        ],
+        "answer": "Act No.\u202f5 of 2022 amended section\u202f88 of the Civil Procedure Code by repealing its existing subsection\u202f(2) and replacing it with a new subsection\u202f(2). The new subsection requires that any order setting aside or refusing to set aside a judgment entered upon default must:\n\n* accompany the facts on which it is based and specify the grounds for the decision, and  \n* be liable to an appeal to the relevant High Court (as established by Article\u202f154\u202fP of the Constitution) upon obtaining leave from that High Court.  \n\n(See Civil Procedure Code (Amendment) Act, No.\u202f5 of 2022.)",
+        "retrieval_latency": 0.06300000000919681,
+        "generation_latency": 8.125
+      },
+      {
+        "id": "q023",
+        "category": "act_citation",
+        "answerable": true,
+        "expected_doc": "cpc-amend-17-2022",
+        "retrieved_slugs": [
+          "cpc-amend-17-2022",
+          "cpc-amend-17-2022",
+          "cpc-amend-17-2022",
+          "cpc-amend-17-2022",
+          "cpc-amend-17-2022"
+        ],
+        "answer": "Act No.\u202f17 of 2022 inserted **Section\u202f154A** into the Civil Procedure Code (Chapter\u202f101).  \nUnder this new section, it is no longer necessary to adduce formal proof of the execution or genuineness of any deed or document that is required by law to be attested (except a will under the Wills Ordinance), provided the deed or document appears to have been duly executed. The requirement for proof is only triggered if the issue is raised in the pleadings or if the court specifically requires it. (Civil Procedure Code (Amendment) Act No.\u202f17 of 2022, \u00a7\u202f154A)",
+        "retrieval_latency": 0.07799999999406282,
+        "generation_latency": 14.156000000002678
+      },
+      {
+        "id": "q024",
+        "category": "act_citation",
+        "answerable": true,
+        "expected_doc": "cpc-amend-36-2022",
+        "retrieved_slugs": [
+          "cpc-amend-36-2022",
+          "cpc-amend-36-2022",
+          "cpc-amend-36-2022",
+          "cpc-amend-36-2022"
+        ],
+        "answer": "The Civil Procedure Code (Amendment) Act No.\u202f36 of 2022 repealed **Part\u202fIX\u202fA of the Civil Procedure Code**, which comprises **sections\u202f801 to\u202f833 inclusive** of the principal enactment. (Civil Procedure Code (Amendment) Act No.\u202f36 of 2022)",
+        "retrieval_latency": 0.0629999999946449,
+        "generation_latency": 7.843000000008033
+      },
+      {
+        "id": "q025",
+        "category": "act_citation",
+        "answerable": true,
+        "expected_doc": "cpc-amend-7-2023",
+        "retrieved_slugs": [
+          "cpc-amend-7-2023",
+          "cpc-amend-7-2023",
+          "cpc-amend-7-2023",
+          "cpc-amend-7-2023",
+          "cpc-amend-7-2023"
+        ],
+        "answer": "Act No.\u202f7 of 2023 inserted a new section immediately after section\u202f431 of the Civil Procedure Code, which is to be treated as **section\u202f431A** of that Code. The new section is titled \u201c**Commissions for Medical Examinations**\u201d (Civil Procedure Code (Amendment) Act No.\u202f7 of 2023).",
+        "retrieval_latency": 0.046999999991385266,
+        "generation_latency": 13.047000000005937
+      },
+      {
+        "id": "q026",
+        "category": "act_citation",
+        "answerable": true,
+        "expected_doc": "cpc-amend-29-2023",
+        "retrieved_slugs": [
+          "cpc-amend-29-2023",
+          "cpc-amend-29-2023",
+          "cpc-amend-29-2023",
+          "cpc-amend-29-2023",
+          "cpc-amend-29-2023"
+        ],
+        "answer": "Under the Civil Procedure Code (Amendment) Act No.\u202f29 of\u202f2023, subsection\u202f(1) of section\u202f18 of the Civil Procedure Code was amended by substituting the words **\u201cbefore the hearing\u201d** with **\u201cbefore the day first fixed for the pre\u2011trial conference.\u201d** This change is recorded in the amendment text for section\u202f18.",
+        "retrieval_latency": 0.09399999999732245,
+        "generation_latency": 8.156000000002678
+      },
+      {
+        "id": "q027",
+        "category": "act_citation",
+        "answerable": true,
+        "expected_doc": "cpc-amend-43-2024",
+        "retrieved_slugs": [
+          "cpc-amend-43-2024",
+          "cpc-amend-43-2024",
+          "cpc-amend-43-2024",
+          "cpc-amend-43-2024",
+          "cpc-amend-43-2024"
+        ],
+        "answer": "Act No.\u202f43 of 2024 amended section\u202f5 of the Civil Procedure Code by inserting a new definition for the word \u201celectronic.\u201d The amendment states that \u201celectronic\u201d shall have the same meaning assigned to it by the Electronic Transactions Act, No.\u202f19 of 2006. This definition is inserted immediately after the definition of the expression \u201cdecree\u201d in section\u202f5 of the Code (Civil Procedure Code (Amendment) Act, No.\u202f43 of 2024).",
+        "retrieval_latency": 0.07799999999406282,
+        "generation_latency": 0.8130000000091968
+      },
+      {
+        "id": "q028",
+        "category": "act_citation",
+        "answerable": true,
+        "expected_doc": "cpc-amend-43-2024",
+        "retrieved_slugs": [
+          "cpc-amend-43-2024",
+          "cpc-amend-43-2024",
+          "cpc-amend-43-2024",
+          "cpc-amend-43-2024",
+          "cpc-amend-43-2024"
+        ],
+        "answer": "Act No.\u202f43 of 2024 repealed the existing Section\u202f59 of the Civil Procedure Code and substituted it with a new Section\u202f59. The new section provides that summons shall ordinarily be served by a process server, registered post or courier service, and sets out the circumstances under which the plaintiff may wish the summons to be served differently (Civil Procedure Code (Amendment) Act No.\u202f43 of 2024, Section\u202f6).",
+        "retrieval_latency": 0.06199999999080319,
+        "generation_latency": 10.938000000009197
+      },
+      {
+        "id": "q029",
+        "category": "cross_document",
+        "answerable": true,
+        "expected_doc": "prescription-ordinance",
+        "retrieved_slugs": [
+          "judicature-act-1978",
+          "cpc-consolidated-lankalaw",
+          "prescription-ordinance",
+          "mediation-boards-act-1988",
+          "prescription-ordinance"
+        ],
+        "answer": "The limitation period for bringing an action for loss, injury, or damage is **two years** from the time the cause of action arises, as provided in the Prescription Ordinance (consolidated to 2024).",
+        "retrieval_latency": 0.046999999991385266,
+        "generation_latency": 8.937000000005355
+      },
+      {
+        "id": "q030",
+        "category": "cross_document",
+        "answerable": true,
+        "expected_doc": "prescription-ordinance",
+        "retrieved_slugs": [
+          "prescription-ordinance",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "supreme-court-rules",
+          "cpc-consolidated-lankalaw"
+        ],
+        "answer": "An action on a written promissory note or bill of exchange must be brought within **ten (10) years**.  \nThis period is set out in the Prescription Ordinance (consolidated to 2024), which provides that such instruments are subject to a ten\u2011year prescription period from the expiration of the time for payment or from the date of the instrument, whichever is later.",
+        "retrieval_latency": 0.04700000000593718,
+        "generation_latency": 11.202999999994063
+      },
+      {
+        "id": "q031",
+        "category": "cross_document",
+        "answerable": true,
+        "expected_doc": "prescription-ordinance",
+        "retrieved_slugs": [
+          "prescription-ordinance",
+          "prescription-ordinance",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "prescription-ordinance"
+        ],
+        "answer": "Under the Prescription Ordinance (consolidated to 2024), a defendant who has possessed the immovable property **undisturbed for ten years prior to the commencement of the claimant\u2019s action** is entitled to a decree in his favour, together with costs. This is stated in the ordinance\u2019s provision on possession adverse to the claimant\u2019s title.",
+        "retrieval_latency": 0.0629999999946449,
+        "generation_latency": 9.343000000008033
+      },
+      {
+        "id": "q032",
+        "category": "cross_document",
+        "answerable": true,
+        "expected_doc": "evidence-ordinance",
+        "retrieved_slugs": [
+          "evidence-ordinance",
+          "evidence-ordinance",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "evidence-ordinance"
+        ],
+        "answer": "Under the Evidence Ordinance (Chapter\u202f14, section\u202f76) a public officer who is in custody of a public document that a person has a right to inspect must:\n\n* **Give the person a copy of the document on demand**;  \n* **Charge the person the applicable legal fees**; and  \n* **Attach a certificate at the foot of the copy stating that it is a true copy of the document (or part thereof), dated and subscribed by the officer**.  \n\nThus, the officer\u2019s duty is to provide the requested copy, collect the legal fees, and certify the copy\u2019s authenticity.",
+        "retrieval_latency": 0.07899999999790452,
+        "generation_latency": 13.187000000005355
+      },
+      {
+        "id": "q033",
+        "category": "cross_document",
+        "answerable": true,
+        "expected_doc": "judicature-act-1978",
+        "retrieved_slugs": [
+          "judicature-act-1978",
+          "judicature-act-1978",
+          "judicature-act-1978",
+          "judicature-act-1978",
+          "judicature-act-1978"
+        ],
+        "answer": "The **Judicature Act No.\u202f2 of 1978 (consolidated to 2023)** is the enactment that grants a District Court unlimited original jurisdiction in civil matters within its district. This is reflected in the provisions that give every District Court \u201ccognizance of and full power to hear and\u201d civil actions within its jurisdiction.",
+        "retrieval_latency": 0.046999999991385266,
+        "generation_latency": 12.10899999999674
+      },
+      {
+        "id": "q034",
+        "category": "cross_document",
+        "answerable": true,
+        "expected_doc": "mediation-boards-act-1988",
+        "retrieved_slugs": [
+          "mediation-boards-act-1988",
+          "mediation-boards-act-1988",
+          "mediation-boards-act-1988",
+          "mediation-boards-act-1988",
+          "mediation-boards-act-1988"
+        ],
+        "answer": "A person who wishes to have a civil dispute settled through a Mediation Board must:\n\n1. **File a written application under section\u202f6 of the Mediation Boards Act No.\u202f72 of\u202f1988 (consolidated to\u202f2024).**  \n   The application is made to the Chairman of the Panel that has been appointed for the Mediation Board area in which the dispute arises.\n\n2. **Pay the prescribed fee and provide proof of payment.**  \n   Under section\u202f7(3) of the Act, every application must be accompanied by a document evidencing that the prescribed fee has been paid in the prescribed manner.\n\nThese steps constitute the formal application process for bringing a civil dispute before a Mediation Board.",
+        "retrieval_latency": 0.04700000000593718,
+        "generation_latency": 9.812999999994645
+      },
+      {
+        "id": "q035",
+        "category": "cross_document",
+        "answerable": true,
+        "expected_doc": "arbitration-act-1995",
+        "retrieved_slugs": [
+          "arbitration-act-1995",
+          "arbitration-act-1995",
+          "arbitration-act-1995",
+          "arbitration-act-1995",
+          "arbitration-act-1995"
+        ],
+        "answer": "Yes.  Under Section\u202f26 of the Arbitration Act No.\u202f11 of 1995, \u201cthe award made by the arbitral tribunal shall be final and binding on the parties to the arbitration agreement\u201d (subject to the provisions of Part\u202fVII of the Act).",
+        "retrieval_latency": 0.04700000000593718,
+        "generation_latency": 0.7649999999994179
+      },
+      {
+        "id": "q036",
+        "category": "cross_document",
+        "answerable": true,
+        "expected_doc": "prescription-ordinance",
+        "retrieved_slugs": [
+          "prescription-ordinance",
+          "prescription-ordinance",
+          "judicature-act-1978",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw"
+        ],
+        "answer": "An action for goods sold and delivered, or for work and labour done, must be brought **within one year** after the debt becomes due (Prescription Ordinance, consolidated to 2024, Section\u202f8).",
+        "retrieval_latency": 0.04700000000593718,
+        "generation_latency": 8.077999999994063
+      },
+      {
+        "id": "q037",
+        "category": "amendment_aware",
+        "answerable": true,
+        "expected_doc": "cpc-consolidated-lankalaw",
+        "retrieved_slugs": [
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw"
+        ],
+        "answer": "Under the Civil Procedure Code (consolidated to Act No.\u202f43 of\u202f2024), section\u202f79A requires that the court appoint a date for the pre\u2011trial conference **not less than three months and not exceeding five months from the date the answer is filed**.",
+        "retrieval_latency": 0.04700000000593718,
+        "generation_latency": 13.375
+      },
+      {
+        "id": "q038",
+        "category": "amendment_aware",
+        "answerable": true,
+        "expected_doc": "cpc-amend-8-2017",
+        "retrieved_slugs": [
+          "cpc-amend-8-2017",
+          "cpc-amend-8-2017",
+          "cpc-amend-8-2017",
+          "cpc-amend-8-2017",
+          "cpc-amend-8-2017"
+        ],
+        "answer": "I don't have that information in my knowledge base.",
+        "retrieval_latency": 0.0629999999946449,
+        "generation_latency": 8.031000000002678
+      },
+      {
+        "id": "q039",
+        "category": "amendment_aware",
+        "answerable": true,
+        "expected_doc": "cpc-consolidated-lankalaw",
+        "retrieved_slugs": [
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "mediation-boards-act-1988",
+          "judicature-act-1978",
+          "mediation-boards-act-1988"
+        ],
+        "answer": "I don't have that information in my knowledge base.",
+        "retrieval_latency": 0.031000000002677552,
+        "generation_latency": 10.01600000000326
+      },
+      {
+        "id": "q040",
+        "category": "amendment_aware",
+        "answerable": true,
+        "expected_doc": "cpc-amend-11-2010",
+        "retrieved_slugs": [
+          "cpc-amend-11-2010",
+          "cpc-amend-11-2010",
+          "cpc-amend-11-2010",
+          "cpc-amend-11-2010",
+          "cpc-amend-11-2010"
+        ],
+        "answer": "Under the Civil Procedure Code (Amendment) Act No.\u202f11 of 2010, section\u202f338 was amended by substituting paragraph\u202f(b) of subsection\u202f(3) with a new definition of \u201clegal representative\u201d. The amended wording reads:\n\n> \u201clegal representative\u201d means an executor or administrator or, in the case of an estate below the value of rupees four\u202fmillion, the next of kin who have **adiated** the inheritance.  \n> *Provided however, that in the event of any dispute arising as to who is the legal representative.*\n\nThus, the Act replaced the original paragraph (b) of section\u202f338(3) with this definition.",
+        "retrieval_latency": 0.06199999999080319,
+        "generation_latency": 11.5
+      },
+      {
+        "id": "q041",
+        "category": "amendment_aware",
+        "answerable": true,
+        "expected_doc": "cpc-consolidated-lankalaw",
+        "retrieved_slugs": [
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw"
+        ],
+        "answer": "Under the Civil Procedure Code (consolidated to Act No.\u202f43 of\u202f2024), a certified copy of a judgment or final decree may be obtained by **the parties to the action**.  The Registrar of the court is required to issue such a copy when the parties apply for it (see the provision on \u201cPersons to be entitled to certified copies of judgment, decree or proceedings in any action\u201d).",
+        "retrieval_latency": 0.04700000000593718,
+        "generation_latency": 12.906000000002678
+      },
+      {
+        "id": "q042",
+        "category": "amendment_aware",
+        "answerable": true,
+        "expected_doc": "cpc-amend-20-2023",
+        "retrieved_slugs": [
+          "cpc-amend-20-2023",
+          "cpc-amend-20-2023",
+          "cpc-amend-20-2023",
+          "cpc-amend-20-2023",
+          "cpc-amend-20-2023"
+        ],
+        "answer": "Under the Civil Procedure Code (Amendment) Act No.\u202f20 of\u202f2023, section\u202f205 of the Civil Procedure Code was repealed and replaced with a new provision. The new section\u202f205 now states that:\n\n* (1) The Registrar shall issue one certified copy of a judgment or final decree to each party who applies for it, **free of charge**; and  \n* (2) Subject to subsection\u202f(1), the Registrar may issue certified copies to any other person who applies, provided the applicant pays the prescribed fee and supplies the required stamps.\n\nThus, the amendment removed the old wording of section\u202f205 and introduced a free\u2011of\u2011charge rule for parties and a fee\u2011based rule for other applicants. (Civil Procedure Code (Amendment) Act No.\u202f20 of\u202f2023)",
+        "retrieval_latency": 0.0629999999946449,
+        "generation_latency": 9.60899999999674
+      },
+      {
+        "id": "q043",
+        "category": "unanswerable",
+        "answerable": false,
+        "expected_doc": null,
+        "retrieved_slugs": [
+          "judicature-act-1978",
+          "cpc-consolidated-lankalaw",
+          "judicature-act-1978",
+          "judicature-act-1978",
+          "judicature-act-1978"
+        ],
+        "answer": "I don't have that information in my knowledge base.",
+        "retrieval_latency": 0.04700000000593718,
+        "generation_latency": 15.75
+      },
+      {
+        "id": "q044",
+        "category": "unanswerable",
+        "answerable": false,
+        "expected_doc": null,
+        "retrieved_slugs": [
+          "judicature-act-1978",
+          "cpc-consolidated-lankalaw",
+          "judicature-act-1978",
+          "judicature-act-1978",
+          "cpc-consolidated-lankalaw"
+        ],
+        "answer": "I don't have that information in my knowledge base.",
+        "retrieval_latency": 0.04700000000593718,
+        "generation_latency": 9.327999999994063
+      },
+      {
+        "id": "q045",
+        "category": "unanswerable",
+        "answerable": false,
+        "expected_doc": null,
+        "retrieved_slugs": [
+          "cpc-consolidated-lankalaw",
+          "evidence-ordinance",
+          "evidence-ordinance",
+          "supreme-court-rules",
+          "evidence-ordinance"
+        ],
+        "answer": "I don't have that information in my knowledge base.",
+        "retrieval_latency": 0.04700000000593718,
+        "generation_latency": 0.75
+      },
+      {
+        "id": "q046",
+        "category": "unanswerable",
+        "answerable": false,
+        "expected_doc": null,
+        "retrieved_slugs": [
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw"
+        ],
+        "answer": "I don't have that information in my knowledge base.",
+        "retrieval_latency": 0.04700000000593718,
+        "generation_latency": 10.389999999999418
+      },
+      {
+        "id": "q047",
+        "category": "unanswerable",
+        "answerable": false,
+        "expected_doc": null,
+        "retrieved_slugs": [
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw"
+        ],
+        "answer": "I don't have that information in my knowledge base.",
+        "retrieval_latency": 0.046999999991385266,
+        "generation_latency": 12.03200000000652
+      },
+      {
+        "id": "q048",
+        "category": "unanswerable",
+        "answerable": false,
+        "expected_doc": null,
+        "retrieved_slugs": [
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw"
+        ],
+        "answer": "I don't have that information in my knowledge base.",
+        "retrieval_latency": 0.046000000002095476,
+        "generation_latency": 7.76600000000326
+      },
+      {
+        "id": "q049",
+        "category": "unanswerable",
+        "answerable": false,
+        "expected_doc": null,
+        "retrieved_slugs": [
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "mediation-boards-act-1988"
+        ],
+        "answer": "I don't have that information in my knowledge base.",
+        "retrieval_latency": 0.0629999999946449,
+        "generation_latency": 12.09299999999348
+      },
+      {
+        "id": "q050",
+        "category": "unanswerable",
+        "answerable": false,
+        "expected_doc": null,
+        "retrieved_slugs": [
+          "cpc-consolidated-lankalaw",
+          "supreme-court-rules",
+          "cpc-consolidated-lankalaw",
+          "supreme-court-rules",
+          "evidence-ordinance"
+        ],
+        "answer": "I don't have that information in my knowledge base.",
+        "retrieval_latency": 0.04700000000593718,
+        "generation_latency": 9.577999999994063
+      }
+    ]
+  },
+  {
+    "name": "+ BM25 hybrid (RRF)",
+    "recall_at_k": 1.0,
+    "mrr": 0.9523809523809523,
+    "refusal_accuracy": 0.875,
+    "retrieval_p95": 0.2190000000409782,
+    "per_question": [
+      {
+        "id": "q001",
+        "answerable": true,
+        "expected_doc": "cpc-consolidated-lankalaw",
+        "retrieved_slugs": [
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "arbitration-act-1995",
+          "cpc-consolidated-lankalaw"
+        ],
+        "retrieval_latency": 0.1720000000204891,
+        "answer": null
+      },
+      {
+        "id": "q002",
+        "answerable": true,
+        "expected_doc": "cpc-consolidated-lankalaw",
+        "retrieved_slugs": [
+          "judicature-act-1978",
+          "cpc-consolidated-lankalaw",
+          "judicature-act-1978",
+          "cpc-consolidated-lankalaw",
+          "judicature-act-1978"
+        ],
+        "retrieval_latency": 0.2029999999795109,
+        "answer": null
+      },
+      {
+        "id": "q003",
+        "answerable": true,
+        "expected_doc": "cpc-consolidated-lankalaw",
+        "retrieved_slugs": [
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "arbitration-act-1995",
+          "cpc-consolidated-lankalaw"
+        ],
+        "retrieval_latency": 0.1720000000204891,
+        "answer": null
+      },
+      {
+        "id": "q004",
+        "answerable": true,
+        "expected_doc": "cpc-consolidated-lankalaw",
+        "retrieved_slugs": [
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "supreme-court-rules",
+          "supreme-court-rules",
+          "cpc-consolidated-lankalaw"
+        ],
+        "retrieval_latency": 0.18700000003445894,
+        "answer": null
+      },
+      {
+        "id": "q005",
+        "answerable": true,
+        "expected_doc": "cpc-consolidated-lankalaw",
+        "retrieved_slugs": [
+          "supreme-court-rules",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw"
+        ],
+        "retrieval_latency": 0.2190000000409782,
+        "answer": null
+      },
+      {
+        "id": "q006",
+        "answerable": true,
+        "expected_doc": "cpc-consolidated-lankalaw",
+        "retrieved_slugs": [
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw"
+        ],
+        "retrieval_latency": 0.1869999999180436,
+        "answer": null
+      },
+      {
+        "id": "q007",
+        "answerable": true,
+        "expected_doc": "cpc-consolidated-lankalaw",
+        "retrieved_slugs": [
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "evidence-ordinance",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw"
+        ],
+        "retrieval_latency": 0.1720000000204891,
+        "answer": null
+      },
+      {
+        "id": "q008",
+        "answerable": true,
+        "expected_doc": "cpc-consolidated-lankalaw",
+        "retrieved_slugs": [
+          "cpc-consolidated-lankalaw",
+          "judicature-act-1978",
+          "judicature-act-1978",
+          "mediation-boards-act-1988",
+          "mediation-boards-act-1988"
+        ],
+        "retrieval_latency": 0.18799999996554106,
+        "answer": null
+      },
+      {
+        "id": "q009",
+        "answerable": true,
+        "expected_doc": "cpc-consolidated-lankalaw",
+        "retrieved_slugs": [
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw"
+        ],
+        "retrieval_latency": 0.20300000009592623,
+        "answer": null
+      },
+      {
+        "id": "q010",
+        "answerable": true,
+        "expected_doc": "cpc-consolidated-lankalaw",
+        "retrieved_slugs": [
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw"
+        ],
+        "retrieval_latency": 0.1869999999180436,
+        "answer": null
+      },
+      {
+        "id": "q011",
+        "answerable": true,
+        "expected_doc": "cpc-consolidated-lankalaw",
+        "retrieved_slugs": [
+          "cpc-consolidated-lankalaw",
+          "supreme-court-rules",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "supreme-court-rules"
+        ],
+        "retrieval_latency": 0.1880000000819564,
+        "answer": null
+      },
+      {
+        "id": "q012",
+        "answerable": true,
+        "expected_doc": "evidence-ordinance",
+        "retrieved_slugs": [
+          "evidence-ordinance",
+          "evidence-ordinance",
+          "evidence-ordinance",
+          "evidence-ordinance",
+          "evidence-ordinance"
+        ],
+        "retrieval_latency": 0.1559999999590218,
+        "answer": null
+      },
+      {
+        "id": "q013",
+        "answerable": true,
+        "expected_doc": "evidence-ordinance",
+        "retrieved_slugs": [
+          "evidence-ordinance",
+          "evidence-ordinance",
+          "evidence-ordinance",
+          "evidence-ordinance",
+          "evidence-ordinance"
+        ],
+        "retrieval_latency": 0.2029999999795109,
+        "answer": null
+      },
+      {
+        "id": "q014",
+        "answerable": true,
+        "expected_doc": "evidence-ordinance",
+        "retrieved_slugs": [
+          "evidence-ordinance",
+          "evidence-ordinance",
+          "evidence-ordinance",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw"
+        ],
+        "retrieval_latency": 0.2029999999795109,
+        "answer": null
+      },
+      {
+        "id": "q015",
+        "answerable": true,
+        "expected_doc": "evidence-ordinance",
+        "retrieved_slugs": [
+          "evidence-ordinance",
+          "evidence-ordinance",
+          "evidence-ordinance",
+          "evidence-ordinance",
+          "evidence-ordinance"
+        ],
+        "retrieval_latency": 0.1720000000204891,
+        "answer": null
+      },
+      {
+        "id": "q016",
+        "answerable": true,
+        "expected_doc": "judicature-act-1978",
+        "retrieved_slugs": [
+          "judicature-act-1978",
+          "judicature-act-1978",
+          "cpc-consolidated-lankalaw",
+          "judicature-act-1978",
+          "judicature-act-1978"
+        ],
+        "retrieval_latency": 0.15700000000651926,
+        "answer": null
+      },
+      {
+        "id": "q017",
+        "answerable": true,
+        "expected_doc": "interpretation-ordinance",
+        "retrieved_slugs": [
+          "interpretation-ordinance",
+          "interpretation-ordinance",
+          "interpretation-ordinance",
+          "evidence-ordinance",
+          "interpretation-ordinance"
+        ],
+        "retrieval_latency": 0.2029999999795109,
+        "answer": null
+      },
+      {
+        "id": "q018",
+        "answerable": true,
+        "expected_doc": "interpretation-ordinance",
+        "retrieved_slugs": [
+          "interpretation-ordinance",
+          "interpretation-ordinance",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw"
+        ],
+        "retrieval_latency": 0.18700000003445894,
+        "answer": null
+      },
+      {
+        "id": "q019",
+        "answerable": true,
+        "expected_doc": "interpretation-ordinance",
+        "retrieved_slugs": [
+          "evidence-ordinance",
+          "interpretation-ordinance",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw"
+        ],
+        "retrieval_latency": 0.1559999999590218,
+        "answer": null
+      },
+      {
+        "id": "q020",
+        "answerable": true,
+        "expected_doc": "supreme-court-rules",
+        "retrieved_slugs": [
+          "supreme-court-rules",
+          "supreme-court-rules",
+          "supreme-court-rules",
+          "supreme-court-rules",
+          "supreme-court-rules"
+        ],
+        "retrieval_latency": 0.2190000000409782,
+        "answer": null
+      },
+      {
+        "id": "q021",
+        "answerable": true,
+        "expected_doc": "cpc-amend-4-2005",
+        "retrieved_slugs": [
+          "cpc-amend-4-2005",
+          "cpc-amend-4-2005",
+          "cpc-amend-4-2005",
+          "cpc-amend-4-2005",
+          "cpc-amend-4-2005"
+        ],
+        "retrieval_latency": 0.0470000000204891,
+        "answer": null
+      },
+      {
+        "id": "q022",
+        "answerable": true,
+        "expected_doc": "cpc-amend-5-2022",
+        "retrieved_slugs": [
+          "cpc-amend-5-2022",
+          "cpc-amend-5-2022",
+          "cpc-amend-5-2022",
+          "cpc-amend-5-2022"
+        ],
+        "retrieval_latency": 0.030999999959021807,
+        "answer": null
+      },
+      {
+        "id": "q023",
+        "answerable": true,
+        "expected_doc": "cpc-amend-17-2022",
+        "retrieved_slugs": [
+          "cpc-amend-17-2022",
+          "cpc-amend-17-2022",
+          "cpc-amend-17-2022",
+          "cpc-amend-17-2022",
+          "cpc-amend-17-2022"
+        ],
+        "retrieval_latency": 0.03200000000651926,
+        "answer": null
+      },
+      {
+        "id": "q024",
+        "answerable": true,
+        "expected_doc": "cpc-amend-36-2022",
+        "retrieved_slugs": [
+          "cpc-amend-36-2022",
+          "cpc-amend-36-2022",
+          "cpc-amend-36-2022",
+          "cpc-amend-36-2022"
+        ],
+        "retrieval_latency": 0.030999999959021807,
+        "answer": null
+      },
+      {
+        "id": "q025",
+        "answerable": true,
+        "expected_doc": "cpc-amend-7-2023",
+        "retrieved_slugs": [
+          "cpc-amend-7-2023",
+          "cpc-amend-7-2023",
+          "cpc-amend-7-2023",
+          "cpc-amend-7-2023",
+          "cpc-amend-7-2023"
+        ],
+        "retrieval_latency": 0.03100000007543713,
+        "answer": null
+      },
+      {
+        "id": "q026",
+        "answerable": true,
+        "expected_doc": "cpc-amend-29-2023",
+        "retrieved_slugs": [
+          "cpc-amend-29-2023",
+          "cpc-amend-29-2023",
+          "cpc-amend-29-2023",
+          "cpc-amend-29-2023",
+          "cpc-amend-29-2023"
+        ],
+        "retrieval_latency": 0.06299999996554106,
+        "answer": null
+      },
+      {
+        "id": "q027",
+        "answerable": true,
+        "expected_doc": "cpc-amend-43-2024",
+        "retrieved_slugs": [
+          "cpc-amend-43-2024",
+          "cpc-amend-43-2024",
+          "cpc-amend-43-2024",
+          "cpc-amend-43-2024",
+          "cpc-amend-43-2024"
+        ],
+        "retrieval_latency": 0.045999999972991645,
+        "answer": null
+      },
+      {
+        "id": "q028",
+        "answerable": true,
+        "expected_doc": "cpc-amend-43-2024",
+        "retrieved_slugs": [
+          "cpc-amend-43-2024",
+          "cpc-amend-43-2024",
+          "cpc-amend-43-2024",
+          "cpc-amend-43-2024",
+          "cpc-amend-43-2024"
+        ],
+        "retrieval_latency": 0.03200000000651926,
+        "answer": null
+      },
+      {
+        "id": "q029",
+        "answerable": true,
+        "expected_doc": "prescription-ordinance",
+        "retrieved_slugs": [
+          "judicature-act-1978",
+          "prescription-ordinance",
+          "judicature-act-1978",
+          "cpc-consolidated-lankalaw",
+          "mediation-boards-act-1988"
+        ],
+        "retrieval_latency": 0.1720000000204891,
+        "answer": null
+      },
+      {
+        "id": "q030",
+        "answerable": true,
+        "expected_doc": "prescription-ordinance",
+        "retrieved_slugs": [
+          "prescription-ordinance",
+          "cpc-consolidated-lankalaw",
+          "prescription-ordinance",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw"
+        ],
+        "retrieval_latency": 0.2029999999795109,
+        "answer": null
+      },
+      {
+        "id": "q031",
+        "answerable": true,
+        "expected_doc": "prescription-ordinance",
+        "retrieved_slugs": [
+          "prescription-ordinance",
+          "prescription-ordinance",
+          "cpc-consolidated-lankalaw",
+          "prescription-ordinance",
+          "prescription-ordinance"
+        ],
+        "retrieval_latency": 0.18700000003445894,
+        "answer": null
+      },
+      {
+        "id": "q032",
+        "answerable": true,
+        "expected_doc": "evidence-ordinance",
+        "retrieved_slugs": [
+          "evidence-ordinance",
+          "cpc-consolidated-lankalaw",
+          "evidence-ordinance",
+          "evidence-ordinance",
+          "cpc-consolidated-lankalaw"
+        ],
+        "retrieval_latency": 0.2190000000409782,
+        "answer": null
+      },
+      {
+        "id": "q033",
+        "answerable": true,
+        "expected_doc": "judicature-act-1978",
+        "retrieved_slugs": [
+          "judicature-act-1978",
+          "judicature-act-1978",
+          "judicature-act-1978",
+          "judicature-act-1978",
+          "judicature-act-1978"
+        ],
+        "retrieval_latency": 0.2029999999795109,
+        "answer": null
+      },
+      {
+        "id": "q034",
+        "answerable": true,
+        "expected_doc": "mediation-boards-act-1988",
+        "retrieved_slugs": [
+          "mediation-boards-act-1988",
+          "mediation-boards-act-1988",
+          "mediation-boards-act-1988",
+          "mediation-boards-act-1988",
+          "mediation-boards-act-1988"
+        ],
+        "retrieval_latency": 0.1720000000204891,
+        "answer": null
+      },
+      {
+        "id": "q035",
+        "answerable": true,
+        "expected_doc": "arbitration-act-1995",
+        "retrieved_slugs": [
+          "arbitration-act-1995",
+          "arbitration-act-1995",
+          "arbitration-act-1995",
+          "arbitration-act-1995",
+          "arbitration-act-1995"
+        ],
+        "retrieval_latency": 0.21899999992456287,
+        "answer": null
+      },
+      {
+        "id": "q036",
+        "answerable": true,
+        "expected_doc": "prescription-ordinance",
+        "retrieved_slugs": [
+          "prescription-ordinance",
+          "prescription-ordinance",
+          "judicature-act-1978",
+          "evidence-ordinance",
+          "cpc-consolidated-lankalaw"
+        ],
+        "retrieval_latency": 0.21799999999348074,
+        "answer": null
+      },
+      {
+        "id": "q037",
+        "answerable": true,
+        "expected_doc": "cpc-consolidated-lankalaw",
+        "retrieved_slugs": [
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw"
+        ],
+        "retrieval_latency": 0.2190000000409782,
+        "answer": null
+      },
+      {
+        "id": "q038",
+        "answerable": true,
+        "expected_doc": "cpc-amend-8-2017",
+        "retrieved_slugs": [
+          "cpc-amend-8-2017",
+          "cpc-amend-8-2017",
+          "cpc-amend-8-2017",
+          "cpc-amend-8-2017",
+          "cpc-amend-8-2017"
+        ],
+        "retrieval_latency": 0.0470000000204891,
+        "answer": null
+      },
+      {
+        "id": "q039",
+        "answerable": true,
+        "expected_doc": "cpc-consolidated-lankalaw",
+        "retrieved_slugs": [
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw"
+        ],
+        "retrieval_latency": 0.2029999999795109,
+        "answer": null
+      },
+      {
+        "id": "q040",
+        "answerable": true,
+        "expected_doc": "cpc-amend-11-2010",
+        "retrieved_slugs": [
+          "cpc-amend-11-2010",
+          "cpc-amend-11-2010",
+          "cpc-amend-11-2010",
+          "cpc-amend-11-2010",
+          "cpc-amend-11-2010"
+        ],
+        "retrieval_latency": 0.030999999959021807,
+        "answer": null
+      },
+      {
+        "id": "q041",
+        "answerable": true,
+        "expected_doc": "cpc-consolidated-lankalaw",
+        "retrieved_slugs": [
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw"
+        ],
+        "retrieval_latency": 0.1880000000819564,
+        "answer": null
+      },
+      {
+        "id": "q042",
+        "answerable": true,
+        "expected_doc": "cpc-amend-20-2023",
+        "retrieved_slugs": [
+          "cpc-amend-20-2023",
+          "cpc-amend-20-2023",
+          "cpc-amend-20-2023",
+          "cpc-amend-20-2023",
+          "cpc-amend-20-2023"
+        ],
+        "retrieval_latency": 0.030999999959021807,
+        "answer": null
+      },
+      {
+        "id": "q043",
+        "answerable": false,
+        "expected_doc": null,
+        "retrieved_slugs": [
+          "judicature-act-1978",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "arbitration-act-1995",
+          "judicature-act-1978"
+        ],
+        "retrieval_latency": 0.2029999999795109,
+        "answer": "I don't have that information in my knowledge base."
+      },
+      {
+        "id": "q044",
+        "answerable": false,
+        "expected_doc": null,
+        "retrieved_slugs": [
+          "judicature-act-1978",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "judicature-act-1978"
+        ],
+        "retrieval_latency": 0.1880000000819564,
+        "answer": "I don't have that information in my knowledge base."
+      },
+      {
+        "id": "q045",
+        "answerable": false,
+        "expected_doc": null,
+        "retrieved_slugs": [
+          "evidence-ordinance",
+          "evidence-ordinance",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "evidence-ordinance"
+        ],
+        "retrieval_latency": 0.1720000000204891,
+        "answer": "I don't have that information in my knowledge base."
+      },
+      {
+        "id": "q046",
+        "answerable": false,
+        "expected_doc": null,
+        "retrieved_slugs": [
+          "cpc-consolidated-lankalaw",
+          "evidence-ordinance",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw"
+        ],
+        "retrieval_latency": 0.20400000002700835,
+        "answer": "I don't have that information in my knowledge base."
+      },
+      {
+        "id": "q047",
+        "answerable": false,
+        "expected_doc": null,
+        "retrieved_slugs": [
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "judicature-act-1978",
+          "cpc-consolidated-lankalaw"
+        ],
+        "retrieval_latency": 0.2029999999795109,
+        "answer": "Under the provisions of the Civil Procedure Code (consolidated to Act No.\u202f43 of\u202f2024) that apply to persons arrested on a warrant issued under the Code of Criminal Procedure, the bail procedure is as follows:\n\n1. **Deposit in lieu of bail** \u2013  \n   *Section\u202f651* allows the arrested defendant to deposit the sum specified in the warrant with the Fiscal or in court instead of giving bail. Upon such deposit he is discharged from custody and a minute of the deposit is entered on the warrant. (Civil Procedure Code, section\u202f651)\n\n2. **Bail upon appearance** \u2013  \n   If the defendant appears in court after the deposit, he must give bail in the form of *Form\u202fNo.\u202f102, First Schedule* to abide by and perform the judgment of the court, pay any sums awarded against him, or surrender himself. (Civil Procedure Code, section\u202f652)\n\n3. **Commitment to prison** \u2013  \n   Should the defendant be unable or unwilling to give such bail, he is committed to prison (using *Form\u202fNo.\u202f103, First Schedule*) until he gives bail or until the determination of the action. (Civil Procedure Code, section\u202f652)\n\nThese steps are the bail procedure for a person arrested under the Code of Criminal Procedure, as set out in the Civil Procedure Code (consolidated to Act No.\u202f43 of\u202f2024)."
+      },
+      {
+        "id": "q048",
+        "answerable": false,
+        "expected_doc": null,
+        "retrieved_slugs": [
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw"
+        ],
+        "retrieval_latency": 0.2190000000409782,
+        "answer": "I don't have that information in my knowledge base."
+      },
+      {
+        "id": "q049",
+        "answerable": false,
+        "expected_doc": null,
+        "retrieved_slugs": [
+          "mediation-boards-act-1988",
+          "judicature-act-1978",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw"
+        ],
+        "retrieval_latency": 0.2029999999795109,
+        "answer": "I don't have that information in my knowledge base."
+      },
+      {
+        "id": "q050",
+        "answerable": false,
+        "expected_doc": null,
+        "retrieved_slugs": [
+          "cpc-consolidated-lankalaw",
+          "supreme-court-rules",
+          "supreme-court-rules",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw"
+        ],
+        "retrieval_latency": 0.2029999999795109,
+        "answer": "I don't have that information in my knowledge base."
+      }
+    ]
+  },
+  {
+    "name": "+ Cross-encoder rerank",
+    "recall_at_k": 1.0,
+    "mrr": 0.9880952380952381,
+    "refusal_accuracy": 0.875,
+    "retrieval_p95": 1.0150000000139698,
+    "per_question": [
+      {
+        "id": "q001",
+        "answerable": true,
+        "expected_doc": "cpc-consolidated-lankalaw",
+        "retrieved_slugs": [
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw"
+        ],
+        "retrieval_latency": 0.9070000000065193,
+        "answer": null
+      },
+      {
+        "id": "q002",
+        "answerable": true,
+        "expected_doc": "cpc-consolidated-lankalaw",
+        "retrieved_slugs": [
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw"
+        ],
+        "retrieval_latency": 0.8900000000139698,
+        "answer": null
+      },
+      {
+        "id": "q003",
+        "answerable": true,
+        "expected_doc": "cpc-consolidated-lankalaw",
+        "retrieved_slugs": [
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "arbitration-act-1995"
+        ],
+        "retrieval_latency": 0.9529999999795109,
+        "answer": null
+      },
+      {
+        "id": "q004",
+        "answerable": true,
+        "expected_doc": "cpc-consolidated-lankalaw",
+        "retrieved_slugs": [
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "supreme-court-rules",
+          "cpc-consolidated-lankalaw",
+          "supreme-court-rules"
+        ],
+        "retrieval_latency": 0.8599999999860302,
+        "answer": null
+      },
+      {
+        "id": "q005",
+        "answerable": true,
+        "expected_doc": "cpc-consolidated-lankalaw",
+        "retrieved_slugs": [
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw"
+        ],
+        "retrieval_latency": 0.8280000000959262,
+        "answer": null
+      },
+      {
+        "id": "q006",
+        "answerable": true,
+        "expected_doc": "cpc-consolidated-lankalaw",
+        "retrieved_slugs": [
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw"
+        ],
+        "retrieval_latency": 0.9059999999590218,
+        "answer": null
+      },
+      {
+        "id": "q007",
+        "answerable": true,
+        "expected_doc": "cpc-consolidated-lankalaw",
+        "retrieved_slugs": [
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw"
+        ],
+        "retrieval_latency": 0.890999999945052,
+        "answer": null
+      },
+      {
+        "id": "q008",
+        "answerable": true,
+        "expected_doc": "cpc-consolidated-lankalaw",
+        "retrieved_slugs": [
+          "cpc-consolidated-lankalaw",
+          "judicature-act-1978",
+          "cpc-consolidated-lankalaw",
+          "mediation-boards-act-1988",
+          "cpc-consolidated-lankalaw"
+        ],
+        "retrieval_latency": 1.0150000000139698,
+        "answer": null
+      },
+      {
+        "id": "q009",
+        "answerable": true,
+        "expected_doc": "cpc-consolidated-lankalaw",
+        "retrieved_slugs": [
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw"
+        ],
+        "retrieval_latency": 0.875,
+        "answer": null
+      },
+      {
+        "id": "q010",
+        "answerable": true,
+        "expected_doc": "cpc-consolidated-lankalaw",
+        "retrieved_slugs": [
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw"
+        ],
+        "retrieval_latency": 0.9220000000204891,
+        "answer": null
+      },
+      {
+        "id": "q011",
+        "answerable": true,
+        "expected_doc": "cpc-consolidated-lankalaw",
+        "retrieved_slugs": [
+          "cpc-consolidated-lankalaw",
+          "supreme-court-rules",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "supreme-court-rules"
+        ],
+        "retrieval_latency": 0.9690000000409782,
+        "answer": null
+      },
+      {
+        "id": "q012",
+        "answerable": true,
+        "expected_doc": "evidence-ordinance",
+        "retrieved_slugs": [
+          "evidence-ordinance",
+          "evidence-ordinance",
+          "evidence-ordinance",
+          "evidence-ordinance",
+          "evidence-ordinance"
+        ],
+        "retrieval_latency": 0.9220000000204891,
+        "answer": null
+      },
+      {
+        "id": "q013",
+        "answerable": true,
+        "expected_doc": "evidence-ordinance",
+        "retrieved_slugs": [
+          "evidence-ordinance",
+          "evidence-ordinance",
+          "evidence-ordinance",
+          "evidence-ordinance",
+          "evidence-ordinance"
+        ],
+        "retrieval_latency": 0.875,
+        "answer": null
+      },
+      {
+        "id": "q014",
+        "answerable": true,
+        "expected_doc": "evidence-ordinance",
+        "retrieved_slugs": [
+          "evidence-ordinance",
+          "evidence-ordinance",
+          "evidence-ordinance",
+          "evidence-ordinance",
+          "cpc-consolidated-lankalaw"
+        ],
+        "retrieval_latency": 0.8439999999245629,
+        "answer": null
+      },
+      {
+        "id": "q015",
+        "answerable": true,
+        "expected_doc": "evidence-ordinance",
+        "retrieved_slugs": [
+          "evidence-ordinance",
+          "evidence-ordinance",
+          "evidence-ordinance",
+          "cpc-consolidated-lankalaw",
+          "evidence-ordinance"
+        ],
+        "retrieval_latency": 0.8279999999795109,
+        "answer": null
+      },
+      {
+        "id": "q016",
+        "answerable": true,
+        "expected_doc": "judicature-act-1978",
+        "retrieved_slugs": [
+          "judicature-act-1978",
+          "judicature-act-1978",
+          "cpc-consolidated-lankalaw",
+          "judicature-act-1978",
+          "judicature-act-1978"
+        ],
+        "retrieval_latency": 0.8280000000959262,
+        "answer": null
+      },
+      {
+        "id": "q017",
+        "answerable": true,
+        "expected_doc": "interpretation-ordinance",
+        "retrieved_slugs": [
+          "interpretation-ordinance",
+          "interpretation-ordinance",
+          "interpretation-ordinance",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw"
+        ],
+        "retrieval_latency": 1.0619999999180436,
+        "answer": null
+      },
+      {
+        "id": "q018",
+        "answerable": true,
+        "expected_doc": "interpretation-ordinance",
+        "retrieved_slugs": [
+          "interpretation-ordinance",
+          "interpretation-ordinance",
+          "cpc-consolidated-lankalaw",
+          "interpretation-ordinance",
+          "supreme-court-rules"
+        ],
+        "retrieval_latency": 0.9380000000819564,
+        "answer": null
+      },
+      {
+        "id": "q019",
+        "answerable": true,
+        "expected_doc": "interpretation-ordinance",
+        "retrieved_slugs": [
+          "evidence-ordinance",
+          "interpretation-ordinance",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw"
+        ],
+        "retrieval_latency": 0.9369999999180436,
+        "answer": null
+      },
+      {
+        "id": "q020",
+        "answerable": true,
+        "expected_doc": "supreme-court-rules",
+        "retrieved_slugs": [
+          "supreme-court-rules",
+          "supreme-court-rules",
+          "supreme-court-rules",
+          "supreme-court-rules",
+          "supreme-court-rules"
+        ],
+        "retrieval_latency": 0.8130000000819564,
+        "answer": null
+      },
+      {
+        "id": "q021",
+        "answerable": true,
+        "expected_doc": "cpc-amend-4-2005",
+        "retrieved_slugs": [
+          "cpc-amend-4-2005",
+          "cpc-amend-4-2005",
+          "cpc-amend-4-2005",
+          "cpc-amend-4-2005",
+          "cpc-amend-4-2005"
+        ],
+        "retrieval_latency": 0.17199999990407377,
+        "answer": null
+      },
+      {
+        "id": "q022",
+        "answerable": true,
+        "expected_doc": "cpc-amend-5-2022",
+        "retrieved_slugs": [
+          "cpc-amend-5-2022",
+          "cpc-amend-5-2022",
+          "cpc-amend-5-2022",
+          "cpc-amend-5-2022"
+        ],
+        "retrieval_latency": 0.14000000001396984,
+        "answer": null
+      },
+      {
+        "id": "q023",
+        "answerable": true,
+        "expected_doc": "cpc-amend-17-2022",
+        "retrieved_slugs": [
+          "cpc-amend-17-2022",
+          "cpc-amend-17-2022",
+          "cpc-amend-17-2022",
+          "cpc-amend-17-2022",
+          "cpc-amend-17-2022"
+        ],
+        "retrieval_latency": 0.20400000002700835,
+        "answer": null
+      },
+      {
+        "id": "q024",
+        "answerable": true,
+        "expected_doc": "cpc-amend-36-2022",
+        "retrieved_slugs": [
+          "cpc-amend-36-2022",
+          "cpc-amend-36-2022",
+          "cpc-amend-36-2022",
+          "cpc-amend-36-2022"
+        ],
+        "retrieval_latency": 0.14000000001396984,
+        "answer": null
+      },
+      {
+        "id": "q025",
+        "answerable": true,
+        "expected_doc": "cpc-amend-7-2023",
+        "retrieved_slugs": [
+          "cpc-amend-7-2023",
+          "cpc-amend-7-2023",
+          "cpc-amend-7-2023",
+          "cpc-amend-7-2023",
+          "cpc-amend-7-2023"
+        ],
+        "retrieval_latency": 0.2190000000409782,
+        "answer": null
+      },
+      {
+        "id": "q026",
+        "answerable": true,
+        "expected_doc": "cpc-amend-29-2023",
+        "retrieved_slugs": [
+          "cpc-amend-29-2023",
+          "cpc-amend-29-2023",
+          "cpc-amend-29-2023",
+          "cpc-amend-29-2023",
+          "cpc-amend-29-2023"
+        ],
+        "retrieval_latency": 0.6719999999040738,
+        "answer": null
+      },
+      {
+        "id": "q027",
+        "answerable": true,
+        "expected_doc": "cpc-amend-43-2024",
+        "retrieved_slugs": [
+          "cpc-amend-43-2024",
+          "cpc-amend-43-2024",
+          "cpc-amend-43-2024",
+          "cpc-amend-43-2024",
+          "cpc-amend-43-2024"
+        ],
+        "retrieval_latency": 0.8900000000139698,
+        "answer": null
+      },
+      {
+        "id": "q028",
+        "answerable": true,
+        "expected_doc": "cpc-amend-43-2024",
+        "retrieved_slugs": [
+          "cpc-amend-43-2024",
+          "cpc-amend-43-2024",
+          "cpc-amend-43-2024",
+          "cpc-amend-43-2024",
+          "cpc-amend-43-2024"
+        ],
+        "retrieval_latency": 1.0320000000065193,
+        "answer": null
+      },
+      {
+        "id": "q029",
+        "answerable": true,
+        "expected_doc": "prescription-ordinance",
+        "retrieved_slugs": [
+          "prescription-ordinance",
+          "judicature-act-1978",
+          "judicature-act-1978",
+          "supreme-court-rules",
+          "judicature-act-1978"
+        ],
+        "retrieval_latency": 0.9060000000754371,
+        "answer": null
+      },
+      {
+        "id": "q030",
+        "answerable": true,
+        "expected_doc": "prescription-ordinance",
+        "retrieved_slugs": [
+          "prescription-ordinance",
+          "prescription-ordinance",
+          "prescription-ordinance",
+          "cpc-consolidated-lankalaw",
+          "prescription-ordinance"
+        ],
+        "retrieval_latency": 0.890999999945052,
+        "answer": null
+      },
+      {
+        "id": "q031",
+        "answerable": true,
+        "expected_doc": "prescription-ordinance",
+        "retrieved_slugs": [
+          "prescription-ordinance",
+          "prescription-ordinance",
+          "cpc-consolidated-lankalaw",
+          "prescription-ordinance",
+          "prescription-ordinance"
+        ],
+        "retrieval_latency": 0.875,
+        "answer": null
+      },
+      {
+        "id": "q032",
+        "answerable": true,
+        "expected_doc": "evidence-ordinance",
+        "retrieved_slugs": [
+          "evidence-ordinance",
+          "evidence-ordinance",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw"
+        ],
+        "retrieval_latency": 0.8279999999795109,
+        "answer": null
+      },
+      {
+        "id": "q033",
+        "answerable": true,
+        "expected_doc": "judicature-act-1978",
+        "retrieved_slugs": [
+          "judicature-act-1978",
+          "judicature-act-1978",
+          "judicature-act-1978",
+          "judicature-act-1978",
+          "judicature-act-1978"
+        ],
+        "retrieval_latency": 0.8429999999934807,
+        "answer": null
+      },
+      {
+        "id": "q034",
+        "answerable": true,
+        "expected_doc": "mediation-boards-act-1988",
+        "retrieved_slugs": [
+          "mediation-boards-act-1988",
+          "mediation-boards-act-1988",
+          "mediation-boards-act-1988",
+          "mediation-boards-act-1988",
+          "mediation-boards-act-1988"
+        ],
+        "retrieval_latency": 0.8290000000270084,
+        "answer": null
+      },
+      {
+        "id": "q035",
+        "answerable": true,
+        "expected_doc": "arbitration-act-1995",
+        "retrieved_slugs": [
+          "arbitration-act-1995",
+          "arbitration-act-1995",
+          "arbitration-act-1995",
+          "arbitration-act-1995",
+          "arbitration-act-1995"
+        ],
+        "retrieval_latency": 0.8429999999934807,
+        "answer": null
+      },
+      {
+        "id": "q036",
+        "answerable": true,
+        "expected_doc": "prescription-ordinance",
+        "retrieved_slugs": [
+          "prescription-ordinance",
+          "prescription-ordinance",
+          "prescription-ordinance",
+          "prescription-ordinance",
+          "cpc-consolidated-lankalaw"
+        ],
+        "retrieval_latency": 0.8279999999795109,
+        "answer": null
+      },
+      {
+        "id": "q037",
+        "answerable": true,
+        "expected_doc": "cpc-consolidated-lankalaw",
+        "retrieved_slugs": [
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw"
+        ],
+        "retrieval_latency": 1.0,
+        "answer": null
+      },
+      {
+        "id": "q038",
+        "answerable": true,
+        "expected_doc": "cpc-amend-8-2017",
+        "retrieved_slugs": [
+          "cpc-amend-8-2017",
+          "cpc-amend-8-2017",
+          "cpc-amend-8-2017",
+          "cpc-amend-8-2017",
+          "cpc-amend-8-2017"
+        ],
+        "retrieval_latency": 0.7970000000204891,
+        "answer": null
+      },
+      {
+        "id": "q039",
+        "answerable": true,
+        "expected_doc": "cpc-consolidated-lankalaw",
+        "retrieved_slugs": [
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw"
+        ],
+        "retrieval_latency": 0.8910000000614673,
+        "answer": null
+      },
+      {
+        "id": "q040",
+        "answerable": true,
+        "expected_doc": "cpc-amend-11-2010",
+        "retrieved_slugs": [
+          "cpc-amend-11-2010",
+          "cpc-amend-11-2010",
+          "cpc-amend-11-2010",
+          "cpc-amend-11-2010",
+          "cpc-amend-11-2010"
+        ],
+        "retrieval_latency": 0.7969999999040738,
+        "answer": null
+      },
+      {
+        "id": "q041",
+        "answerable": true,
+        "expected_doc": "cpc-consolidated-lankalaw",
+        "retrieved_slugs": [
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw"
+        ],
+        "retrieval_latency": 0.8440000000409782,
+        "answer": null
+      },
+      {
+        "id": "q042",
+        "answerable": true,
+        "expected_doc": "cpc-amend-20-2023",
+        "retrieved_slugs": [
+          "cpc-amend-20-2023",
+          "cpc-amend-20-2023",
+          "cpc-amend-20-2023",
+          "cpc-amend-20-2023",
+          "cpc-amend-20-2023"
+        ],
+        "retrieval_latency": 0.18700000003445894,
+        "answer": null
+      },
+      {
+        "id": "q043",
+        "answerable": false,
+        "expected_doc": null,
+        "retrieved_slugs": [
+          "judicature-act-1978",
+          "judicature-act-1978",
+          "cpc-consolidated-lankalaw",
+          "judicature-act-1978",
+          "judicature-act-1978"
+        ],
+        "retrieval_latency": 0.765999999945052,
+        "answer": "I don't have that information in my knowledge base."
+      },
+      {
+        "id": "q044",
+        "answerable": false,
+        "expected_doc": null,
+        "retrieved_slugs": [
+          "cpc-consolidated-lankalaw",
+          "judicature-act-1978",
+          "judicature-act-1978",
+          "arbitration-act-1995",
+          "judicature-act-1978"
+        ],
+        "retrieval_latency": 0.7970000000204891,
+        "answer": "I don't have that information in my knowledge base."
+      },
+      {
+        "id": "q045",
+        "answerable": false,
+        "expected_doc": null,
+        "retrieved_slugs": [
+          "cpc-consolidated-lankalaw",
+          "evidence-ordinance",
+          "evidence-ordinance",
+          "cpc-consolidated-lankalaw",
+          "supreme-court-rules"
+        ],
+        "retrieval_latency": 0.7660000000614673,
+        "answer": "I don't have that information in my knowledge base."
+      },
+      {
+        "id": "q046",
+        "answerable": false,
+        "expected_doc": null,
+        "retrieved_slugs": [
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "judicature-act-1978"
+        ],
+        "retrieval_latency": 0.890999999945052,
+        "answer": "I don't have that information in my knowledge base."
+      },
+      {
+        "id": "q047",
+        "answerable": false,
+        "expected_doc": null,
+        "retrieved_slugs": [
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw",
+          "supreme-court-rules",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw"
+        ],
+        "retrieval_latency": 0.7809999999590218,
+        "answer": "**Bail procedure for a person arrested under the Code of Criminal Procedure (as reflected in the Civil Procedure Code provisions)**  \n\n1. **Deposit with the Fiscal** \u2013  \n   The arrested person may, instead of giving bail, deposit the sum specified in the warrant with the Fiscal or in court. Upon receipt of the deposit, the person is discharged from custody and a minute of the deposit is entered on the warrant.  \n   *Source: Civil Procedure Code (consolidated to Act No.\u202f43 of\u202f2024)* \u2013 the text states that \u201cthe defendant may, instead of giving bail, as is hereinbefore directed, deposit with the Fiscal or in court the sum mentioned in the warrant, and thereupon he shall be discharged from custody, and a minute of the same shall be made on the warrant\u201d (section number not specified in the retrieved text).\n\n2. **Giving bail or security** \u2013  \n   If the person does not deposit the sum, he must give reasonable security (bail) to the Fiscal to appear and answer the plaintiff\u2019s claim and to abide by the court\u2019s judgment. The court may also require a security in the form of a bond (Form\u202fNo.\u202f101, First Schedule).  \n   *Source: Civil Procedure Code (consolidated to Act No.\u202f43 of\u202f2024)* \u2013 the text notes that \u201cthe defendant being arrested on such a warrant shall at once be brought up before the court by which it was issued in custody of the Fiscal, unless he shall give reasonable security (form\u202fNo.\u202f101, First Schedule) to the Fiscal to appear and answer the plaintiff\u2019s claim\u201d (section number not specified).\n\n3. **Discharge upon bail** \u2013  \n   Once bail or the required security is provided, the court discharges the arrested person from custody.  \n   *Source: Civil Procedure Code (consolidated to Act No.\u202f43 of\u202f2024)* \u2013 the same provision indicates that providing the security results in discharge from custody (section number not specified).\n\n4. **Cancellation of the warrant on illness** \u2013  \n   The court may cancel the warrant of arrest if the arrested person is seriously ill, thereby releasing him from custody.  \n   *Source: Civil Procedure Code (consolidated to Act No.\u202f43 of\u202f2024)* \u2013 \u201cAt any time after a warrant of arrest has been issued under this Ordinance the court may cancel it on the ground of the serious illness of the person against whom the warrant was issued\u201d (section number not specified).\n\nThese provisions collectively outline the bail procedure for a person arrested under the Code of Criminal Procedure: deposit with the Fiscal or give bail/security, discharge upon compliance, and the possibility of warrant cancellation on serious illness."
+      },
+      {
+        "id": "q048",
+        "answerable": false,
+        "expected_doc": null,
+        "retrieved_slugs": [
+          "cpc-consolidated-lankalaw",
+          "evidence-ordinance",
+          "judicature-act-1978",
+          "cpc-consolidated-lankalaw",
+          "cpc-consolidated-lankalaw"
+        ],
+        "retrieval_latency": 0.8279999999795109,
+        "answer": "I don't have that information in my knowledge base."
+      },
+      {
+        "id": "q049",
+        "answerable": false,
+        "expected_doc": null,
+        "retrieved_slugs": [
+          "mediation-boards-act-1988",
+          "evidence-ordinance",
+          "evidence-ordinance",
+          "supreme-court-rules",
+          "judicature-act-1978"
+        ],
+        "retrieval_latency": 0.8119999999180436,
+        "answer": "I don't have that information in my knowledge base."
+      },
+      {
+        "id": "q050",
+        "answerable": false,
+        "expected_doc": null,
+        "retrieved_slugs": [
+          "cpc-consolidated-lankalaw",
+          "supreme-court-rules",
+          "evidence-ordinance",
+          "supreme-court-rules",
+          "judicature-act-1978"
+        ],
+        "retrieval_latency": 0.75,
+        "answer": "I don't have that information in my knowledge base."
+      }
+    ]
+  }
+]

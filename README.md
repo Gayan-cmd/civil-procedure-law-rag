@@ -103,6 +103,27 @@ No local setup, GPU, or paid API key required — everything runs on Colab's fre
 - **No case law.** Statutes and court rules only — judicial interpretation, which routinely resolves real procedural ambiguity in practice, isn't part of this corpus.
 - **The notebook needs re-running against the updated corpus — and its retrieval filter needs a code change, not just new data.** The base CPC edition was swapped for a genuine section-level consolidation, two documents were added, and (after external review) the metadata schema changed: the consolidated code's `act_number`/`year` are now `null` (they used to collide with the real Act 43/2024), and every document now carries `content_role` (`primary_consolidated_text` vs. `amending_instrument`) plus `superseded_by` on the amendment acts, since the consolidated text now contains every amendment merged in and the 10 amendment acts would otherwise surface as confusing duplicates for general queries. The notebook's retrieval filter needs to actually use these fields — see `corpus/REPORT.md` → "Open items" for the exact code change.
 
+## Retrieval evaluation
+
+Four retrieval strategies, run against the same 50-question hand-written gold set (`eval/gold_set.json`), to measure whether each added technique actually helps rather than assuming it does:
+
+| Config | Recall@5 | MRR | Refusal acc | Retrieval p95 |
+|---|---|---|---|---|
+| Naive dense, k=5 | 0.786 | 0.609 | 1.000 | 0.031s |
+| + Act-number filtering | 0.976 | 0.895 | 1.000 | 0.093s |
+| + BM25 hybrid (RRF) | 1.000 | 0.952 | 0.875 | 0.219s |
+| + Cross-encoder rerank | 1.000 | 0.988 | 0.875 | 1.015s |
+
+**Recall@5 / MRR** — document-level: did the correct source document appear in the top 5 retrieved chunks, and how highly was it ranked. Both climb steadily as each technique is added; hybrid search and reranking together close the gap entirely on this gold set.
+
+**Refusal accuracy** — of the 8 deliberately out-of-corpus questions (criminal procedure, tax law, company law, etc.), what fraction the model correctly refused rather than fabricating an answer. This is the one metric that *drops* once BM25/reranking are added — see below.
+
+**Retrieval p95 latency** — the real cost of each improvement: naive dense is near-instant (0.03s); reranking costs over a second per question, since it re-scores a 25-candidate pool with a second model. A genuine latency/accuracy tradeoff, not a free upgrade.
+
+**A real tradeoff, not a flaw to paper over:** one unanswerable question (`q047`, asking about bail procedure under *criminal* law) was correctly refused by the first two configs, but answered — incorrectly extrapolating from the Civil Procedure Code's own, unrelated *civil* arrest-before-judgment provisions — once BM25 and reranking were introduced. All four configs retrieved mostly the same document (`cpc-consolidated-lankalaw`); the difference was that BM25/reranking surfaced a more specific, on-topic-*sounding* passage about arrest and bail, persuasive enough to tempt the model past the edge of the corpus's actual scope. Better retrieval of plausible-sounding text made the model slightly less cautious, not more — worth knowing before trusting reranking unconditionally in a legal domain where refusing is often the safer answer than a confident-sounding guess.
+
+Raw per-question results for every config: [`eval/results/ablation.json`](eval/results/ablation.json). Reproduce with `python -m eval.ablation`.
+
 ## Tech stack
 
 **Corpus pipeline:** Python, `requests`, `pypdf`

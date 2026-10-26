@@ -29,8 +29,6 @@ import time
 from pathlib import Path
 from typing import Any
 
-import groq
-
 from cpa.chain import format_docs
 from cpa.config import Settings, get_settings
 from cpa.embedding import get_embeddings
@@ -38,6 +36,7 @@ from cpa.generation import get_llm, get_prompt
 from cpa.retrieval import get_retriever
 from cpa.store import load_vectorstore
 
+from eval.groq_retry import invoke_with_retry
 from eval.metrics import (
     mean_reciprocal_rank,
     mean_recall_at_k,
@@ -47,36 +46,6 @@ from eval.metrics import (
 )
 
 RESULTS_PATH = Path(__file__).resolve().parent / "results" / "baseline.json"
-
-
-def _invoke_with_retry(
-    llm: Any, formatted: Any, max_retries: int = 5
-) -> tuple[Any, float]:
-    """Call llm.invoke(), retrying on Groq's free-tier rate limit.
-
-    50 full-pipeline questions back to back is enough to trip the free
-    tier's tokens-per-minute limit (observed directly: a real run hit a
-    429 after ~34 questions). Groq's error response includes a
-    "Retry-After" header with the exact wait time -- use that instead of
-    guessing, falling back to a fixed delay only if it's ever missing.
-
-    Returns (response, latency) where latency times only the successful
-    call itself -- rate-limit backoff waiting is deliberately excluded,
-    so a throttled question doesn't show up as a bogus latency spike.
-    """
-    for attempt in range(max_retries):
-        try:
-            start = time.monotonic()
-            response = llm.invoke(formatted)
-            return response, time.monotonic() - start
-        except groq.RateLimitError as error:
-            if attempt == max_retries - 1:
-                raise
-            retry_after = error.response.headers.get("retry-after")
-            delay = float(retry_after) if retry_after else 5.0 * (2**attempt)
-            print(f"    rate limited, waiting {delay:.1f}s...")
-            time.sleep(delay)
-    raise RuntimeError("unreachable")  # pragma: no cover
 
 
 def evaluate_question(
@@ -100,7 +69,7 @@ def evaluate_question(
 
     context = format_docs(documents)
     formatted = prompt.invoke({"context": context, "question": question})
-    response, generation_latency = _invoke_with_retry(llm, formatted)
+    response, generation_latency = invoke_with_retry(llm, formatted)
 
     return {
         "id": entry["id"],
