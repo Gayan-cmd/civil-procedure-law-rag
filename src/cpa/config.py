@@ -46,6 +46,18 @@ class Settings:
     chroma_dir: Path = field(
         default_factory=lambda: _env_path("CPA_CHROMA_DIR", _REPO_ROOT / "chroma_db")
     )
+    database_url: str = field(
+        default_factory=lambda: os.environ.get(
+            "CPA_DATABASE_URL",
+            # 127.0.0.1, not localhost: on Windows + Docker Desktop,
+            # "localhost" resolves to IPv6 first, which isn't always
+            # listened on by the container's forwarded port -- that
+            # stalls every connection for several seconds before falling
+            # back to IPv4. Verified directly: 5s+ via "localhost",
+            # ~0.03s via "127.0.0.1" against the same container.
+            "postgresql://cpa:cpa_local_dev@127.0.0.1:5432/cpa",
+        )
+    )
 
     embedding_model: str = field(
         default_factory=lambda: os.environ.get(
