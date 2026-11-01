@@ -7,7 +7,7 @@ import cpa.chain as chain_module
 from cpa.chain import ask, build_chain, format_docs
 from cpa.config import Settings
 from cpa.store import build_vectorstore
-from conftest import FakeEmbeddings
+from conftest import TEST_DATABASE_URL, FakeEmbeddings
 
 
 def test_format_docs_labels_each_source() -> None:
@@ -49,7 +49,7 @@ def _sample_vectorstore(fake_embeddings: FakeEmbeddings, settings: Settings):
 def test_chain_retrieves_exactly_once_per_question(
     fake_embeddings: FakeEmbeddings, monkeypatch
 ) -> None:
-    settings = Settings(retrieval_k=5)
+    settings = Settings(retrieval_k=5, database_url=TEST_DATABASE_URL)
     vectorstore = _sample_vectorstore(fake_embeddings, settings)
 
     call_count = 0
@@ -79,7 +79,7 @@ def test_chain_retrieves_exactly_once_per_question(
 def test_ask_returns_answer_and_documents_together(
     fake_embeddings: FakeEmbeddings, monkeypatch
 ) -> None:
-    settings = Settings(retrieval_k=5)
+    settings = Settings(retrieval_k=5, database_url=TEST_DATABASE_URL)
     vectorstore = _sample_vectorstore(fake_embeddings, settings)
 
     monkeypatch.setattr(

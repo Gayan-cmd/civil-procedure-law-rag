@@ -5,7 +5,7 @@ from langchain_core.documents import Document
 from cpa.config import Settings
 from cpa.retrieval import extract_act_reference, get_retriever
 from cpa.store import build_vectorstore
-from conftest import FakeEmbeddings
+from conftest import TEST_DATABASE_URL, FakeEmbeddings
 
 
 def test_extracts_full_citation() -> None:
@@ -53,7 +53,7 @@ def _sample_vectorstore(fake_embeddings: FakeEmbeddings, settings: Settings):
 def test_act_specific_query_returns_amending_instrument(
     fake_embeddings: FakeEmbeddings,
 ) -> None:
-    settings = Settings(retrieval_k=5)
+    settings = Settings(retrieval_k=5, database_url=TEST_DATABASE_URL)
     vectorstore = _sample_vectorstore(fake_embeddings, settings)
 
     retriever = get_retriever(
@@ -67,7 +67,7 @@ def test_act_specific_query_returns_amending_instrument(
 def test_general_query_excludes_amending_instrument(
     fake_embeddings: FakeEmbeddings,
 ) -> None:
-    settings = Settings(retrieval_k=5)
+    settings = Settings(retrieval_k=5, database_url=TEST_DATABASE_URL)
     vectorstore = _sample_vectorstore(fake_embeddings, settings)
 
     retriever = get_retriever(
@@ -83,7 +83,7 @@ def test_general_query_excludes_amending_instrument(
 def test_cited_act_not_in_corpus_falls_back_to_general_default(
     fake_embeddings: FakeEmbeddings,
 ) -> None:
-    settings = Settings(retrieval_k=5)
+    settings = Settings(retrieval_k=5, database_url=TEST_DATABASE_URL)
     vectorstore = _sample_vectorstore(fake_embeddings, settings)
 
     # Act 99 of 2099 doesn't exist in this store -- should fall back to the

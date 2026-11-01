@@ -109,10 +109,12 @@ Four retrieval strategies, run against the same 50-question hand-written gold se
 
 | Config | Recall@5 | MRR | Refusal acc | Retrieval p95 |
 |---|---|---|---|---|
-| Naive dense, k=5 | 0.786 | 0.609 | 1.000 | 0.031s |
-| + Act-number filtering | 0.976 | 0.895 | 1.000 | 0.093s |
-| + BM25 hybrid (RRF) | 1.000 | 0.952 | 0.875 | 0.219s |
-| + Cross-encoder rerank | 1.000 | 0.988 | 0.875 | 1.015s |
+| Naive dense, k=5 | 0.810 | 0.633 | 1.000 | 0.062s |
+| + Act-number filtering | 0.976 | 0.895 | 1.000 | 0.079s |
+| + BM25 hybrid (RRF) | 1.000 | 0.952 | 0.875 | 0.187s |
+| + Cross-encoder rerank | 1.000 | 0.988 | 0.750 | 0.860s |
+
+Re-run after the Phase 3 migration from Chroma to Postgres/pgvector (see below) -- the middle two rows are exact matches to the original Chroma-era numbers; the other two shift by a question or less, consistent with two independent sources of expected run-to-run noise rather than a migration bug: naive dense search has no Act/content-role filter to narrow the many near-duplicate chunks (consolidated text vs. amending instruments covering the same provisions), so it's the row most exposed to Chroma's and pgvector's HNSW indexes being two different *approximate* nearest-neighbour implementations, which can break near-ties differently; refusal accuracy depends on the LLM's own sampling on exactly the kind of borderline question already called out below (`q047`) as persuadable by better-looking retrieved passages.
 
 **Recall@5 / MRR** — document-level: did the correct source document appear in the top 5 retrieved chunks, and how highly was it ranked. Both climb steadily as each technique is added; hybrid search and reranking together close the gap entirely on this gold set.
 

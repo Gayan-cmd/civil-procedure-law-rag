@@ -11,9 +11,9 @@
       "cpc-consolidated-lankalaw",
       "cpc-consolidated-lankalaw"
     ],
-    "answer": "**Requisites of a plaint under the Civil Procedure Code (consolidated to Act No.\u202f43 of\u202f2024)**  \n\n- The plaint must be a duly stamped written document, and it must be accompanied by the required summonses (Form\u202fNo.\u202f16 for each defendant) and a precept (Form\u202fNo.\u202f17) as prescribed in the First Schedule.  \n- It must be distinctly written on good and suitable paper and contain the following particulars (Civil Procedure Code, \u00a7\u202f40):  \n  - (a) the name of the court and the date of filing the plaint.  \n- If the cause of action arose beyond the period ordinarily allowed by any law, the plaint must show the ground for exemption from such lapse of time (Civil Procedure Code, \u00a7\u202f44).  \n- The plaint must contain a statement of facts setting out the jurisdiction of the court to try and determine the claim in respect of which the action is brought (Civil Procedure Code, \u00a7\u202f45).  \n- The plaint must be subscribed: by a registered attorney if the plaintiff is represented by one, or by the plaintiff himself with verification by an officer authorized by the court (Civil Procedure Code, \u00a7\u202f46).  \n- If the plaintiff sues upon a document in his possession or power, that document must be produced in court when the plaint is presented (Civil Procedure Code, \u00a7\u202f50).",
-    "retrieval_latency": 0.09300000000803266,
-    "generation_latency": 1.9689999999973224
+    "answer": "",
+    "retrieval_latency": 0.06199999999807915,
+    "generation_latency": 4.140999999999622
   },
   {
     "id": "q002",
@@ -27,9 +27,9 @@
       "judicature-act-1978",
       "judicature-act-1978"
     ],
-    "answer": "I don\u2019t have that information in my knowledge base.",
-    "retrieval_latency": 0.04700000000593718,
-    "generation_latency": 0.9379999999946449
+    "answer": "I don't have that information in my knowledge base.",
+    "retrieval_latency": 0.0470000000022992,
+    "generation_latency": 1.1090000000003783
   },
   {
     "id": "q003",
@@ -44,8 +44,8 @@
       "cpc-consolidated-lankalaw"
     ],
     "answer": "Under the Civil Procedure Code (consolidated to Act No.\u202f43 of\u202f2024), section\u202f70, an order granting leave to serve summons outside Sri\u202fLanka must direct the defendant to file his answer **on or before the date specified in the summons**. That date must be **no later than six months from the date of the order for service outside Sri\u202fLanka**.",
-    "retrieval_latency": 0.046000000002095476,
-    "generation_latency": 0.8129999999946449
+    "retrieval_latency": 0.046999999998661224,
+    "generation_latency": 1.3119999999980791
   },
   {
     "id": "q004",
@@ -59,9 +59,9 @@
       "judicature-act-1978",
       "supreme-court-rules"
     ],
-    "answer": "Yes.  \nUnder **Section\u202f71A of the Civil Procedure Code (consolidated to Act No.\u202f43 of 2024, section\u2011merged)**, a court may, in addition to the ordinary service of documents, direct the Registrar to communicate any order of court\u2014including an enjoining order, an injunction, an interim injunction, a sequestration order and an interim order\u2014to the parties concerned by way of electronic or telephone devices.",
-    "retrieval_latency": 0.04700000000593718,
-    "generation_latency": 0.875
+    "answer": "Yes.  \nUnder **Section\u202f71A of the Civil Procedure Code (consolidated to Act No.\u202f43 of\u202f2024, section\u2011merged)**, the court may, in addition to the ordinary service of documents, direct the Registrar to communicate any order of court\u2014including an enjoining order, an injunction, an interim injunction, a sequestration order and an interim order\u2014to the parties concerned by way of electronic or telephone devices.",
+    "retrieval_latency": 0.03200000000288128,
+    "generation_latency": 1.1719999999986612
   },
   {
     "id": "q005",
@@ -75,9 +75,9 @@
       "supreme-court-rules",
       "cpc-consolidated-lankalaw"
     ],
-    "answer": "If a defendant admits the plaintiff\u2019s claim, the court may adjudicate upon the title to the thing claimed.  \nThis is stated in the Civil Procedure Code (consolidated to Act No.\u202f43 of 2024, section\u2011merged) \u2013 lankalaw.net edition, where the court is empowered to \u201cadjudicate upon the title to the thing claimed\u201d when it finds that the admissions of the parties or other evidence enable it to do so. The specific section number is not provided in the retrieved text.",
-    "retrieval_latency": 0.046999999991385266,
-    "generation_latency": 7.578000000008615
+    "answer": "If a defendant admits the plaintiff\u2019s claim, the court may adjudicate the title to the thing claimed.  \nThis is set out in the Civil Procedure Code (consolidated to Act No.\u202f43 of\u202f2024, section\u2011merged) under the procedure at the hearing (see the passage that allows the court to \u201cadjudicate upon the title to the thing claimed\u201d when admissions of the parties or other evidence enable it).",
+    "retrieval_latency": 0.0459999999984575,
+    "generation_latency": 10.18800000000192
   },
   {
     "id": "q006",
@@ -92,8 +92,8 @@
       "cpc-consolidated-lankalaw"
     ],
     "answer": "Yes.  \nUnder the Civil Procedure Code (consolidated to Act No.\u202f43 of\u202f2024) a defendant\u2019s answer to a plaint must be in writing and delivered to the court.  \n- Section\u202f73 states that the defendant (or his registered attorney) must \u201cdeliver to the court a duly stamped written answer.\u201d  \n- Section\u202f75 further requires that every such answer be \u201cdistinctly written upon good and suitable paper, shall be duly stamped, shall be subscribed by the defendant or his duly constituted representative\u2026\u201d  \n\nThus, a written answer is mandatory.",
-    "retrieval_latency": 0.031000000002677552,
-    "generation_latency": 14.312999999994645
+    "retrieval_latency": 0.06199999999807915,
+    "generation_latency": 12.5
   },
   {
     "id": "q007",
@@ -107,9 +107,9 @@
       "cpc-consolidated-lankalaw",
       "mediation-boards-act-1988"
     ],
-    "answer": "Under the Civil Procedure Code (consolidated to Act No.\u202f43 of\u202f2024, section\u2011merged), a defendant\u2019s written answer must contain the following particulars:\n\n1. **(a)** The name of the court, the case number, and the date the answer is filed.  \n2. **(b)** The name of the plaintiff.  \n3. **(c)** The name, description, and residence of the defendant.  \n4. **(d)** A statement admitting or denying the averments of the plaint, and a plain, concise statement of the facts and law on which the defendant relies for his defence, drawn in numbered paragraphs and referring to the plaint where necessary.  \n5. **(e)** If the defendant raises a reconvention claim, a plain and concise statement of the facts constituting the ground of that claim.  \n\nThese requirements are set out in the Civil Procedure Code (consolidated to Act No.\u202f43 of\u202f2024, section\u2011merged).",
-    "retrieval_latency": 0.046000000002095476,
-    "generation_latency": 9.312999999994645
+    "answer": "Under the Civil Procedure Code (consolidated to Act No.\u202f43 of\u202f2024) a defendant\u2019s written answer must contain the following particulars:\n\n* (a) the name of the court, the case number, and the date the answer is filed;  \n* (b) the name of the plaintiff;  \n* (c) the name, description, and residence of the defendant;  \n* (d) a statement admitting or denying the averments of the plaint, and a plain, concise statement of the facts and law on which the defendant relies for his defence (drawn in numbered paragraphs and, where necessary, referring to the plaint\u2019s paragraphs);  \n* (e) if the defendant raises a reconvention claim, a plain and concise statement of the facts constituting the ground of that claim.\n\nThese requirements are set out in the Civil Procedure Code (consolidated to Act No.\u202f43 of\u202f2024). The specific section number is not specified in the retrieved text.",
+    "retrieval_latency": 0.03200000000288128,
+    "generation_latency": 9.9529999999977
   },
   {
     "id": "q008",
@@ -123,9 +123,9 @@
       "cpc-consolidated-lankalaw",
       "cpc-consolidated-lankalaw"
     ],
-    "answer": "Under the Civil Procedure Code (consolidated to Act No.\u202f43 of\u202f2024), a defendant who wishes to challenge the court\u2019s jurisdiction must do so by filing a **separate and distinct plea** that expressly traverses the averment in the plaint concerning jurisdiction.",
+    "answer": "Under the Civil Procedure Code (consolidated to Act No.\u202f43 of\u202f2024), a defendant who wishes to challenge the court\u2019s jurisdiction must do so by filing a **separate and distinct plea that expressly traverses the averment of jurisdiction in the plaint**. This plea must be made independently of the main answer to the complaint.",
     "retrieval_latency": 0.031000000002677552,
-    "generation_latency": 10.968999999997322
+    "generation_latency": 12.85899999999674
   },
   {
     "id": "q009",
@@ -139,9 +139,9 @@
       "cpc-consolidated-lankalaw",
       "cpc-consolidated-lankalaw"
     ],
-    "answer": "Under the Civil Procedure Code (consolidated to Act No.\u202f43 of\u202f2024), if a defendant\u2019s answer is found to be **substantially defective** (e.g., missing particulars, argumentative, prolix, or irrelevant), the court may:\n\n1. **Reject the answer** or return it to the defendant for amendment within a period not exceeding one month from the date of return.  \n2. **Impose costs or other terms** as it deems fit.  \n3. If the answer is rejected or the defendant fails to amend it within the prescribed period, the defendant is **regarded as having failed to file an answer**.  \n4. The court\u2019s order must specify the grounds of rejection, and a copy of the answer must be served on the plaintiff or the plaintiff\u2019s registered attorney.  \n\n(See Civil Procedure Code, section\u202f77 and related provisions.)",
-    "retrieval_latency": 0.062000000005355105,
-    "generation_latency": 10.078999999997905
+    "answer": "Under the Civil Procedure Code (consolidated to Act No.\u202f43 of\u202f2024), if a defendant\u2019s answer is found to be **substantially defective** (e.g., missing particulars, argumentative, prolix, or irrelevant), the court may:\n\n1. **Reject the answer** or return it to the defendant for amendment within a period not exceeding one month from the date of return.  \n2. The court may impose costs or other terms it deems appropriate.  \n3. If the answer is rejected or the defendant fails to amend it within the prescribed period, the defendant is treated as having **failed to file an answer**.  \n4. The court\u2019s order must specify the grounds for rejection, and a copy of the answer is served on the plaintiff or the plaintiff\u2019s registered attorney.  \n\n(See Civil Procedure Code, section\u202f77 and accompanying procedural provisions.)",
+    "retrieval_latency": 0.0470000000022992,
+    "generation_latency": 7.640999999999622
   },
   {
     "id": "q010",
@@ -155,9 +155,9 @@
       "cpc-consolidated-lankalaw",
       "cpc-consolidated-lankalaw"
     ],
-    "answer": "Yes.  \nUnder the Civil Procedure Code (consolidated to Act No.\u202f43 of\u202f2024, section\u2011merged) the application for execution of a decree **must be in writing**, signed by the applicant or his registered attorney, and must contain the specified particulars.",
-    "retrieval_latency": 0.046000000002095476,
-    "generation_latency": 10.093999999997322
+    "answer": "Yes.  \nUnder the Civil Procedure Code (consolidated to Act No.\u202f43 of 2024), the application for execution of a decree **must be in writing** (signed by the applicant or his registered attorney) and must contain the particulars listed in the code.",
+    "retrieval_latency": 0.030999999999039574,
+    "generation_latency": 12.96900000000096
   },
   {
     "id": "q011",
@@ -172,8 +172,8 @@
       "supreme-court-rules"
     ],
     "answer": "A party must file the notice of appeal with the original court within **fourteen days** from the date the decree or order was pronounced (exclusive of that day, the day the petition is presented, Sundays, and public holidays).  \n*Source: Civil Procedure Code (consolidated to Act No.\u202f43 of\u202f2024, section\u2011merged).*",
-    "retrieval_latency": 0.04700000000593718,
-    "generation_latency": 11.125
+    "retrieval_latency": 0.046999999998661224,
+    "generation_latency": 10.187000000001717
   },
   {
     "id": "q012",
@@ -187,9 +187,9 @@
       "cpc-consolidated-lankalaw",
       "evidence-ordinance"
     ],
-    "answer": "The burden of proof in a civil suit or proceeding lies on the person who would fail if no evidence were given on either side. In other words, it is on the party who asserts the facts that the court must prove. This is set out in the Evidence Ordinance, Chapter\u202f14, section\u202f102, and reiterated in section\u202f101 of the same ordinance.",
-    "retrieval_latency": 0.046999999991385266,
-    "generation_latency": 12.01600000000326
+    "answer": "The burden of proof in a civil suit or proceeding lies on the person who would fail if no evidence were given on either side. In other words, it is on the party who asserts the facts that the court must prove those facts exist (Evidence Ordinance, Chapter\u202f14, \u00a7\u202f102; see also \u00a7\u202f101).",
+    "retrieval_latency": 0.046999999998661224,
+    "generation_latency": 12.765999999999622
   },
   {
     "id": "q013",
@@ -204,8 +204,8 @@
       "evidence-ordinance"
     ],
     "answer": "Yes.  \nUnder the Evidence Ordinance, Chapter\u202f14 (consolidated to 2024), section\u202f114, a court may presume the existence of any fact that it thinks likely to have happened, taking into account the common course of natural events, human conduct, and public and private business as they relate to the case.",
-    "retrieval_latency": 0.062000000005355105,
-    "generation_latency": 8.968999999997322
+    "retrieval_latency": 0.031000000002677552,
+    "generation_latency": 9.5779999999977
   },
   {
     "id": "q014",
@@ -219,9 +219,9 @@
       "cpc-consolidated-lankalaw",
       "evidence-ordinance"
     ],
-    "answer": "No.  \nUnder the Evidence Ordinance (Chapter\u202f14) the rule is that **all persons are competent to testify unless the Court determines that they are prevented from understanding the questions or from giving rational answers**.  The Court may find a person incompetent because of tender years, extreme old age, disease (of body or mind), unsoundness of mind, or any other similar cause.  \n\n*Citation:* Evidence Ordinance, Chapter\u202f14 \u2013 \u201cAll persons shall be competent to testify unless the Court considers that they are prevented from understanding the questions put to them, or from giving rational answers to those questions, by tender years, extreme old age, disease, whether of body or mind, or any other cause of the same kind.\u201d (Section\u202f118\u2011119).",
-    "retrieval_latency": 0.046999999991385266,
-    "generation_latency": 8.343000000008033
+    "answer": "No.  \nUnder the Evidence Ordinance (Chapter\u202f14) all persons are deemed competent to testify **unless** the Court finds that they are prevented from understanding the questions or from giving rational answers because of tender years, extreme old age, disease (of body or mind), unsoundness of mind, or any other similar cause.  \n\n*Evidence Ordinance, Chapter\u202f14 \u2013 \u201cAll persons shall be competent to testify unless the Court considers that they are prevented from understanding the questions put to them, or from giving rational answers to those questions, by tender years, extreme old age, disease, whether of body or mind, or any other cause of the same kind.\u201d*",
+    "retrieval_latency": 0.06300000000192085,
+    "generation_latency": 10.139999999999418
   },
   {
     "id": "q015",
@@ -235,9 +235,9 @@
       "evidence-ordinance",
       "evidence-ordinance"
     ],
-    "answer": "Under the Evidence Ordinance (Chapter\u202f14), Section\u202f121 states that **no judge or magistrate may be compelled to answer questions about his own conduct in court, except upon a special order of a judge of a superior court**. The section also allows examination on other matters that occurred in the judge\u2019s presence while acting.",
-    "retrieval_latency": 0.0629999999946449,
-    "generation_latency": 15.031000000002678
+    "answer": "No.  \nUnder the Evidence Ordinance, Chapter\u202f14, Section\u202f121, a judge or magistrate may not be compelled to answer any questions about his own conduct in court (or about matters that came to his knowledge while acting as judge or magistrate) unless a judge of a superior court issues a special order. He may, however, be examined on other matters that occurred in his presence while he was acting.",
+    "retrieval_latency": 0.0319999999992433,
+    "generation_latency": 12.7970000000023
   },
   {
     "id": "q016",
@@ -251,9 +251,9 @@
       "judicature-act-1978",
       "judicature-act-1978"
     ],
-    "answer": "The territorial jurisdiction of a District Court over a civil action is determined by the **local limits of that court\u2019s jurisdiction**.  \nUnder the Civil Procedure Code (consolidated to Act No.\u202f43 of\u202f2024, section\u2011merged) it is stated that:\n\n* \u201cWhen it is alleged to be uncertain within the local limits of the jurisdiction of which of two or more courts any immovable property is situated, any one of those courts may, if satisfied that there is ground for the alleged uncertainty, record a statement to that effect, and thereupon proceed to entertain and dispose of any action relating to that property; and its decree in the action shall have the same effect as if the property were situated within the local limits of its jurisdiction: Provided that the action is one with respect to which the court is competent as regards the nature and value of the action to exercise jurisdiction.\u201d (Civil Procedure Code, section\u2011merged)\n\nThus, a District Court has territorial jurisdiction over a civil action when:\n\n1. **The action is within the local limits of that court\u2019s jurisdiction** (i.e., the parties, the property, or the place where the dispute arose lies within the district served by the court).  \n2. **The court is competent in respect of the nature and value of the action** (the action falls within the court\u2019s substantive jurisdiction).\n\nIf the location of the immovable property is uncertain, any court within the relevant districts may record a statement of uncertainty and proceed, but the decree will be treated as if the property were within that court\u2019s local limits.",
-    "retrieval_latency": 0.04700000000593718,
-    "generation_latency": 12.015999999988708
+    "answer": "A District Court has territorial jurisdiction over a civil action only if the action falls within the **local limits of that court**.  \nUnder the Civil Procedure Code (consolidated to Act No.\u202f43 of\u202f2024, section\u2011merged) it is stated that:\n\n> \u201cWhen it is alleged to be uncertain within the local limits of the jurisdiction of which of two or more courts any immovable property is situated, any one of those courts may, if satisfied that there is ground for the alleged uncertainty, record a statement to that effect, and thereupon proceed to entertain and dispose of any action relating to that property; and its decree in the action shall have the same effect as if the property were situated within the local limits of its jurisdiction: **Provided that the action is one with respect to which the court is competent as regards the nature and value of the action to exercise jurisdiction**.\u201d  \n\nThus, the determining factors are:\n\n1. **The local limits of the District Court** (i.e., the district in which the action is brought or the immovable property is situated).  \n2. **The court\u2019s competence in terms of the nature and value of the action**.\n\nThese provisions are found in the Civil Procedure Code (consolidated to Act No.\u202f43 of\u202f2024, section\u2011merged).",
+    "retrieval_latency": 0.046999999998661224,
+    "generation_latency": 11.734000000000378
   },
   {
     "id": "q017",
@@ -267,9 +267,9 @@
       "cpc-consolidated-lankalaw",
       "cpc-consolidated-lankalaw"
     ],
-    "answer": "Under the Interpretation Ordinance, the term \u201cmonth\u201d means a calendar month, unless words are added indicating that lunar months are intended. (Interpretation Ordinance)",
-    "retrieval_latency": 0.062000000005355105,
-    "generation_latency": 14.093999999997322
+    "answer": "Under the Interpretation Ordinance, the term \u201cmonth\u201d means a **calendar month**, unless words are added indicating that lunar months are intended. This definition applies to Sri Lankan written law unless the law itself specifies otherwise. (Interpretation Ordinance)",
+    "retrieval_latency": 0.0319999999992433,
+    "generation_latency": 18.09400000000096
   },
   {
     "id": "q018",
@@ -283,9 +283,9 @@
       "cpc-consolidated-lankalaw",
       "judicature-act-1978"
     ],
-    "answer": "Under the Interpretation Ordinance, if the last day of a prescribed time for doing an act in court falls on a day when the court is closed, the act is deemed to be done in due time **if it is performed on the next day thereafter on which the court is open** (Interpretation Ordinance, \u00a7\u202f8(1)).",
-    "retrieval_latency": 0.062000000005355105,
-    "generation_latency": 9.89100000000326
+    "answer": "Under the Interpretation Ordinance, if the last day of a prescribed time for doing an act in court falls on a day when the court is closed, the act is deemed to be done in time if it is performed on the next day thereafter on which the court is open\u3010Interpretation Ordinance, \u00a7\u202f8(1)\u3011.",
+    "retrieval_latency": 0.06199999999807915,
+    "generation_latency": 19.1720000000023
   },
   {
     "id": "q019",
@@ -300,8 +300,8 @@
       "cpc-consolidated-lankalaw"
     ],
     "answer": "I don't have that information in my knowledge base.",
-    "retrieval_latency": 0.0629999999946449,
-    "generation_latency": 10.014999999999418
+    "retrieval_latency": 0.046999999998661224,
+    "generation_latency": 2.0
   },
   {
     "id": "q020",
@@ -315,9 +315,9 @@
       "supreme-court-rules",
       "supreme-court-rules"
     ],
-    "answer": "Under the Supreme Court Rules (incorporating amendments up to\u202f2022) and the Court of Appeal (Appellate Procedure) Rules\u202f1990, an application or appeal may be treated as **\u201curgent\u201d** for a digital virtual hearing when:\n\n1. **A judge of the Court of Appeal, designated by the President of the Court of Appeal,** determines that the matter is urgent **(Rule\u202f3).**  \n2. The judge must consider that the **inability to hold conventional physical hearings** is due to any reason that is **prejudicial to national security, public safety, or the order and security within the precincts of the Court of Appeal.**  \n3. The judge must also weigh the **need to ensure the smooth and uninterrupted administration of justice** in such circumstances.\n\nIf these conditions are met, the judge may deem the application or appeal urgent and order an urgent digital virtual hearing.",
-    "retrieval_latency": 0.04700000000593718,
-    "generation_latency": 11.343999999997322
+    "answer": "Under the Supreme Court Rules (incorporating amendments up to\u202f2022), including the Court of Appeal (Appellate Procedure) Rules\u202f1990, an application or appeal may be treated as **urgent** for a digital virtual hearing when:\n\n* The Judge of the Court of Appeal designated for the matter by the President of the Court of Appeal **deems the application or appeal urgent**; and  \n* The Judge has considered that the **inability to hold a conventional physical hearing** is due to a reason that is prejudicial to national security, public safety, or the order and security within the precincts of the Court of Appeal, **and** that there is a need to ensure the smooth and uninterrupted administration of justice.\n\nThis is set out in rule\u202f3 of the Court of Appeal (Appellate Procedure) Rules\u202f1990.",
+    "retrieval_latency": 0.0470000000022992,
+    "generation_latency": 11.73399999999674
   },
   {
     "id": "q021",
@@ -331,9 +331,9 @@
       "cpc-amend-4-2005",
       "cpc-amend-4-2005"
     ],
-    "answer": "The Civil Procedure Code (Amendment) Act No.\u202f4 of 2005 amended subsection\u202f(1) of section\u202f544 of the Civil Procedure Code.  \nUnder the amendment, the wording in paragraph\u202f(e) of that subsection was substituted, and a new paragraph\u202f(f) was inserted. Paragraph\u202f(f) deals with \u201cany instrument relating to any monetary interest (other than a bearer instrument or a negotiable instrument) issued by a company or other body of persons established in terms of any law for the time being in force.\u201d  The amendment also added definitions for \u201cinstrument\u201d and \u201cbearer instrument\u201d at the end of the subsection.  \n\n*Source: Civil Procedure Code (Amendment) Act No.\u202f4 of 2005.*",
-    "retrieval_latency": 0.125,
-    "generation_latency": 11.296999999991385
+    "answer": "The Civil Procedure Code (Amendment) Act No.\u202f4 of 2005 amended section\u202f544 of the Civil Procedure Code by:\n\n1. **Substituting the wording in paragraph\u202f(e)** of subsection\u202f(1) of section\u202f544 \u2013 the phrase \u201cwithin the meaning of the Banking Act, No.\u202f30 of 1988\u201d was replaced with \u201cwithin the meaning of the Banking Act, No.\u202f30 of 1988; \u201d (the exact substitution is shown in the amendment text).  \n2. **Adding a new paragraph\u202f(f)** immediately after paragraph\u202f(e) of subsection\u202f(1), which reads:  \n   \u201c(f) any instrument relating to any monetary interest (other than a bearer instrument or a negotiable instrument) issued by a company or other body of persons established in terms of any law for the time being in force.\u201d  \n3. **Adding definitions at the end of subsection\u202f(1)**:  \n   * \u201cinstrument\u201d means a legally enforceable agreement expressing a contractual right to the payment of money;  \n   * \u201cbearer instrument\u201d means a negotiable instrument transferable from one person to another, upon certain conditions being met.  \n\nThese changes are recorded in the Civil Procedure Code (Amendment) Act No.\u202f4 of 2005.",
+    "retrieval_latency": 0.0790000000015425,
+    "generation_latency": 9.75
   },
   {
     "id": "q022",
@@ -346,9 +346,9 @@
       "cpc-amend-5-2022",
       "cpc-amend-5-2022"
     ],
-    "answer": "Act No.\u202f5 of 2022 amended section\u202f88 of the Civil Procedure Code by repealing its existing subsection\u202f(2) and replacing it with a new subsection\u202f(2). The new subsection requires that any order setting aside or refusing to set aside a judgment entered upon default must:\n\n* accompany the facts on which it is based and specify the grounds for the decision, and  \n* be liable to an appeal to the relevant High Court (as established by Article\u202f154\u202fP of the Constitution) upon obtaining leave from that High Court.  \n\n(See Civil Procedure Code (Amendment) Act, No.\u202f5 of 2022.)",
-    "retrieval_latency": 0.06300000000919681,
-    "generation_latency": 8.125
+    "answer": "Act No.\u202f5 of 2022 amended section\u202f88 of the Civil Procedure Code by repealing its existing subsection\u202f(2) and replacing it with a new subsection\u202f(2). The new subsection requires that any order setting aside or refusing to set aside a judgment entered upon default must:\n\n* accompany the facts on which it is based and specify the grounds for the decision, and  \n* be liable to an appeal to the relevant High Court (as established by Article\u202f154\u202fP of the Constitution) upon obtaining leave from that High Court.  \n\n(See Civil Procedure Code (Amendment) Act, No.\u202f5 of 2022, \u00a7\u202f88.)",
+    "retrieval_latency": 0.07800000000133878,
+    "generation_latency": 10.875
   },
   {
     "id": "q023",
@@ -362,9 +362,9 @@
       "cpc-amend-17-2022",
       "cpc-amend-17-2022"
     ],
-    "answer": "Act No.\u202f17 of 2022 inserted **Section\u202f154A** into the Civil Procedure Code (Chapter\u202f101).  \nUnder this new section, it is no longer necessary to adduce formal proof of the execution or genuineness of any deed or document that is required by law to be attested (except a will under the Wills Ordinance), provided the deed or document appears to have been duly executed. The requirement for proof is only triggered if the issue is raised in the pleadings or if the court specifically requires it. (Civil Procedure Code (Amendment) Act No.\u202f17 of 2022, \u00a7\u202f154A)",
-    "retrieval_latency": 0.07799999999406282,
-    "generation_latency": 14.156000000002678
+    "answer": "Act No.\u202f17 of 2022 inserted **Section\u202f154A** into the Civil Procedure Code (Chapter\u202f101).  \nSection\u202f154A provides that, notwithstanding the Evidence Ordinance, formal proof of the execution or genuineness of any deed or document required by law (except a will under the Wills Ordinance) is not required in proceedings under the Code, unless the execution or genuineness is disputed in the pleadings or the court specifically requires such proof.",
+    "retrieval_latency": 0.09299999999711872,
+    "generation_latency": 1.3590000000003783
   },
   {
     "id": "q024",
@@ -377,9 +377,9 @@
       "cpc-amend-36-2022",
       "cpc-amend-36-2022"
     ],
-    "answer": "The Civil Procedure Code (Amendment) Act No.\u202f36 of 2022 repealed **Part\u202fIX\u202fA of the Civil Procedure Code**, which comprises **sections\u202f801 to\u202f833 inclusive** of the principal enactment. (Civil Procedure Code (Amendment) Act No.\u202f36 of 2022)",
-    "retrieval_latency": 0.0629999999946449,
-    "generation_latency": 7.843000000008033
+    "answer": "The Civil Procedure Code (Amendment) Act No.\u202f36 of\u202f2022 repealed **Part\u202fIX\u202fA of the Civil Procedure Code**, which comprises sections\u202f801 to\u202f833 inclusive\u3010Source: Civil Procedure Code (Amendment) Act No.\u202f36 of\u202f2022\u3011.",
+    "retrieval_latency": 0.07800000000133878,
+    "generation_latency": 9.796999999998661
   },
   {
     "id": "q025",
@@ -393,9 +393,9 @@
       "cpc-amend-7-2023",
       "cpc-amend-7-2023"
     ],
-    "answer": "Act No.\u202f7 of 2023 inserted a new section immediately after section\u202f431 of the Civil Procedure Code, which is to be treated as **section\u202f431A** of that Code. The new section is titled \u201c**Commissions for Medical Examinations**\u201d (Civil Procedure Code (Amendment) Act No.\u202f7 of 2023).",
-    "retrieval_latency": 0.046999999991385266,
-    "generation_latency": 13.047000000005937
+    "answer": "Act No.\u202f7 of 2023 inserted a new section immediately after section\u202f431 of the Civil Procedure Code, which is to be read as **section\u202f431A \u2013 \u201cCommissions for Medical Examinations.\u201d** This provision is found in the Civil Procedure Code (Amendment) Act, No.\u202f7 of 2023.",
+    "retrieval_latency": 0.062000000001717126,
+    "generation_latency": 7.671999999998661
   },
   {
     "id": "q026",
@@ -409,9 +409,9 @@
       "cpc-amend-29-2023",
       "cpc-amend-29-2023"
     ],
-    "answer": "Under the Civil Procedure Code (Amendment) Act No.\u202f29 of\u202f2023, subsection\u202f(1) of section\u202f18 of the Civil Procedure Code was amended by substituting the words **\u201cbefore the hearing\u201d** with **\u201cbefore the day first fixed for the pre\u2011trial conference.\u201d** This change is recorded in the amendment text for section\u202f18.",
-    "retrieval_latency": 0.09399999999732245,
-    "generation_latency": 8.156000000002678
+    "answer": "Act No.\u202f29 of 2023 amended subsection\u202f(1) of section\u202f18 of the Civil Procedure Code by replacing the words **\u201cbefore the hearing\u201d** with **\u201cbefore the day first fixed for the pre\u2011trial conference.\u201d** (Civil Procedure Code (Amendment) Act No.\u202f29 of 2023).",
+    "retrieval_latency": 0.07800000000133878,
+    "generation_latency": 14.235000000000582
   },
   {
     "id": "q027",
@@ -425,9 +425,9 @@
       "cpc-amend-43-2024",
       "cpc-amend-43-2024"
     ],
-    "answer": "Act No.\u202f43 of 2024 amended section\u202f5 of the Civil Procedure Code by inserting a new definition for the word \u201celectronic.\u201d The amendment states that \u201celectronic\u201d shall have the same meaning assigned to it by the Electronic Transactions Act, No.\u202f19 of 2006. This definition is inserted immediately after the definition of the expression \u201cdecree\u201d in section\u202f5 of the Code (Civil Procedure Code (Amendment) Act, No.\u202f43 of 2024).",
-    "retrieval_latency": 0.07799999999406282,
-    "generation_latency": 0.8130000000091968
+    "answer": "Act No.\u202f43 of 2024 amended section\u202f5 of the Civil Procedure Code by inserting a new definition for the word \u201celectronic.\u201d  The amendment states that \u201celectronic\u201d shall have the same meaning assigned to it by the Electronic Transactions Act, No.\u202f19 of 2006.  (Civil Procedure Code (Amendment) Act No.\u202f43 of 2024, \u00a7\u202f5)",
+    "retrieval_latency": 0.0779999999977008,
+    "generation_latency": 3.639999999999418
   },
   {
     "id": "q028",
@@ -441,9 +441,9 @@
       "cpc-amend-43-2024",
       "cpc-amend-43-2024"
     ],
-    "answer": "Act No.\u202f43 of 2024 repealed the existing Section\u202f59 of the Civil Procedure Code and substituted it with a new Section\u202f59. The new section provides that summons shall ordinarily be served by a process server, registered post or courier service, and sets out the circumstances under which the plaintiff may wish the summons to be served differently (Civil Procedure Code (Amendment) Act No.\u202f43 of 2024, Section\u202f6).",
-    "retrieval_latency": 0.06199999999080319,
-    "generation_latency": 10.938000000009197
+    "answer": "Act No.\u202f43 of 2024 repealed the existing Section\u202f59 of the Civil Procedure Code and substituted it with a new Section\u202f59. The new section provides that summons shall ordinarily be served by a process server, registered post or courier service, and sets out the circumstances under which the plaintiff may wish the summons to be served otherwise (the full text is given in the amendment). This change is recorded in the Civil Procedure Code (Amendment) Act No.\u202f43 of 2024.",
+    "retrieval_latency": 0.06300000000192085,
+    "generation_latency": 18.04699999999866
   },
   {
     "id": "q029",
@@ -457,9 +457,9 @@
       "mediation-boards-act-1988",
       "prescription-ordinance"
     ],
-    "answer": "The limitation period for bringing an action for loss, injury, or damage is **two years** from the time the cause of action arises, as provided in the Prescription Ordinance (consolidated to 2024).",
-    "retrieval_latency": 0.046999999991385266,
-    "generation_latency": 8.937000000005355
+    "answer": "The limitation period for bringing an action for loss, injury, or damage is **two years** from the time the cause of action arises, under the Prescription Ordinance (consolidated to 2024).",
+    "retrieval_latency": 0.0470000000022992,
+    "generation_latency": 9.0779999999977
   },
   {
     "id": "q030",
@@ -473,9 +473,9 @@
       "supreme-court-rules",
       "cpc-consolidated-lankalaw"
     ],
-    "answer": "An action on a written promissory note or bill of exchange must be brought within **ten (10) years**.  \nThis period is set out in the Prescription Ordinance (consolidated to 2024), which provides that such instruments are subject to a ten\u2011year prescription period from the expiration of the time for payment or from the date of the instrument, whichever is later.",
-    "retrieval_latency": 0.04700000000593718,
-    "generation_latency": 11.202999999994063
+    "answer": "An action on a written promissory note or bill of exchange must be brought within **ten (10) years** (under the Prescription Ordinance, which sets a ten\u2011year prescription period for such instruments).",
+    "retrieval_latency": 0.031000000002677552,
+    "generation_latency": 13.28099999999904
   },
   {
     "id": "q031",
@@ -489,9 +489,9 @@
       "cpc-consolidated-lankalaw",
       "prescription-ordinance"
     ],
-    "answer": "Under the Prescription Ordinance (consolidated to 2024), a defendant who has possessed the immovable property **undisturbed for ten years prior to the commencement of the claimant\u2019s action** is entitled to a decree in his favour, together with costs. This is stated in the ordinance\u2019s provision on possession adverse to the claimant\u2019s title.",
-    "retrieval_latency": 0.0629999999946449,
-    "generation_latency": 9.343000000008033
+    "answer": "Under the Prescription Ordinance (consolidated to 2024), a defendant who has possessed the immovable property **undisturbed for ten years prior to the bringing of the claimant\u2019s action** is entitled to a decree in his favour with costs. This period is specified in the ordinance\u2019s provision on possession adverse to the claimant\u2019s title.",
+    "retrieval_latency": 0.046999999998661224,
+    "generation_latency": 7.328000000001339
   },
   {
     "id": "q032",
@@ -506,8 +506,8 @@
       "evidence-ordinance"
     ],
     "answer": "Under the Evidence Ordinance (Chapter\u202f14, section\u202f76) a public officer who is in custody of a public document that a person has a right to inspect must:\n\n* **Give the person a copy of the document on demand**;  \n* **Charge the person the applicable legal fees**; and  \n* **Attach a certificate at the foot of the copy stating that it is a true copy of the document (or part thereof), dated and subscribed by the officer**.  \n\nThus, the officer\u2019s duty is to provide the requested copy, collect the legal fees, and certify the copy\u2019s authenticity.",
-    "retrieval_latency": 0.07899999999790452,
-    "generation_latency": 13.187000000005355
+    "retrieval_latency": 0.046999999998661224,
+    "generation_latency": 12.360000000000582
   },
   {
     "id": "q033",
@@ -521,9 +521,9 @@
       "judicature-act-1978",
       "judicature-act-1978"
     ],
-    "answer": "The **Judicature Act No.\u202f2 of 1978 (consolidated to 2023)** is the enactment that grants a District Court unlimited original jurisdiction in civil matters within its district. This is reflected in the provisions that give every District Court \u201ccognizance of and full power to hear and\u201d civil actions within its jurisdiction.",
-    "retrieval_latency": 0.046999999991385266,
-    "generation_latency": 12.10899999999674
+    "answer": "The unlimited original jurisdiction of a District Court in civil matters within its district is conferred by the **Judicature Act No.\u202f2 of 1978 (consolidated to 2023)**, specifically under **Section\u202f19A** which states that \u201cEvery District Court shall have cognizance of and full power to hear and \u2026\u201d (the section is not fully quoted in the excerpt, but it establishes the court\u2019s full original jurisdiction).",
+    "retrieval_latency": 0.062000000001717126,
+    "generation_latency": 12.8279999999977
   },
   {
     "id": "q034",
@@ -537,9 +537,9 @@
       "mediation-boards-act-1988",
       "mediation-boards-act-1988"
     ],
-    "answer": "A person who wishes to have a civil dispute settled through a Mediation Board must:\n\n1. **File a written application under section\u202f6 of the Mediation Boards Act No.\u202f72 of\u202f1988 (consolidated to\u202f2024).**  \n   The application is made to the Chairman of the Panel that has been appointed for the Mediation Board area in which the dispute arises.\n\n2. **Pay the prescribed fee and provide proof of payment.**  \n   Under section\u202f7(3) of the Act, every application must be accompanied by a document evidencing that the prescribed fee has been paid in the prescribed manner.\n\nThese steps constitute the formal application process for bringing a civil dispute before a Mediation Board.",
-    "retrieval_latency": 0.04700000000593718,
-    "generation_latency": 9.812999999994645
+    "answer": "**How to apply for mediation**\n\n1. **File an application under section\u202f6** of the Mediation Boards Act No.\u202f72 of\u202f1988 (consolidated to\u202f2024).  \n   * The application is made to the Chairman of the Panel that has been appointed for the Mediation Board area in which the dispute arises.  \n   * If the dispute is already pending in a civil court, the court may, with the written consent of the parties, refer the case to the Chairman under section\u202f8.\n\n2. **Include the prescribed fee**.  \n   * Every application must be accompanied by a",
+    "retrieval_latency": 0.0470000000022992,
+    "generation_latency": 11.8279999999977
   },
   {
     "id": "q035",
@@ -553,9 +553,9 @@
       "arbitration-act-1995",
       "arbitration-act-1995"
     ],
-    "answer": "Yes.  Under Section\u202f26 of the Arbitration Act No.\u202f11 of 1995, \u201cthe award made by the arbitral tribunal shall be final and binding on the parties to the arbitration agreement\u201d (subject to the provisions of Part\u202fVII of the Act).",
-    "retrieval_latency": 0.04700000000593718,
-    "generation_latency": 0.7649999999994179
+    "answer": "Yes.  Under the Arbitration Act No.\u202f11 of 1995, section\u202f26 states that \u201cthe award made by the arbitral tribunal shall be final and binding on the parties to the arbitration agreement,\u201d subject to the provisions of Part\u202fVII of the Act.",
+    "retrieval_latency": 0.0470000000022992,
+    "generation_latency": 20.843999999997322
   },
   {
     "id": "q036",
@@ -569,9 +569,9 @@
       "cpc-consolidated-lankalaw",
       "cpc-consolidated-lankalaw"
     ],
-    "answer": "An action for goods sold and delivered, or for work and labour done, must be brought **within one year** after the debt becomes due (Prescription Ordinance, consolidated to 2024, Section\u202f8).",
-    "retrieval_latency": 0.04700000000593718,
-    "generation_latency": 8.077999999994063
+    "answer": "Under the Prescription Ordinance (consolidated to 2024), an action for goods sold and delivered, or for work and labour done, must be brought within **one year** after the debt becomes due (Prescription Ordinance, Section\u202f8).",
+    "retrieval_latency": 0.0470000000022992,
+    "generation_latency": 14.81199999999808
   },
   {
     "id": "q037",
@@ -585,9 +585,9 @@
       "cpc-consolidated-lankalaw",
       "cpc-consolidated-lankalaw"
     ],
-    "answer": "Under the Civil Procedure Code (consolidated to Act No.\u202f43 of\u202f2024), section\u202f79A requires that the court appoint a date for the pre\u2011trial conference **not less than three months and not exceeding five months from the date the answer is filed**.",
-    "retrieval_latency": 0.04700000000593718,
-    "generation_latency": 13.375
+    "answer": "Under the Civil Procedure Code (consolidated to Act No.\u202f43 of\u202f2024, section\u2011merged), the court must appoint a date for the pre\u2011trial conference **within a period not less than three months and not exceeding five months from the filing of the answer** (Civil Procedure Code, \u00a7\u202f79A).",
+    "retrieval_latency": 0.0470000000022992,
+    "generation_latency": 10.390999999999622
   },
   {
     "id": "q038",
@@ -602,8 +602,8 @@
       "cpc-amend-8-2017"
     ],
     "answer": "I don't have that information in my knowledge base.",
-    "retrieval_latency": 0.0629999999946449,
-    "generation_latency": 8.031000000002678
+    "retrieval_latency": 0.06199999999807915,
+    "generation_latency": 9.75
   },
   {
     "id": "q039",
@@ -618,8 +618,8 @@
       "mediation-boards-act-1988"
     ],
     "answer": "I don't have that information in my knowledge base.",
-    "retrieval_latency": 0.031000000002677552,
-    "generation_latency": 10.01600000000326
+    "retrieval_latency": 0.0470000000022992,
+    "generation_latency": 8.875
   },
   {
     "id": "q040",
@@ -633,9 +633,9 @@
       "cpc-amend-11-2010",
       "cpc-amend-11-2010"
     ],
-    "answer": "Under the Civil Procedure Code (Amendment) Act No.\u202f11 of 2010, section\u202f338 was amended by substituting paragraph\u202f(b) of subsection\u202f(3) with a new definition of \u201clegal representative\u201d. The amended wording reads:\n\n> \u201clegal representative\u201d means an executor or administrator or, in the case of an estate below the value of rupees four\u202fmillion, the next of kin who have **adiated** the inheritance.  \n> *Provided however, that in the event of any dispute arising as to who is the legal representative.*\n\nThus, the Act replaced the original paragraph (b) of section\u202f338(3) with this definition.",
-    "retrieval_latency": 0.06199999999080319,
-    "generation_latency": 11.5
+    "answer": "Under the Civil Procedure Code (Amendment) Act No.\u202f11 of 2010, section\u202f338 was amended by substituting paragraph\u202f(b) of subsection\u202f(3) with a new definition of \u201clegal representative\u201d. The amended wording reads:\n\n> \u201clegal representative\u201d means an executor or administrator or, in the case of an estate below the value of rupees four\u202fmillion, the next of kin who have **adiated** the inheritance.  \n> *Provided however, that in the event of any dispute arising as to who is the legal representative.*\n\nThus, the Act replaced the original paragraph (b) of subsection\u202f(3) of section\u202f338 with this definition.",
+    "retrieval_latency": 0.0779999999977008,
+    "generation_latency": 1.4690000000009604
   },
   {
     "id": "q041",
@@ -649,9 +649,9 @@
       "cpc-consolidated-lankalaw",
       "cpc-consolidated-lankalaw"
     ],
-    "answer": "Under the Civil Procedure Code (consolidated to Act No.\u202f43 of\u202f2024), a certified copy of a judgment or final decree may be obtained by **the parties to the action**.  The Registrar of the court is required to issue such a copy when the parties apply for it (see the provision on \u201cPersons to be entitled to certified copies of judgment, decree or proceedings in any action\u201d).",
-    "retrieval_latency": 0.04700000000593718,
-    "generation_latency": 12.906000000002678
+    "answer": "Under the Civil Procedure Code (consolidated to Act No.\u202f43 of\u202f2024), the parties to an action are entitled to obtain a certified copy of the judgment or final decree.  The Code states that the Registrar shall issue a certified copy to each such party free of charge (Civil Procedure Code, section\u202f205).",
+    "retrieval_latency": 0.030999999999039574,
+    "generation_latency": 18.28099999999904
   },
   {
     "id": "q042",
@@ -665,9 +665,9 @@
       "cpc-amend-20-2023",
       "cpc-amend-20-2023"
     ],
-    "answer": "Under the Civil Procedure Code (Amendment) Act No.\u202f20 of\u202f2023, section\u202f205 of the Civil Procedure Code was repealed and replaced with a new provision. The new section\u202f205 now states that:\n\n* (1) The Registrar shall issue one certified copy of a judgment or final decree to each party who applies for it, **free of charge**; and  \n* (2) Subject to subsection\u202f(1), the Registrar may issue certified copies to any other person who applies, provided the applicant pays the prescribed fee and supplies the required stamps.\n\nThus, the amendment removed the old wording of section\u202f205 and introduced a free\u2011of\u2011charge rule for parties and a fee\u2011based rule for other applicants. (Civil Procedure Code (Amendment) Act No.\u202f20 of\u202f2023)",
-    "retrieval_latency": 0.0629999999946449,
-    "generation_latency": 9.60899999999674
+    "answer": "Act No.\u202f20 of 2023 repealed the existing section\u202f205 of the Civil Procedure Code and substituted it with a new section\u202f205.  \nUnder the new section\u202f205 (Civil Procedure Code (Amendment) Act No.\u202f20 of 2023):\n\n1. **Sub\u2011section\u202f(1)** \u2013 When the parties to an action apply, the Registrar shall issue one certified copy of the judgment or final decree to each party free of charge.  \n2. **Sub\u2011section\u202f(2)** \u2013 Subject to (1), the Registrar may, upon any person\u2019s application (with the required fee and stamps), examine and certify copies.  However, a person who is not a party to a matrimonial, adoption or custody action is generally not entitled to certified copies of the proceedings or documents of such actions, except for the judgment, order or decree; the court may direct the Registrar to issue certified copies to such a person if the court is satisfied with the applicant\u2019s request.\n\nThus, the amendment changed section\u202f205 to provide free certified copies to parties and to allow other persons to obtain certified copies under specified conditions.",
+    "retrieval_latency": 0.0790000000015425,
+    "generation_latency": 14.03099999999904
   },
   {
     "id": "q043",
@@ -682,8 +682,8 @@
       "judicature-act-1978"
     ],
     "answer": "I don't have that information in my knowledge base.",
-    "retrieval_latency": 0.04700000000593718,
-    "generation_latency": 15.75
+    "retrieval_latency": 0.0470000000022992,
+    "generation_latency": 18.10900000000038
   },
   {
     "id": "q044",
@@ -698,8 +698,8 @@
       "cpc-consolidated-lankalaw"
     ],
     "answer": "I don't have that information in my knowledge base.",
-    "retrieval_latency": 0.04700000000593718,
-    "generation_latency": 9.327999999994063
+    "retrieval_latency": 0.030999999999039574,
+    "generation_latency": 9.296999999998661
   },
   {
     "id": "q045",
@@ -714,8 +714,8 @@
       "evidence-ordinance"
     ],
     "answer": "I don't have that information in my knowledge base.",
-    "retrieval_latency": 0.04700000000593718,
-    "generation_latency": 0.75
+    "retrieval_latency": 0.0470000000022992,
+    "generation_latency": 0.8429999999971187
   },
   {
     "id": "q046",
@@ -730,8 +730,8 @@
       "cpc-consolidated-lankalaw"
     ],
     "answer": "I don't have that information in my knowledge base.",
-    "retrieval_latency": 0.04700000000593718,
-    "generation_latency": 10.389999999999418
+    "retrieval_latency": 0.0470000000022992,
+    "generation_latency": 19.812999999998283
   },
   {
     "id": "q047",
@@ -746,8 +746,8 @@
       "cpc-consolidated-lankalaw"
     ],
     "answer": "I don't have that information in my knowledge base.",
-    "retrieval_latency": 0.046999999991385266,
-    "generation_latency": 12.03200000000652
+    "retrieval_latency": 0.062000000001717126,
+    "generation_latency": 3.327999999997701
   },
   {
     "id": "q048",
@@ -762,8 +762,8 @@
       "cpc-consolidated-lankalaw"
     ],
     "answer": "I don't have that information in my knowledge base.",
-    "retrieval_latency": 0.046000000002095476,
-    "generation_latency": 7.76600000000326
+    "retrieval_latency": 0.03200000000288128,
+    "generation_latency": 20.139999999999418
   },
   {
     "id": "q049",
@@ -778,8 +778,8 @@
       "mediation-boards-act-1988"
     ],
     "answer": "I don't have that information in my knowledge base.",
-    "retrieval_latency": 0.0629999999946449,
-    "generation_latency": 12.09299999999348
+    "retrieval_latency": 0.046999999998661224,
+    "generation_latency": 10.09400000000096
   },
   {
     "id": "q050",
@@ -794,7 +794,7 @@
       "evidence-ordinance"
     ],
     "answer": "I don't have that information in my knowledge base.",
-    "retrieval_latency": 0.04700000000593718,
-    "generation_latency": 9.577999999994063
+    "retrieval_latency": 0.030999999999039574,
+    "generation_latency": 9.7970000000023
   }
 ]

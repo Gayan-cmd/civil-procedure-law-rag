@@ -4,13 +4,13 @@ from langchain_core.documents import Document
 
 from cpa.config import Settings
 from cpa.store import build_vectorstore, load_vectorstore
-from conftest import FakeEmbeddings
+from conftest import TEST_DATABASE_URL, FakeEmbeddings
 
 
 def test_build_vectorstore_persists_all_chunks(
     fake_embeddings: FakeEmbeddings,
 ) -> None:
-    settings = Settings()
+    settings = Settings(database_url=TEST_DATABASE_URL)
     chunks = [
         Document(page_content="alpha", metadata={"slug": "a"}),
         Document(page_content="beta", metadata={"slug": "b"}),
@@ -24,7 +24,7 @@ def test_build_vectorstore_persists_all_chunks(
 def test_load_vectorstore_sees_previously_built_data(
     fake_embeddings: FakeEmbeddings,
 ) -> None:
-    settings = Settings()
+    settings = Settings(database_url=TEST_DATABASE_URL)
     chunks = [Document(page_content="alpha", metadata={"slug": "a"})]
     build_vectorstore(chunks, fake_embeddings, settings)
 
@@ -36,7 +36,7 @@ def test_load_vectorstore_sees_previously_built_data(
 def test_build_vectorstore_replaces_rather_than_appends(
     fake_embeddings: FakeEmbeddings,
 ) -> None:
-    settings = Settings()
+    settings = Settings(database_url=TEST_DATABASE_URL)
     chunks = [Document(page_content="alpha", metadata={"slug": "a"})]
 
     build_vectorstore(chunks, fake_embeddings, settings)
@@ -50,7 +50,7 @@ def test_build_vectorstore_replaces_rather_than_appends(
 def test_load_vectorstore_on_empty_table_starts_empty(
     fake_embeddings: FakeEmbeddings,
 ) -> None:
-    settings = Settings()
+    settings = Settings(database_url=TEST_DATABASE_URL)
     build_vectorstore([], fake_embeddings, settings)  # truncates, inserts nothing
 
     store = load_vectorstore(fake_embeddings, settings)

@@ -6,7 +6,7 @@ from langchain_core.language_models.fake_chat_models import FakeListChatModel
 from cpa.config import Settings
 from cpa.generation import get_prompt
 from cpa.store import build_vectorstore
-from conftest import FakeEmbeddings
+from conftest import TEST_DATABASE_URL, FakeEmbeddings
 from eval.ablation import (
     evaluate_config,
     load_existing_baseline,
@@ -18,7 +18,7 @@ from eval.ablation import (
 def test_naive_dense_retrieve_applies_no_filtering_at_all(
     fake_embeddings: FakeEmbeddings,
 ) -> None:
-    settings = Settings()
+    settings = Settings(database_url=TEST_DATABASE_URL)
     chunks = [
         Document(
             page_content="current in-force text",

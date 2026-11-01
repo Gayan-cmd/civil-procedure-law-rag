@@ -132,7 +132,12 @@ class PgVectorStore:
         return conn
 
     def _ensure_schema(self) -> None:
-        with self._connect() as conn, conn.cursor() as cur:
+        # Plain connect, no register_vector: on a genuinely fresh database
+        # (no one has ever run CREATE EXTENSION vector there yet), the
+        # vector type doesn't exist for register_vector to look up until
+        # the schema SQL below creates it. Every other method connects via
+        # self._connect() because by then the extension always exists.
+        with psycopg.connect(self._database_url) as conn, conn.cursor() as cur:
             cur.execute(_SCHEMA_SQL)
             conn.commit()
 

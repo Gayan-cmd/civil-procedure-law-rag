@@ -1,7 +1,20 @@
 from __future__ import annotations
 
+import os
+
 import pytest
 from langchain_core.embeddings import Embeddings
+
+# Any test that writes to the real vector store (build_vectorstore,
+# load_vectorstore) must point at this database, never the plain
+# CPA_DATABASE_URL one -- these tests truncate and rebuild the `chunks`
+# table, which would otherwise wipe real ingested data every pytest run.
+# Created once with:
+#   docker exec cpa-postgres psql -U cpa -d cpa -c "CREATE DATABASE cpa_test OWNER cpa;"
+TEST_DATABASE_URL = os.environ.get(
+    "CPA_TEST_DATABASE_URL",
+    "postgresql://cpa:cpa_local_dev@127.0.0.1:5432/cpa_test",
+)
 
 
 class FakeEmbeddings(Embeddings):

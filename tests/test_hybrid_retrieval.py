@@ -7,7 +7,7 @@ from cpa.config import Settings, get_settings
 from cpa.corpus import load_documents
 from cpa.embedding import get_embeddings
 from cpa.store import build_vectorstore, load_vectorstore
-from conftest import FakeEmbeddings
+from conftest import TEST_DATABASE_URL, FakeEmbeddings
 from eval.hybrid_retrieval import (
     _eligible_documents,
     _tokenize,
@@ -101,7 +101,7 @@ def test_bm25_search_finds_exact_keyword_match() -> None:
 def test_hybrid_retrieve_respects_eligibility_and_k(
     fake_embeddings: FakeEmbeddings,
 ) -> None:
-    settings = Settings(retrieval_k=1)
+    settings = Settings(retrieval_k=1, database_url=TEST_DATABASE_URL)
     chunks = [
         Document(
             page_content="current in-force answer text",
