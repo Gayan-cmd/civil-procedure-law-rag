@@ -13,8 +13,9 @@ from __future__ import annotations
 
 from fastapi import FastAPI
 
-from api.routers import health
+from api.routers import auth, health
 
 app = FastAPI(title="Civil Procedure Law Assistant API")
 
 app.include_router(health.router)
+app.include_router(auth.router)

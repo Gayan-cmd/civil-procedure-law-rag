@@ -1,8 +1,11 @@
 from __future__ import annotations
 
 import os
+from pathlib import Path
 
 import pytest
+from alembic import command
+from alembic.config import Config
 from langchain_core.embeddings import Embeddings
 
 # Any test that writes to the real vector store (build_vectorstore,
@@ -46,3 +49,28 @@ class FakeEmbeddings(Embeddings):
 @pytest.fixture
 def fake_embeddings() -> FakeEmbeddings:
     return FakeEmbeddings()
+
+
+_ALEMBIC_INI = Path(__file__).resolve().parents[1] / "alembic.ini"
+
+
+def alembic_config_for_test_db() -> Config:
+    config = Config(str(_ALEMBIC_INI))
+    config.set_main_option("sqlalchemy.url", TEST_DATABASE_URL)
+    return config
+
+
+@pytest.fixture
+def migrated_db():
+    """Upgrade the test database to head, yield, then downgrade back to
+    base -- every test using this fixture starts and ends with no trace
+    of the users/conversations/messages/citations tables, the same
+    "leave it as you found it" rule build_vectorstore's reset() follows
+    for the chunks table.
+    """
+    config = alembic_config_for_test_db()
+    command.upgrade(config, "head")
+    try:
+        yield
+    finally:
+        command.downgrade(config, "base")

@@ -9,37 +9,11 @@ Postgres (see tests/conftest.py).
 
 from __future__ import annotations
 
-from pathlib import Path
-
 import psycopg
 import pytest
 from alembic import command
-from alembic.config import Config
 
-from conftest import TEST_DATABASE_URL
-
-_ALEMBIC_INI = Path(__file__).resolve().parents[1] / "alembic.ini"
-
-
-def _alembic_config() -> Config:
-    config = Config(str(_ALEMBIC_INI))
-    config.set_main_option("sqlalchemy.url", TEST_DATABASE_URL)
-    return config
-
-
-@pytest.fixture
-def migrated_db():
-    """Upgrade to head, yield, then downgrade back to base -- every test
-    using this fixture starts and ends with no trace of these tables,
-    the same "leave it как you found it" rule build_vectorstore's reset()
-    follows for the chunks table.
-    """
-    config = _alembic_config()
-    command.upgrade(config, "head")
-    try:
-        yield
-    finally:
-        command.downgrade(config, "base")
+from conftest import TEST_DATABASE_URL, alembic_config_for_test_db
 
 
 def test_upgrade_creates_all_four_tables_with_working_constraints(
@@ -95,7 +69,7 @@ def test_check_constraint_rejects_an_invalid_message_role(
 
 
 def test_downgrade_removes_all_four_tables() -> None:
-    config = _alembic_config()
+    config = alembic_config_for_test_db()
     command.upgrade(config, "head")
     command.downgrade(config, "base")
 
